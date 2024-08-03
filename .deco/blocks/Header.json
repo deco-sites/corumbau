@@ -51,7 +51,11 @@
         "text": "Reservar",
         "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl"
       }
-    ]
+    ],
+    "button": {
+      "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
+      "text": "RESERVAR"
+    }
   },
   "logo": {
     "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/372f6d8e-2b63-43c2-8719-4798a7a5e93c",

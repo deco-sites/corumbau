@@ -36,6 +36,7 @@
   },
   "mode": "light",
   "complementaryColors": {
-    "base-200": "#EAEAEA"
+    "base-200": "#EAEAEA",
+    "base-300": "#f9f9f9"
   }
 }
