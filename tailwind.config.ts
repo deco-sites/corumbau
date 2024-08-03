@@ -7,6 +7,10 @@ export default {
   theme: {
     container: { center: true },
     extend: {
+      spacing: {
+        "35px": "35px",
+        "3px": "3px",
+      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },
