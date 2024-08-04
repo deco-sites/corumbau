@@ -12,6 +12,20 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/6f5ce964-0c4c-4376-9dc1-906a61de94a5"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "Corumbau",
+          "description": "Há certos lugares que só são o que são por estarem distantes da civilização, é o caso de Corumbau, reserva ambiental protegida pelo ibama e pela marinha. "
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "lazy"
+    },
+    {
       "__resolveType": "Footer"
     }
   ],

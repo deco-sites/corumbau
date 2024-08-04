@@ -97,7 +97,7 @@ export default function Footer({
 }: Props) {
   return (
     <>
-      <div class="border-t border-accent w-full lg:hidden">
+      <div class="border-t border-accent w-full lg:hidden mt-10">
         <div class="flex justify-center">
           {socials.map((social) => (
             <a
@@ -120,7 +120,7 @@ export default function Footer({
         </div>
       </div>
       <SideFixedSocial socials={socials} />
-      <div class="text-sm border-t border-accent w-full">
+      <div class="text-sm border-t border-accent w-full lg:mt-10">
         <div class="flex flex-col gap-20 max-w-[85%] mx-auto w-full py-10">
           <div class="flex flex-col gap-6 justify-between lg:flex-row">
             <div class="flex flex-col gap-[25px]">

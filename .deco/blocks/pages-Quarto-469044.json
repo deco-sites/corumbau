@@ -12,6 +12,24 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dae7ea27-48d2-4b2e-ad1b-95b23408ca9d"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "revealed"
+      },
+      "sections": [
+        {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "Amplitude e conforto",
+          "description": "Extremamente privativo, com 150 m², amplo banheiro com vista para jardim privativo e espaçosa varanda com confortáveis chaises longues.",
+          "button": {
+            "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
+            "text": "RESERVAR"
+          }
+        }
+      ],
+      "loading": "lazy"
+    },
+    {
       "__resolveType": "Footer"
     }
   ],

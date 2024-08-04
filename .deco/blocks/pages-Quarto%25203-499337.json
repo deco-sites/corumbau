@@ -14,6 +14,24 @@
       "title": "Suíte Luxo na Sede"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "Vista Privilegiada",
+          "description": "Localizada no 1º andar do hotel e com 40 m², a varanda é frente mar com vista para o jardim e piscina.",
+          "button": {
+            "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
+            "text": "RESERVAR"
+          }
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "lazy"
+    },
+    {
       "__resolveType": "Footer"
     }
   ],

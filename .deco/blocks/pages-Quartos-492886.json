@@ -19,6 +19,20 @@
       "loading": "lazy",
       "sections": [
         {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "Os Quartos",
+          "description": "A Fazenda São Francisco do Corumbau conta com apenas 10 quartos e oferece total privacidade aos seus hóspedes. Móveis com desenhos integrados ao espaço e amplas varandas com vistas deslumbrantes, moderna infraestrutura combinada à simplicidade da natureza – o contraste perfeito para seu bem estar."
+        }
+      ]
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager",
+      "sections": [
+        {
           "__resolveType": "site/sections/Gallery.tsx",
           "images": [
             {

@@ -14,6 +14,20 @@
       "size": "medio"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "Comer e beber",
+          "description": "Com produtos colhidos de uma horta orgânica própria e peixes e frutos do mar pescados em Corumbau, a gastronomia da Fazenda prima pelo alto padrão de qualidade."
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "lazy"
+    },
+    {
       "__resolveType": "Footer"
     }
   ],

@@ -14,6 +14,20 @@
       "size": "medio"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "lazy",
+      "sections": [
+        {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "O Hotel",
+          "description": "Situado numa extensa faixa de areia que avança sobre o mar."
+        }
+      ]
+    },
+    {
       "__resolveType": "Footer"
     }
   ],

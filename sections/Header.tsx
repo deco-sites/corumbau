@@ -141,6 +141,21 @@ export default function Header({
                 >
                   {link.label}
                 </a>
+                {!!link.children?.length && (
+                  <div class="hidden group-hover:flex">
+                    <ul class=" absolute top-[20px] left-0 bg-white bg-opacity-80 py-3 px-4 text-neutral text-xs flex flex-col gap-2">
+                      {link.children.map((childLink) => (
+                        <a
+                          href={childLink.url}
+                          aria-label={childLink.label}
+                          class="link no-underline text-xs whitespace-nowrap"
+                        >
+                          {childLink.label}
+                        </a>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </li>
             ))}
           </ul>
