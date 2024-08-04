@@ -14,6 +14,10 @@ export default {
       animation: {
         sliding: "sliding 30s linear infinite",
       },
+      backgroundImage: {
+        'base-gradient': 'linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0))',
+        'inverted-gradient': 'linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))',
+      },
       keyframes: {
         sliding: {
           "0%": { transform: "translateX(0)" },

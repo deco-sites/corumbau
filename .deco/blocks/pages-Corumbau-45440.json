@@ -1,17 +1,15 @@
 {
-  "name": "Sobre",
-  "path": "/sobre",
+  "name": "Corumbau",
+  "path": "/corumbau",
   "sections": [
     {
       "__resolveType": "Header"
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "Uma bela Fazenda à beira-mar",
-      "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6",
-      "size": "medio"
+      "title": "Descubra o Paraíso",
+      "size": "medio",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/6f5ce964-0c4c-4376-9dc1-906a61de94a5"
     },
     {
       "__resolveType": "site/sections/Logos.tsx"

@@ -1,16 +1,16 @@
 {
-  "name": "Sobre",
-  "path": "/sobre",
+  "name": "Contato",
+  "path": "/contato",
   "sections": [
     {
       "__resolveType": "Header"
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "Uma bela Fazenda à beira-mar",
+      "title": "Longe de tudo",
       "cta": [],
       "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5e1d2c14-1c11-4b3b-a66b-d8e3e16e9aac",
       "size": "medio"
     },
     {

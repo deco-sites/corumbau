@@ -54,6 +54,9 @@ export default function Header({
         globalThis.document.querySelector("#logo-icon img")?.classList.add(
           "max-w-24",
         );
+        globalThis.document.querySelector("#gradient")?.classList.remove(
+          "bg-base-gradient",
+        );
         globalThis.document.querySelectorAll(".icon-bar").forEach(
           (item) => item.classList.add("black_icon_bar"),
         );
@@ -63,6 +66,9 @@ export default function Header({
         );
         globalThis.document.querySelector("#logo-icon img")?.classList.remove(
           "max-w-24",
+        );
+        globalThis.document.querySelector("#gradient")?.classList.add(
+          "bg-base-gradient",
         );
         globalThis.document.querySelectorAll(".icon-bar").forEach(
           (item) => item.classList.remove("black_icon_bar"),
@@ -172,6 +178,10 @@ export default function Header({
           </div>
         </div>
       </div>
+      <div
+        id="gradient"
+        class="bg-base-gradient absolute top-0 left-0 w-full h-full -z-10"
+      />
       <script
         type="module"
         dangerouslySetInnerHTML={{ __html: useScript(script) }}
