@@ -12,17 +12,50 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4cfae23e-83c8-4cb4-bc6e-0a3adcaeb1b5"
     },
     {
-      "__resolveType": "website/sections/Rendering/Deferred.tsx",
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "revealed"
+      },
       "sections": [
         {
           "__resolveType": "site/sections/TextBlock.tsx",
           "text": "<p><span style=\"font-size: 18pt\">A </span><span style=\"font-size: 26pt\">Bahia</span><span style=\"font-size: 18pt\"> ainda guarda </span><span style=\"font-size: 26pt\">segredos</span><span style=\"font-size: 18pt\">, locais pouco explorados escondidos entre o céu, o mar e a mata. \"Lugar distante\", na língua dos Pataxós, fica a um passo do paraíso. Uma bela </span><span style=\"font-size: 26pt\">Fazenda</span><span style=\"font-size: 18pt\"> em meio aos coqueirais, com 2,0 km de frente para praia. Instalações oferecendo total </span><span style=\"font-size: 26pt\">privacidade</span><span style=\"font-size: 18pt\">, com apenas 10 </span><span style=\"font-size: 26pt\">acomodações</span><span style=\"font-size: 18pt\"> à </span><span style=\"font-size: 26pt\">beira-mar</span><span style=\"font-size: 18pt\"> e um atendimento visando </span><span style=\"font-size: 26pt\">exclusivamente</span><span style=\"font-size: 18pt\"> seu </span><span style=\"font-size: 26pt\">conforto</span><span style=\"font-size: 18pt\"> e </span><span style=\"font-size: 26pt\">tranquilidade</span><span style=\"font-size: 18pt\">.</span><span style=\"font-size: 26pt\">Bem-vindo</span><span style=\"font-size: 18pt\"> a </span><span style=\"color: rgb(158, 197, 55); font-size: 26pt\">Fazenda São Francisco do Corumbau!</span></p><p></p><p style=\"text-align: start\"><em><span style=\"font-size: 18pt\">Vencedor do Prêmio - Condé Nast Johansens 2013: Melhor hotel de praia da América do Sul.</span></em></p>"
         }
       ],
-      "behavior": {
-        "type": "scroll",
-        "payload": 0
-      }
+      "loading": "lazy"
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager",
+      "sections": [
+        {
+          "__resolveType": "site/sections/Gallery.tsx",
+          "title": "Quartos",
+          "images": [
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/70728989-9c0d-4f2d-b924-0e3a07f0ec85",
+              "label": "<p>Bangalô</p><p>Super Luxo</p>",
+              "href": "/quarto",
+              "alt": "bangalo-super-luxo"
+            },
+            {
+              "label": "<p>Suíte</p><p>Luxo em Bangalô</p>",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/2ad394e0-9e13-403c-8aaa-a59de191f859",
+              "href": "/quarto2",
+              "alt": "suíte-luxo-em-bangalo"
+            },
+            {
+              "label": "<p>Suíte</p><p>Luxo na Sede</p>",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c54e1844-62d0-4814-93e3-c3d7ab6f2655",
+              "href": "/quarto3",
+              "alt": "suite-luxo-na-sede"
+            }
+          ]
+        }
+      ]
     },
     {
       "__resolveType": "Footer"

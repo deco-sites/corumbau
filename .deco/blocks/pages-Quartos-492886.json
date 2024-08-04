@@ -12,6 +12,38 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/85c14d06-d14c-4dc6-b498-4062ef255239"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "lazy",
+      "sections": [
+        {
+          "__resolveType": "site/sections/Gallery.tsx",
+          "images": [
+            {
+              "label": "<p>Bangalô</p><p>Super Luxo</p>",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec8dc25b-3ce0-4bf1-b0f5-8e12a780bc8e",
+              "href": "/quarto",
+              "alt": "bangalo-super-luxo"
+            },
+            {
+              "label": "<p>Suíte</p><p>Luxo em Bangalô</p>",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9759185-74c7-43a8-b46e-7f7a15718960",
+              "href": "/quarto2",
+              "alt": "suite-luxo-em-bangalo"
+            },
+            {
+              "label": "<p>Suíte </p><p>Luxo na sede</p>",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ac776bc0-2948-4d77-af51-d7a8fb120ada",
+              "href": "/quarto3",
+              "alt": "suite-luxo-na-sede"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "__resolveType": "Footer"
     }
   ],
