@@ -45,7 +45,9 @@ export type AvailableIcons =
   | "Zoom"
   | "Earth"
   | "ArrowDown"
-  ;
+  | "Instagram"
+  | "TripAdvisor"
+  | "Facebook";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**
