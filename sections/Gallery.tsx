@@ -29,9 +29,13 @@ export interface Props {
 
 export default function Gallery({ images, title }: Props) {
     return (
-        <div class="w-full flex flex-col items-center gap-6 justify-center fade-in-down pt-10">
-            {title && <Title text={title} />}
-            <div class="w-full max-w-[85%] flex flex-col lg:grid lg:grid-cols-3 gap-5">
+        <div class="w-full flex flex-col items-center gap-6 justify-center  pt-10">
+            {title && (
+                <div class="fade-in-down">
+                    <Title text={title} />
+                </div>
+            )}
+            <div class="w-full max-w-[85%] flex flex-col lg:grid lg:grid-cols-3 gap-5 fade-in-down">
                 {images.map((image) => (
                     <div class="group relative overflow-hidden lg:h-[70vh]">
                         <a href={image.href} class="w-full lg:w-auto lg:h-full">

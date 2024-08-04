@@ -1,41 +1,39 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx";
 import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
+import { Title } from "site/components/ui/Title.tsx";
 
 /**
- * @titleBy alt
+ * @titleBy name
  */
 export interface Testimonial {
   content?: {
     description?: string;
-    avatar?: ImageWidget;
     /** @description Image's alt text */
-    alt?: string;
     name?: string;
-    position?: string;
+    source?: string;
   };
 }
 
 export interface Props {
+  /**
+   * @title Titulo da Seção
+   */
   title?: string;
-  slides?: Testimonial[];
   /**
-   * @title Show arrows
-   * @description show arrows to navigate through the images
+   * @title Depoimentos
    */
-  arrows?: boolean;
+  slides: Testimonial[];
   /**
-   * @title Show dots
-   * @description show dots to navigate through the images
-   */
-  dots?: boolean;
-  /**
-   * @title Autoplay interval
-   * @description time (in seconds) to start the carousel autoplay
+   * @title Intervalo do autoplay
+   * @description tempo (em segundos) para a passagem automática de testemunho. Se nada for passado, a passagem será apenas pelos controladores (dots e setas)
    */
   interval?: number;
+  /**
+   * @title Setas
+   * @description Escolha se deseja mostrar as setas do carrossel para casos em que tiver mais de um depoimento
+   */
+  arrows?: boolean;
 }
 
 const DEFAULT_PROPS = {
@@ -109,21 +107,17 @@ function SliderItem(
   return (
     <div
       id={id}
-      class="relative overflow-y-hidden w-full min-h-[292px]"
+      class="w-full flex justify-center py-4 px-9 lg:px-0"
     >
-      <div class="flex flex-col justify-center gap-16 p-8 border border-base-content rounded-2xl h-full max-w-[600px]">
-        <p class="text-lg">{content?.description}</p>
+      <div class="relative flex flex-col items-center lg:items-start justify-center h-full w-full max-w-[760px] gap-8 wrapper-testimonials-box">
+        <p class=" text-lg font-thin text-neutral leading-6 tracking-wider text-center lg:text-start">
+          {content?.description}"
+        </p>
         <div class="flex items-center gap-5">
-          <Image
-            class="object-cover w-14 h-14 rounded-full"
-            alt={content?.alt}
-            src={content?.avatar || ""}
-            width={56}
-            height={56}
-          />
-          <div class="flex flex-col">
-            <p class="font-semibold text-base">{content?.name}</p>
-            <p class="text-base">{content?.position}</p>
+          <div class="flex">
+            <p class="text-lg italic font-extralight">
+              - {content?.name} via {content?.source}
+            </p>
           </div>
         </div>
       </div>
@@ -131,29 +125,15 @@ function SliderItem(
   );
 }
 
-function Dots({ slides, interval = 0 }: Props) {
+function Dots({ slides }: Props) {
   return (
     <>
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-          @property --dot-progress {
-            syntax: '<percentage>';
-            inherits: false;
-            initial-value: 0%;
-          }
-          `,
-        }}
-      />
       <ul class="carousel col-span-full gap-3 z-10">
         {slides?.map((_, index) => (
           <li class="carousel-item">
             <Slider.Dot index={index}>
               <div class="py-5">
-                <div
-                  class="w-2 h-2 rounded-full group-disabled:animate-progress dot"
-                  style={{ animationDuration: `${interval}s` }}
-                />
+                <div class="w-2 h-2 rounded-full dot group-disabled:bg-primary" />
               </div>
             </Slider.Dot>
           </li>
@@ -192,16 +172,19 @@ function Buttons() {
 
 function Carousel(props: Props) {
   const id = useId();
-  const { title, slides, interval } = { ...DEFAULT_PROPS, ...props };
+  const { title, slides, interval, arrows } = { ...DEFAULT_PROPS, ...props };
+
+  const multipleSlides = slides.length > 1;
 
   return (
     <div
       id={id}
-      class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28"
+      class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 pt-10 fade-in-down"
     >
-      <h2 class="text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16">
-        {title}
-      </h2>
+      <div class="w-full flex justify-center pb-10">
+        <Title text={title} />
+      </div>
+
       <Slider
         class="carousel carousel-center w-full col-span-full row-span-full gap-6"
         rootId={id}
@@ -211,7 +194,7 @@ function Carousel(props: Props) {
         {slides?.map((slide, index) => (
           <Slider.Item
             index={index}
-            class="carousel-item max-w-[600px] w-full"
+            class="carousel-item w-full"
           >
             <SliderItem
               slide={slide}
@@ -221,10 +204,17 @@ function Carousel(props: Props) {
         ))}
       </Slider>
 
-      <div class="flex justify-between pt-8 lg:px-16">
-        {props.dots && <Dots slides={slides} interval={interval} />}{" "}
-        {props.arrows && <Buttons />}
-      </div>
+      {multipleSlides && (
+        <div class="w-full flex justify-center">
+          <Dots slides={slides} interval={interval} />
+        </div>
+      )}
+      {multipleSlides && arrows &&
+        (
+          <div class="flex justify-end pt-8 lg:px-16">
+            <Buttons />
+          </div>
+        )}
     </div>
   );
 }
