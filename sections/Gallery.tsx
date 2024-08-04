@@ -4,9 +4,20 @@ import { Title } from "site/components/ui/Title.tsx";
 
 /** @titleBy alt */
 interface ImageItem {
+    /**
+     * @title Imagem
+     */
     image: ImageWidget;
-    /** @format rich-text */
+    /**
+     * @title Legenda da imagem
+     * @description Atenção! Adicionar estilos no editor pode sobrescrever a estilização padrão do texto
+     * @format rich-text
+     */
     label: string;
+    /**
+     * @title URL
+     * @description Link para onde o botão irá redirecionar. Se o objetivo for navegar no próprio site passar /caminho-da-pagina
+     */
     href: string;
     alt: string;
 }

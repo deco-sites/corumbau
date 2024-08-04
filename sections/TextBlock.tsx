@@ -1,5 +1,8 @@
 export interface Props {
-    /** @format rich-text */
+    /**
+     * @title Texto
+     * @format rich-text
+     */
     text: string;
 }
 

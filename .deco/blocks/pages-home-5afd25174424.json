@@ -58,6 +58,23 @@
       ]
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "lazy",
+      "sections": [
+        {
+          "__resolveType": "site/sections/CtaBanner.tsx",
+          "title": "Especiais",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/17188e59-a1dd-46c8-b1ac-490fb5edd2ee",
+          "ctaText": "<p>Descontos Especiais!</p>",
+          "buttonText": "SAIBA MAIS",
+          "href": "/especiais"
+        }
+      ]
+    },
+    {
       "__resolveType": "Footer"
     }
   ],

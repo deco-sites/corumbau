@@ -7,7 +7,14 @@ import InternationalizationController from "../islands/InternationalizationContr
 
 export interface CTA {
   id?: string;
+  /**
+   * @title URL
+   * @description Link para onde o botão irá redirecionar. Se o objetivo for navegar no próprio site passar /caminho-da-pagina
+   */
   href: string;
+  /**
+   * @title Titulo do link
+   */
   text: string;
 }
 
@@ -17,14 +24,31 @@ export interface Nav {
     alt?: string;
   };
   navigation?: {
+    /**
+     * @title Links
+     */
     links: {
       label?: string;
       url?: string;
+      /**
+       * @title Links filhos
+       * @description Links incluídos aqui serão apresentados em um menu suspenso, no link principal, quando o mouse estiver sob o link
+       */
       children?: {
+        /**
+         * @title URL
+         * @description Link para onde o botão irá redirecionar. Se o objetivo for navegar no próprio site passar /caminho-da-pagina
+         */
         label?: string;
+        /**
+         * @title Titulo do link
+         */
         url?: string;
       }[];
     }[];
+    /**
+     * @title Botão
+     */
     button?: CTA;
   };
 }
