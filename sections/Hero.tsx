@@ -16,7 +16,7 @@ export default function HeroFlats({
       style={{ backgroundImage: `url(${image})` }}
       class={`w-screen ${
         size === "grande" ? "h-[90vh]" : "h-[50h] md:h-[80vh] lg:h-[70vh]"
-      } bg-cover flex items-end justify-start bg-center`}
+      } bg-cover flex items-end justify-start bg-center fade-in`}
     >
       <h2 class="bg-inverted-gradient w-full text-start px-10 py-5 text-white text-2xl md:text-4xl lg:text-5xl tracking-wider font-extralight !leading-tight">
         {title}

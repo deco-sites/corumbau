@@ -25,6 +25,31 @@
       "__resolveType": "site/sections/BlogPosts.tsx"
     },
     {
+      "__resolveType": "website/sections/Rendering/Deferred.tsx",
+      "behavior": {
+        "payload": 1000,
+        "type": "scroll"
+      },
+      "sections": [
+        {
+          "__resolveType": "site/sections/BlogPosts.tsx",
+          "title": "teste",
+          "description": "teste",
+          "posts": [
+            {
+              "tags": [],
+              "title": "test",
+              "author": "teste",
+              "excerpt": "teste",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/90ae9474-26a9-4c34-8074-ed80242998f3",
+              "date": "10/08"
+            }
+          ]
+        }
+      ],
+      "display": true
+    },
+    {
       "__resolveType": "site/sections/Testimonials.tsx",
       "arrows": true
     },
