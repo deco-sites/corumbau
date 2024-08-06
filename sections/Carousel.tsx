@@ -1,5 +1,4 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import Icon from "../components/ui/Icon.tsx";
 import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
 import Image from "apps/website/components/Image.tsx";
@@ -140,8 +139,8 @@ function Carousel(props: Props) {
             class="w-full flex justify-center pt-10 fade-in-down"
         >
             <div class="relative w-[90%] xl:w-[85%]">
-                <div class="flex items-center justify-center z-10 absolute left-0 top-1/2">
-                    <Slider.PrevButton class="flex items-center justify-center p-4">
+                <div class="flex items-center justify-center z-10 absolute left-0 top-1/2 group">
+                    <Slider.PrevButton class="flex items-center justify-center p-4 group-hover:-translate-x-1 transition-all duration-300">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 11.08 20.17"
@@ -184,12 +183,12 @@ function Carousel(props: Props) {
                         </Slider.Item>
                     ))}
                 </Slider>
-                <div class="flex items-center justify-center z-10 absolute right-0 top-1/2">
+                <div class="flex items-center justify-center z-10 absolute right-0 top-1/2 group">
                     <Slider.NextButton class="flex items-center justify-center p-4">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 11.08 20.17"
-                            class="w-[10px] h-[25px] text-white"
+                            class="w-[10px] h-[25px] text-white group-hover:translate-x-1 transition-all duration-300"
                         >
                             <defs>
                                 <style></style>
