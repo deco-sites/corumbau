@@ -1,14 +1,14 @@
 {
   "seo": {
     "type": "website",
-    "title": "Fazenda São Francisco Corumbau",
     "jsonLDs": [],
     "noIndexing": false,
     "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "Corumbau | %s",
     "descriptionTemplate": "%s | Deco.cx",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/372f6d8e-2b63-43c2-8719-4798a7a5e93c",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/1350f37f-88ab-4cf1-bcf6-c386bcf8b238"
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f1e6ec27-f86b-4891-9d09-b000b1576eb3",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/1350f37f-88ab-4cf1-bcf6-c386bcf8b238",
+    "title": "Corumbau",
+    "titleTemplate": "%s"
   },
   "global": [
     {

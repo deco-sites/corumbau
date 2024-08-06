@@ -90,7 +90,37 @@
       "loading": "eager"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/ImageWithParagraph.tsx",
+          "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
+          "placement": "left",
+          "paragraph": [
+            null
+          ],
+          "paragraphs": [
+            {
+              "text": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia."
+            },
+            {
+              "text": "O projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local."
+            }
+          ]
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager"
+    },
+    {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Corumbau | Sobre"
     }
   ],
   "seo": {

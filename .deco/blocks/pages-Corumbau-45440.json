@@ -17,13 +17,158 @@
         {
           "__resolveType": "site/sections/LabelText.tsx",
           "title": "Corumbau",
-          "description": "Há certos lugares que só são o que são por estarem distantes da civilização, é o caso de Corumbau, reserva ambiental protegida pelo ibama e pela marinha. "
+          "description": "Há certos lugares que só são o que são por estarem distantes da civilização, é o caso de Corumbau, reserva ambiental protegida pelo ibama e pela marinha. ",
+          "size": "Medio"
+        }
+      ],
+      "trigger": {
+        "type": "intersect"
+      },
+      "loading": "lazy"
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/Carousel.tsx",
+          "slides": [
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5ba3cf7b-ee5b-466f-87b0-cdd77311be42",
+              "alt": "slider1"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b7ca1246-6ead-4801-aa45-c12e3a2733b0",
+              "alt": "slider2"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/59175889-d469-40c6-a177-2bfda7f4ebb6",
+              "alt": "slider3"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/54981c49-77af-4b24-b55a-910c82dc4fa8",
+              "alt": "slider4"
+            },
+            {
+              "alt": "slider5",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0d83764f-80f1-4c63-971b-c73395b01197"
+            },
+            {
+              "alt": "slider6",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/785f777d-cb1c-4f19-8241-fa900bd9d2ac"
+            },
+            {
+              "alt": "slider7",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cba02433-e75d-462f-bc9a-cbe518834325"
+            },
+            {
+              "alt": "slider8",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/83fd5fce-a374-48bf-b315-70781314166a"
+            },
+            {
+              "alt": "slider9",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/08add966-7544-4cc5-96f5-d129ef13cb96"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/97e1aaa1-d02b-4fad-8ab2-fbb6f765b376",
+              "alt": "slider10"
+            },
+            {
+              "alt": "slider11",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a48fbf43-beed-49b3-81fd-083c68e8450a"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/60744061-93b7-4f32-a4b7-e74ac6269f27",
+              "alt": "slider12"
+            }
+          ]
         }
       ],
       "trigger": {
         "type": "revealed"
       },
-      "loading": "lazy"
+      "loading": "eager"
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/ImageWithParagraph.tsx",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d01f9aad-d914-4a17-a132-18cb0608a4c3",
+          "placement": "right",
+          "paragraphs": [
+            {
+              "text": "Corumbau é o começo de uma viagem inesquecível."
+            },
+            {
+              "text": "São 15 km de praia deserta de areia branca e água cristalina, com enormes coqueirais à beira mar. Um longo colar de recifes de corais, que avança cerca de 10 km mar adentro e desaparece quando a maré sobe. Falésias e tons variados emolduram as águas num espetáculo de generosidade da natureza."
+            }
+          ]
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager"
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/ImageWithParagraph.tsx",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05df1982-b3ae-495f-8932-082b1f9eacb9",
+          "placement": "left",
+          "paragraphs": [
+            {
+              "text": "O que pode ser melhor do que as águas calmas da Ponta do Corumbau para entrar na onda do stand up paddle? Basta um remo e uma prancha para você descobrir esse prazer."
+            },
+            {
+              "text": "Pedalar por praias intermináveis na maré baixa pode ser uma excelente forma de contemplar a beleza natural do lugar."
+            }
+          ]
+        }
+      ],
+      "trigger": {
+        "type": "intersect"
+      },
+      "loading": "eager"
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/ImageWithParagraph.tsx",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05a93af5-c5bd-4ab5-8c76-3a46cba334a3",
+          "placement": "right",
+          "paragraphs": [
+            {
+              "text": "Uma opção para o fim da tarde é embarcar na barra do rio Corumbau, navegar por manguezais totalmente preservados e desfrutar um pôr do sol inesquecível."
+            },
+            {
+              "text": "E que tal atravessar o rio Corumbau de canoa, pegar um buggy do outro lado e passar pela reserva dos índios Pataxós? Essa pequena aventura termina no vilarejo de Caraíva, onde há lojinhas de artesanato local e o famoso pastel de arraia do boteco do Pará."
+            }
+          ]
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager"
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "Atividades",
+          "description": "Bicicleta, stand up paddle, beach tennis, mergulho nos corais, massagens, visita ao Monte Pascoal, dança dos índios Pataxós, passeios de barco ou lancha no rio Corumbau, para Caraíva ou Praia do Espelho e Barra do Cahy.",
+          "alignment": "Esquerda",
+          "size": "Medio"
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager"
     },
     {
       "__resolveType": "Footer"

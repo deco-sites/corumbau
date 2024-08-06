@@ -24,13 +24,68 @@
           "button": {
             "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
             "text": "RESERVAR"
-          }
+          },
+          "size": "Medio"
         }
       ],
       "loading": "lazy"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/Carousel.tsx",
+          "slides": [
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/755591a1-8213-47e8-8d53-cbc5fb54580d",
+              "alt": "slider1"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/fdbabf47-2e45-476f-bcc7-812bd1813d59",
+              "alt": "slider2"
+            },
+            {
+              "alt": "slider3",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/7c7de8ad-b6e7-4552-aa40-c490b28b63f4"
+            },
+            {
+              "alt": "slider4",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e39373ab-788b-4275-ad6d-767844cf7837"
+            },
+            {
+              "alt": "slider5",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a3a5e094-92aa-4794-83b1-6f8a4a2f93e1"
+            }
+          ]
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager"
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "revealed"
+      },
+      "sections": [
+        {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "Comodidades",
+          "description": "Cama king size, roupas de banho e lençóis de algodão egípcio Trousseau, máquina de café Nespresso, amenities L'Occitane, alto-falantes com conexão bluetooth, blu-ray, tv à cabo, wi-fi, cofre, frigobar, ventilador de teto, ar condicionado, serviço de abertura de cama e ampla varanda de frente para o mar contemplam a atmosfera de tranquilidade.",
+          "alignment": "Esquerda",
+          "size": "Medio"
+        }
+      ],
+      "loading": "eager"
+    },
+    {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Corumbau | Quarto"
     }
   ],
   "seo": {

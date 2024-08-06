@@ -14,7 +14,7 @@
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
       "trigger": {
-        "type": "intersect"
+        "type": "revealed"
       },
       "sections": [
         {
@@ -27,7 +27,7 @@
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
       "trigger": {
-        "type": "intersect"
+        "type": "revealed"
       },
       "loading": "lazy",
       "sections": [
@@ -60,7 +60,7 @@
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
       "trigger": {
-        "type": "intersect"
+        "type": "revealed"
       },
       "loading": "lazy",
       "sections": [
@@ -94,7 +94,7 @@
         }
       ],
       "trigger": {
-        "type": "intersect"
+        "type": "revealed"
       },
       "loading": "lazy"
     },

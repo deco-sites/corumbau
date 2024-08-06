@@ -21,7 +21,8 @@
         {
           "__resolveType": "site/sections/LabelText.tsx",
           "title": "Os Quartos",
-          "description": "A Fazenda São Francisco do Corumbau conta com apenas 10 quartos e oferece total privacidade aos seus hóspedes. Móveis com desenhos integrados ao espaço e amplas varandas com vistas deslumbrantes, moderna infraestrutura combinada à simplicidade da natureza – o contraste perfeito para seu bem estar."
+          "description": "A Fazenda São Francisco do Corumbau conta com apenas 10 quartos e oferece total privacidade aos seus hóspedes. Móveis com desenhos integrados ao espaço e amplas varandas com vistas deslumbrantes, moderna infraestrutura combinada à simplicidade da natureza – o contraste perfeito para seu bem estar.",
+          "size": "Medio"
         }
       ]
     },
@@ -59,6 +60,10 @@
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Corumbau | Quartos"
     }
   ],
   "seo": {

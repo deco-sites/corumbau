@@ -19,7 +19,8 @@
         {
           "__resolveType": "site/sections/LabelText.tsx",
           "title": "Entre em contato",
-          "description": "Muito obrigado pelo seu interesse. Por favor, preencha o formulário abaixo e envie-nos suas perguntas e comentários, entraremos em contato em breve."
+          "description": "Muito obrigado pelo seu interesse. Por favor, preencha o formulário abaixo e envie-nos suas perguntas e comentários, entraremos em contato em breve.",
+          "size": "Medio"
         }
       ],
       "trigger": {
@@ -28,7 +29,26 @@
       "loading": "lazy"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "Como Chegar",
+          "description": "Aeroporto de Porto Seguro – 4h00 em carro 4x4 ou 20 min em helicóptero.",
+          "size": "Medio"
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager"
+    },
+    {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Corumbau | Contato"
     }
   ],
   "seo": {

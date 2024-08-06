@@ -15,6 +15,10 @@
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Corumbau | Especiais"
     }
   ],
   "seo": {

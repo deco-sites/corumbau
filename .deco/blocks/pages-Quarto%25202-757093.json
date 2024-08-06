@@ -23,7 +23,8 @@
           "button": {
             "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
             "text": "RESERVAR"
-          }
+          },
+          "size": "Medio"
         }
       ],
       "trigger": {
@@ -32,7 +33,66 @@
       "loading": "lazy"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/Carousel.tsx",
+          "slides": [
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/42aafa35-8a8d-4ab6-8a5d-b67b11ea93d9",
+              "alt": "slide1"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/aa32cfee-28f9-4fed-b1e8-a496e6743d08",
+              "alt": "slide2"
+            },
+            {
+              "alt": "slide3",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b0237172-27ba-4a03-8aca-9811d4ba5015"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dc49f7fa-dab8-450b-a607-91a187ec61b7",
+              "alt": "slide4"
+            },
+            {
+              "alt": "slide5",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a27b7cb2-21f6-44e9-bdfa-bc58f86156a3"
+            },
+            {
+              "alt": "slide6",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/441b61ac-5833-42ae-8620-2c5d19c21afb"
+            }
+          ]
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager"
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "Comodidades",
+          "description": "Cama king size, roupas de banho e lençóis de algodão egípcio Trousseau, máquina de café Nespresso, amenities L'Occitane, alto-falantes com conexão bluetooth, blu-ray, frigobar, tv à cabo, wi-fi, cofre, ventilador de teto, ar condicionado e serviço de abertura de cama.",
+          "button": {},
+          "size": "Medio",
+          "alignment": "Esquerda"
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager"
+    },
+    {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Corumbau | Quarto"
     }
   ],
   "seo": {

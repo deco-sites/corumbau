@@ -23,7 +23,8 @@
           "button": {
             "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
             "text": "RESERVAR"
-          }
+          },
+          "size": "Medio"
         }
       ],
       "trigger": {
@@ -32,7 +33,62 @@
       "loading": "lazy"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/Carousel.tsx",
+          "slides": [
+            {
+              "alt": "slide1",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/854780ca-730a-4e4e-99a6-d7010f6a66b8"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f136ab32-760b-4c10-92d0-63aae9d1a40a",
+              "alt": "slide2"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/af6616ba-b799-4687-a70a-f055ff233bad",
+              "alt": "slide3"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9c49cf9-0935-4ca6-817f-d2267474c1c8",
+              "alt": "slide4"
+            },
+            {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/19a9f590-9511-45a1-841c-c9c2105b2361",
+              "alt": "slide5"
+            }
+          ]
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager"
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
+          "__resolveType": "site/sections/LabelText.tsx",
+          "title": "Comodidades",
+          "description": "Cama king size, roupas de banho e lençóis de algodão egípcio Trousseau, máquina de café Nespresso, amenities L'Occitane, alto-falantes com conexão bluetooth, blu-ray, tv à cabo, frigobar, wi-fi, cofre, ar condicionado e serviço de abertura de cama.",
+          "button": {},
+          "size": "Medio",
+          "alignment": "Esquerda"
+        }
+      ],
+      "trigger": {
+        "type": "revealed"
+      },
+      "loading": "eager"
+    },
+    {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Corumbau | Quarto"
     }
   ],
   "seo": {
