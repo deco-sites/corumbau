@@ -116,7 +116,13 @@
 }
 
 .fade-in-down {
+  opacity: 0; 
   animation: fadeInDown 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  animation-delay: 0.3s
+}
+
+.animation-delay {
+  animation-delay: 0.8s;
 }
 
 @keyframes fadeIn {
