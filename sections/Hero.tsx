@@ -24,7 +24,7 @@ export default function HeroFlats({
   return (
     <div
       style={{ backgroundImage: `url(${image})` }}
-      class={`w-screen ${
+      class={` ${
         size === "grande" ? "h-[90vh]" : "h-[50vh] md:h-[80vh] lg:h-[70vh]"
       } bg-cover flex items-end justify-start bg-center fade-in`}
     >
