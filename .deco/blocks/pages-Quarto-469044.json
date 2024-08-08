@@ -14,7 +14,7 @@
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
       "sections": [
         {
@@ -60,14 +60,14 @@
         }
       ],
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
-      "loading": "eager"
+      "loading": "lazy"
     },
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
       "sections": [
         {
@@ -78,7 +78,7 @@
           "size": "Medio"
         }
       ],
-      "loading": "eager"
+      "loading": "lazy"
     },
     {
       "__resolveType": "Footer"

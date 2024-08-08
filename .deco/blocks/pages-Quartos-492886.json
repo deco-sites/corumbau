@@ -14,7 +14,7 @@
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
       "loading": "lazy",
       "sections": [
@@ -29,9 +29,9 @@
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
-      "loading": "eager",
+      "loading": "lazy",
       "sections": [
         {
           "__resolveType": "site/sections/Gallery.tsx",

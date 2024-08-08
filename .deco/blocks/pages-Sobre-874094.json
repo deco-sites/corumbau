@@ -16,7 +16,7 @@
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
       "loading": "lazy",
       "sections": [
@@ -85,7 +85,7 @@
         }
       ],
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
       "loading": "eager"
     },
@@ -111,9 +111,9 @@
         }
       ],
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
-      "loading": "eager"
+      "loading": "lazy"
     },
     {
       "__resolveType": "Footer"

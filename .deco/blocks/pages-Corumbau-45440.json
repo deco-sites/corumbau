@@ -84,9 +84,9 @@
         }
       ],
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
-      "loading": "eager"
+      "loading": "lazy"
     },
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
@@ -106,9 +106,9 @@
         }
       ],
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
-      "loading": "eager"
+      "loading": "lazy"
     },
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
@@ -130,7 +130,7 @@
       "trigger": {
         "type": "intersect"
       },
-      "loading": "eager"
+      "loading": "lazy"
     },
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
@@ -150,9 +150,9 @@
         }
       ],
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
-      "loading": "eager"
+      "loading": "lazy"
     },
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
@@ -166,9 +166,9 @@
         }
       ],
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
-      "loading": "eager"
+      "loading": "lazy"
     },
     {
       "__resolveType": "Footer"

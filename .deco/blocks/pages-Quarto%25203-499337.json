@@ -28,7 +28,7 @@
         }
       ],
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
       "loading": "lazy"
     },
@@ -62,9 +62,9 @@
         }
       ],
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
-      "loading": "eager"
+      "loading": "lazy"
     },
     {
       "__resolveType": "htmx/sections/Deferred.tsx",
@@ -79,9 +79,9 @@
         }
       ],
       "trigger": {
-        "type": "revealed"
+        "type": "intersect"
       },
-      "loading": "eager"
+      "loading": "lazy"
     },
     {
       "__resolveType": "Footer"

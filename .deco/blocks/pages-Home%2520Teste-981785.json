@@ -1,6 +1,6 @@
 {
-  "name": "Home",
-  "path": "/",
+  "name": "Home Teste",
+  "path": "/teste",
   "sections": {
     "__resolveType": "website/flags/multivariate.ts",
     "variants": [
@@ -10,10 +10,9 @@
             "__resolveType": "Header"
           },
           {
-            "__resolveType": "site/sections/Hero.tsx",
-            "title": "Fazenda São Francisco do Corumbau",
-            "size": "grande",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4cfae23e-83c8-4cb4-bc6e-0a3adcaeb1b5"
+            "__resolveType": "site/sections/HeroVideo.tsx",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/aebde333-9d4a-4ae1-af84-448fdedf56ab",
+            "size": "grande"
           },
           {
             "__resolveType": "htmx/sections/Deferred.tsx",

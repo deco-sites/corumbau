@@ -14,6 +14,42 @@
       "size": "medio"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "intersect"
+      },
+      "loading": "lazy",
+      "sections": [
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/DescriptiveBanner.tsx",
+            "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 25pt\">Descontos Especiais!</span><br><br><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Em maio e em junho reserve 03 noites e ganhe&nbsp;10% de desconto,&nbsp;04 noites e ganhe 15%&nbsp;ou 05 noites e ganhe 20%.</span></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br?subject=Tarifas%20com%20desconto%20Agosto%202019\"><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">reservas@corumbau.com.br</span></a><span style=\"color: rgb(222, 227, 229); font-size: 13pt\"> ou </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">11 3078 4411 WhatsApp /&nbsp;11 3682 2111</span></strong></p>",
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
+            "alt": "desconto1"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "intersect"
+      },
+      "loading": "lazy",
+      "sections": [
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/DescriptiveBanner.tsx",
+            "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 25pt\">Exclusividade e Desconto!</span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Reserve 05&nbsp;noites e pague&nbsp;04 noites!</span></strong><br><br><span style=\"color: rgb(222, 227, 229); font-size: 12pt\">Válido&nbsp;para estadia de julho&nbsp;a setembro&nbsp;2023</span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 12pt\">Contatos: </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:corumbau@corumbau.com.br?subject=Descontos%20Baixa%20Temporada\"><span style=\"color: rgb(222, 227, 229); font-size: 12pt\">reservas@corumbau.com.br</span></a></p><p><span style=\"color: rgb(222, 227, 229); font-size: 12pt\">F.&nbsp;11 3078 4411 WhatsApp&nbsp;/ 11 3682 2111</span></p>",
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/98c74237-1c3e-4e13-9b69-ffe8cc63480d",
+            "alt": "desconto2"
+          }
+        }
+      ]
+    },
+    {
       "__resolveType": "Footer"
     },
     {
