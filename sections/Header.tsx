@@ -71,31 +71,14 @@ export default function Header({
   pathname,
 }: ReturnType<typeof loader>) {
   function script() {
-    const styles = ["bg-white", "!text-neutral"];
     const handleScroll = () => {
       if (globalThis.scrollY > 260) {
-        globalThis.document.getElementById("header")?.classList.add(...styles);
         globalThis.document.querySelector("#logo-icon img")?.classList.add(
           "max-w-24",
         );
-        globalThis.document.querySelector("#gradient")?.classList.remove(
-          "bg-base-gradient",
-        );
-        globalThis.document.querySelectorAll(".icon-bar").forEach(
-          (item) => item.classList.add("black_icon_bar"),
-        );
       } else {
-        globalThis.document.getElementById("header")?.classList.remove(
-          ...styles,
-        );
         globalThis.document.querySelector("#logo-icon img")?.classList.remove(
           "max-w-24",
-        );
-        globalThis.document.querySelector("#gradient")?.classList.add(
-          "bg-base-gradient",
-        );
-        globalThis.document.querySelectorAll(".icon-bar").forEach(
-          (item) => item.classList.remove("black_icon_bar"),
         );
       }
     };

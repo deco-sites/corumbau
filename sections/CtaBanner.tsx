@@ -30,7 +30,7 @@ export default function CtaBanner(
     { buttonText, ctaText, href, image, title }: Props,
 ) {
     return (
-        <div class="w-screen pt-10 flex flex-col items-center gap-5 fade-in-down">
+        <div class="pt-10 flex flex-col items-center gap-5 fade-in-down">
             <Title text={title} />
             <div
                 style={{ backgroundImage: `url(${image})` }}

@@ -1,4 +1,3 @@
-import Icon from "../components/ui/Icon.tsx";
 import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
 import { Title } from "site/components/ui/Title.tsx";
@@ -29,11 +28,6 @@ export interface Props {
    * @description tempo (em segundos) para a passagem automática de testemunho. Se nada for passado, a passagem será apenas pelos controladores (dots e setas)
    */
   interval?: number;
-  /**
-   * @title Setas
-   * @description Escolha se deseja mostrar as setas do carrossel para casos em que tiver mais de um depoimento
-   */
-  arrows?: boolean;
 }
 
 const DEFAULT_PROPS = {
@@ -143,36 +137,9 @@ function Dots({ slides }: Props) {
   );
 }
 
-function Buttons() {
-  return (
-    <div class="flex gap-4">
-      <div class="flex items-center justify-center z-10 col-start-1 row-start-2">
-        <Slider.PrevButton class="flex items-center justify-center btn-circle border border-base-content">
-          <Icon
-            class="text-base-content"
-            size={24}
-            id="ArrowRight"
-            strokeWidth={3}
-          />
-        </Slider.PrevButton>
-      </div>
-      <div class="flex items-center justify-center z-10 col-start-3 row-start-2">
-        <Slider.NextButton class="flex items-center justify-center btn-circle border border-base-content">
-          <Icon
-            class="text-base-content"
-            size={24}
-            id="ArrowLeft"
-            strokeWidth={3}
-          />
-        </Slider.NextButton>
-      </div>
-    </div>
-  );
-}
-
 function Carousel(props: Props) {
   const id = useId();
-  const { title, slides, interval, arrows } = { ...DEFAULT_PROPS, ...props };
+  const { title, slides, interval } = { ...DEFAULT_PROPS, ...props };
 
   const multipleSlides = slides.length > 1;
 
@@ -209,12 +176,6 @@ function Carousel(props: Props) {
           <Dots slides={slides} interval={interval} />
         </div>
       )}
-      {multipleSlides && arrows &&
-        (
-          <div class="flex justify-end pt-8 lg:px-16">
-            <Buttons />
-          </div>
-        )}
     </div>
   );
 }

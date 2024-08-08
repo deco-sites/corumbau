@@ -12,35 +12,6 @@ interface Social {
   href: string;
 }
 
-const SideFixedSocial = ({ socials }: { socials: Social[] }) => {
-  return (
-    <div class="fixed right-0 top-1/2 z-50 shadow-base bg-white hidden lg:block -mt-[75px]">
-      <ul>
-        {socials.map((social) => (
-          <li class="border-y border-accent last:border-b-0 first:border-t-0">
-            <a
-              href={social.href}
-              target="_blank"
-              rel="noopener"
-              class="text-neutral w-[50px] h-[50px] flex items-center justify-center hover:bg-accent transition-all duration-300"
-            >
-              <Image
-                src={social.icon}
-                width={35}
-                height={35}
-                alt="social-icon"
-                class={social.href.includes("tripadvisor")
-                  ? "w-[25px] h-[25px]"
-                  : `w-[20px] h-[20px]`}
-              />
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-
 export interface Props {
   /**
    * @title Reserva
@@ -119,7 +90,6 @@ export default function Footer({
           ))}
         </div>
       </div>
-      <SideFixedSocial socials={socials} />
       <div class="text-sm border-t border-accent w-full lg:mt-10">
         <div class="flex flex-col gap-20 max-w-[85%] mx-auto w-full py-10">
           <div class="flex flex-col gap-6 justify-between lg:flex-row">
@@ -132,6 +102,26 @@ export default function Footer({
                 </p>
               </div>
             </div>
+            <div class="hidden lg:flex gap-4 items-center">
+              {socials.map((social) => (
+                <a
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener"
+                  class="text-neutral w-[60px] h-[60px] flex items-center justify-center"
+                >
+                  <Image
+                    src={social.icon}
+                    width={35}
+                    height={35}
+                    alt="social-icon"
+                    class={social.href.includes("tripadvisor")
+                      ? "w-[50px] h-[50px]"
+                      : `w-[35px] h-[35px]`}
+                  />
+                </a>
+              ))}
+            </div>
             <div class="flex flex-col gap-[25px]">
               <h4 class="text-secondary font-bold">ENDEREÇO</h4>
 
@@ -139,25 +129,6 @@ export default function Footer({
                 dangerouslySetInnerHTML={{ __html: address }}
                 class="flex flex-col gap-4 text-xs text-neutral font-extralight"
               />
-            </div>
-            <div class="flex flex-col gap-[25px] md:w-[250px] ">
-              <h4 class="text-secondary font-bold">NEWSLETTER</h4>
-              <form>
-                <div class="flex">
-                  <input
-                    type="text"
-                    placeholder="seu email"
-                    class="flex-grow bg-accent py-3 px-5 pr-[50px] md:w-[206px]"
-                  />
-                  <button
-                    type="submit"
-                    class="font-normal text-center text-xs bg-primary text-white py-[13px] transition-all duration-300 uppercase hover:bg-secondary w-[44px]"
-                    aria-label="Subscribe"
-                  >
-                    OK
-                  </button>
-                </div>
-              </form>
             </div>
           </div>
         </div>
