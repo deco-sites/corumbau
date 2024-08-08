@@ -33,6 +33,9 @@ export default function HeroFlats({
         class="w-full h-full object-cover"
         width={1440}
         height={size == "grande" ? 819 : 637}
+        preload
+        loading="eager"
+        fetchPriority="high"
       />
       <h2 class="absolute bottom-0 bg-inverted-gradient w-full text-start px-10 py-5 text-white text-2xl md:text-4xl lg:text-5xl tracking-wider font-extralight !leading-tight">
         {title}
