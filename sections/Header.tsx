@@ -120,18 +120,18 @@ export default function Header({
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline text-xs uppercase"
+                  class="link no-underline text-xs uppercase tracking-widest"
                 >
                   {link.label}
                 </a>
                 {!!link.children?.length && (
                   <div class="hidden group-hover:flex">
-                    <ul class=" absolute top-[20px] left-0 bg-white bg-opacity-80 py-3 px-4 text-neutral text-xs flex flex-col gap-2">
+                    <ul class=" absolute top-[20px] left-0 bg-white bg-opacity-80 py-3 px-4 text-neutral text-xs flex flex-col gap-2 tracking-widest">
                       {link.children.map((childLink) => (
                         <a
                           href={childLink.url}
                           aria-label={childLink.label}
-                          class="link no-underline text-xs whitespace-nowrap"
+                          class="link no-underline text-xs whitespace-nowrap tracking-widest"
                         >
                           {childLink.label}
                         </a>
@@ -150,6 +150,7 @@ export default function Header({
                 href={navigation.button.href}
                 id={navigation.button.id}
                 text={navigation.button.text}
+                className="!font-normal"
               />
             )}
           </ul>
@@ -175,7 +176,7 @@ export default function Header({
                   href={navigation.button.href}
                   id={navigation.button.id}
                   text={navigation.button.text}
-                  className="max-w-[80%] w-full !text-2xl"
+                  className="max-w-[80%] w-full !text-2xl !font-normal"
                 />
               )}
 
@@ -185,7 +186,7 @@ export default function Header({
                     <a
                       href={link.url}
                       aria-label={link.label}
-                      class="text-2xl leading-6 text-white hover:bg-none"
+                      class="text-2xl leading-6 text-white hover:bg-none tracking-widest"
                     >
                       {link.label}
                     </a>

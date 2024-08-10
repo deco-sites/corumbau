@@ -93,11 +93,15 @@ export default function Footer({
       <div class="text-sm border-t border-accent w-full lg:mt-10">
         <div class="flex flex-col gap-20 max-w-[85%] mx-auto w-full py-10">
           <div class="flex flex-col gap-6 justify-between lg:flex-row">
-            <div class="flex flex-col gap-[25px]">
-              <h4 class="text-secondary font-bold">RESERVAS E INFORMAÇÕES</h4>
+            <div class="flex flex-col gap-[25px] tracking-widest">
+              <h4 class="text-secondary font-bold text-base">
+                RESERVAS E INFORMAÇÕES
+              </h4>
               <div class="flex flex-col gap-4">
-                <p class="text-primary font-bold">{reservation.phone}</p>
-                <p class="text-xs font-bold text-secondary">
+                <p class="text-primary font-bold text-base">
+                  {reservation.phone}
+                </p>
+                <p class="text-[13px] font-bold text-neutral">
                   {reservation.email}
                 </p>
               </div>
@@ -122,12 +126,12 @@ export default function Footer({
                 </a>
               ))}
             </div>
-            <div class="flex flex-col gap-[25px]">
-              <h4 class="text-secondary font-bold">ENDEREÇO</h4>
+            <div class="flex flex-col gap-[25px] tracking-widest">
+              <h4 class="text-secondary font-bold text-base">ENDEREÇO</h4>
 
               <div
                 dangerouslySetInnerHTML={{ __html: address }}
-                class="flex flex-col gap-4 text-xs text-neutral font-extralight"
+                class="flex flex-col gap-4 text-[13px] text-neutral font-extralight"
               />
             </div>
           </div>

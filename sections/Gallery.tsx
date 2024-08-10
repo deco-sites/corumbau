@@ -27,7 +27,38 @@ export interface Props {
     images: ImageItem[];
 }
 
-export default function Gallery({ images, title }: Props) {
+const DEFAULT_PROPS: Props = {
+    images: [
+        {
+            image:
+                "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+            label:
+                "<p><strong>Imagem 1:</strong> Esta é a primeira imagem da galeria. <em>Inclui um texto estilizado</em> e um <a href='https://example.com'>link</a> para mais informações.</p>",
+            href: "/pagina-da-imagem-1",
+            alt: "Imagem 1",
+        },
+        {
+            image:
+                "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+            label:
+                "<p><strong>Imagem 2:</strong> Esta é a segunda imagem da galeria. <em>Inclui um texto estilizado</em> e um <a href='https://example.com'>link</a> para mais informações.</p>",
+            href: "/pagina-da-imagem-2",
+            alt: "Imagem 2",
+        },
+        {
+            image:
+                "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+            label:
+                "<p><strong>Imagem 3:</strong> Esta é a terceira imagem da galeria. <em>Inclui um texto estilizado</em> e um <a href='https://example.com'>link</a> para mais informações.</p>",
+            href: "/pagina-da-imagem-3",
+            alt: "Imagem 3",
+        },
+    ],
+};
+
+export default function Gallery(props: Props) {
+    const { images, title } = { ...DEFAULT_PROPS, ...props };
+
     return (
         <div class="w-full flex flex-col items-center gap-6 justify-center  pt-10">
             {title && (

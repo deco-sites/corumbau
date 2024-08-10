@@ -162,7 +162,8 @@
           "title": "Atividades",
           "description": "Bicicleta, stand up paddle, beach tennis, mergulho nos corais, massagens, visita ao Monte Pascoal, dança dos índios Pataxós, passeios de barco ou lancha no rio Corumbau, para Caraíva ou Praia do Espelho e Barra do Cahy.",
           "alignment": "Esquerda",
-          "size": "Medio"
+          "size": "Medio",
+          "growth": "Metade"
         }
       ],
       "trigger": {

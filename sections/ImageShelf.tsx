@@ -55,13 +55,34 @@ export interface Props {
     };
 }
 
-function ProductShelf({
-    slides,
-    title,
-    interval,
-    layout,
-}: Props) {
+const DEFAULT_PROPS: Props = {
+    slides: [
+        {
+            src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+            alt: "Imagem 1",
+            href: "/pagina-imagem-1",
+        },
+        {
+            src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+            alt: "Imagem 2",
+            href: "/pagina-imagem-2",
+        },
+        {
+            src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+            alt: "Imagem 3",
+            href: "/pagina-imagem-3",
+        },
+    ],
+};
+
+function ProductShelf(props: Props) {
     const id = useId();
+    const {
+        slides,
+        title,
+        interval,
+        layout,
+    } = { ...DEFAULT_PROPS, ...props };
 
     if (!slides || slides.length === 0) {
         return null;

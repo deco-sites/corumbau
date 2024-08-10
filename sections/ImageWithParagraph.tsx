@@ -64,7 +64,7 @@ export default function ImageWithParagraph({
             loading="eager"
           />
         </div>
-        <div class="w-full mid:w-1/2 z-10 fade-in-down animation-delay text-xl mid:text-[22px] flex flex-col gap-5 mid:gap-[22px] text-secondary font-extralight">
+        <div class="w-full mid:w-1/2 z-10 fade-in-down animation-delay text-xl mid:text-[22px] tracking-widest flex flex-col gap-5 mid:gap-[22px] text-neutral font-extralight">
           {paragraphs.map((paragraph) => <p>{paragraph.text}</p>)}
         </div>
       </div>

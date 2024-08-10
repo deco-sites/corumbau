@@ -3,7 +3,7 @@ export const Title = ({ text }: { text: string }) => {
         <div class="relative">
             <div class="absolute h-[5px] bg-primary w-full -top-[15px]" />
 
-            <h2 class="uppercase tracking-widest text-neutral text-3xl">
+            <h2 class="uppercase tracking-widest text-neutral text-[32px] font-light">
                 {text}
             </h2>
         </div>

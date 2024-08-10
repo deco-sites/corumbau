@@ -17,7 +17,17 @@ export interface Props {
     };
 }
 
-export default function ContactForm({ policy }: Props) {
+const DEFAULT_PROPS: Props = {
+    policy: {
+        text:
+            "Sua privacidade é importante para nós. Leia nossa política para entender como coletamos e usamos seus dados.",
+        link: "/politica_privacidade",
+    },
+};
+
+export default function ContactForm(props: Props) {
+    const { policy } = { ...DEFAULT_PROPS, ...props };
+
     return (
         <div class="w-full flex justify-center pt-10 fade-in-down">
             <div class="relative w-[90%] xl:w-[85%]">

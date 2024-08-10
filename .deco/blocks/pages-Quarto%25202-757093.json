@@ -24,7 +24,8 @@
             "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
             "text": "RESERVAR"
           },
-          "size": "Medio"
+          "size": "Medio",
+          "alignment": "Esquerda"
         }
       ],
       "trigger": {

@@ -17,11 +17,19 @@ export interface Props {
   size: "medio" | "grande";
 }
 
-export default function HeroFlats({
-  title = "Click here to tweak this text however you want.",
-  image,
-  size,
-}: Props) {
+const DEFAULT_PROPS: Props = {
+  image:
+    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+  size: "grande",
+};
+
+export default function HeroFlats(props: Props) {
+  const {
+    title,
+    image,
+    size,
+  } = { ...DEFAULT_PROPS, ...props };
+
   return (
     <div
       class={` ${
