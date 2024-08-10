@@ -6,45 +6,51 @@ import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/BlogPosts.tsx";
 import * as $$$$$$1 from "./sections/Carousel.tsx";
-import * as $$$$$$2 from "./sections/CtaBanner.tsx";
-import * as $$$$$$3 from "./sections/DescriptiveBanner.tsx";
-import * as $$$$$$4 from "./sections/Faq.tsx";
-import * as $$$$$$5 from "./sections/Footer.tsx";
-import * as $$$$$$6 from "./sections/Gallery.tsx";
-import * as $$$$$$7 from "./sections/Header.tsx";
-import * as $$$$$$16 from "./sections/hero-1.tsx";
-import * as $$$$$$17 from "./sections/hero-2.tsx";
-import * as $$$$$$8 from "./sections/Hero.tsx";
-import * as $$$$$$18 from "./sections/hero2.tsx";
-import * as $$$$$$9 from "./sections/HeroVideo.tsx";
-import * as $$$$$$10 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$11 from "./sections/LabelText.tsx";
-import * as $$$$$$12 from "./sections/Logos.tsx";
-import * as $$$$$$13 from "./sections/Testimonials.tsx";
-import * as $$$$$$14 from "./sections/TextBlock.tsx";
-import * as $$$$$$15 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$2 from "./sections/ContactForm.tsx";
+import * as $$$$$$3 from "./sections/CookieConsent.tsx";
+import * as $$$$$$4 from "./sections/CtaBanner.tsx";
+import * as $$$$$$5 from "./sections/DescriptiveBanner.tsx";
+import * as $$$$$$6 from "./sections/ExtensiveText.tsx";
+import * as $$$$$$7 from "./sections/Faq.tsx";
+import * as $$$$$$8 from "./sections/Footer.tsx";
+import * as $$$$$$9 from "./sections/Gallery.tsx";
+import * as $$$$$$10 from "./sections/Header.tsx";
+import * as $$$$$$19 from "./sections/hero-1.tsx";
+import * as $$$$$$20 from "./sections/hero-2.tsx";
+import * as $$$$$$11 from "./sections/Hero.tsx";
+import * as $$$$$$21 from "./sections/hero2.tsx";
+import * as $$$$$$12 from "./sections/HeroVideo.tsx";
+import * as $$$$$$13 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$14 from "./sections/LabelText.tsx";
+import * as $$$$$$15 from "./sections/Logos.tsx";
+import * as $$$$$$16 from "./sections/Testimonials.tsx";
+import * as $$$$$$17 from "./sections/TextBlock.tsx";
+import * as $$$$$$18 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/BlogPosts.tsx": $$$$$$0,
     "site/sections/Carousel.tsx": $$$$$$1,
-    "site/sections/CtaBanner.tsx": $$$$$$2,
-    "site/sections/DescriptiveBanner.tsx": $$$$$$3,
-    "site/sections/Faq.tsx": $$$$$$4,
-    "site/sections/Footer.tsx": $$$$$$5,
-    "site/sections/Gallery.tsx": $$$$$$6,
-    "site/sections/Header.tsx": $$$$$$7,
-    "site/sections/hero-1.tsx": $$$$$$16,
-    "site/sections/hero-2.tsx": $$$$$$17,
-    "site/sections/Hero.tsx": $$$$$$8,
-    "site/sections/hero2.tsx": $$$$$$18,
-    "site/sections/HeroVideo.tsx": $$$$$$9,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$10,
-    "site/sections/LabelText.tsx": $$$$$$11,
-    "site/sections/Logos.tsx": $$$$$$12,
-    "site/sections/Testimonials.tsx": $$$$$$13,
-    "site/sections/TextBlock.tsx": $$$$$$14,
-    "site/sections/Theme/Theme.tsx": $$$$$$15,
+    "site/sections/ContactForm.tsx": $$$$$$2,
+    "site/sections/CookieConsent.tsx": $$$$$$3,
+    "site/sections/CtaBanner.tsx": $$$$$$4,
+    "site/sections/DescriptiveBanner.tsx": $$$$$$5,
+    "site/sections/ExtensiveText.tsx": $$$$$$6,
+    "site/sections/Faq.tsx": $$$$$$7,
+    "site/sections/Footer.tsx": $$$$$$8,
+    "site/sections/Gallery.tsx": $$$$$$9,
+    "site/sections/Header.tsx": $$$$$$10,
+    "site/sections/hero-1.tsx": $$$$$$19,
+    "site/sections/hero-2.tsx": $$$$$$20,
+    "site/sections/Hero.tsx": $$$$$$11,
+    "site/sections/hero2.tsx": $$$$$$21,
+    "site/sections/HeroVideo.tsx": $$$$$$12,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$13,
+    "site/sections/LabelText.tsx": $$$$$$14,
+    "site/sections/Logos.tsx": $$$$$$15,
+    "site/sections/Testimonials.tsx": $$$$$$16,
+    "site/sections/TextBlock.tsx": $$$$$$17,
+    "site/sections/Theme/Theme.tsx": $$$$$$18,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,

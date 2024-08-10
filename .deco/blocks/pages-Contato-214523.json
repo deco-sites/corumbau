@@ -32,6 +32,22 @@
       "__resolveType": "htmx/sections/Deferred.tsx",
       "sections": [
         {
+          "__resolveType": "site/sections/ContactForm.tsx",
+          "policy": {
+            "text": "Politica de privacidade",
+            "link": "/politica_privacidade"
+          }
+        }
+      ],
+      "trigger": {
+        "type": "intersect"
+      },
+      "loading": "lazy"
+    },
+    {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "sections": [
+        {
           "__resolveType": "site/sections/LabelText.tsx",
           "title": "Como Chegar",
           "description": "Aeroporto de Porto Seguro – 4h00 em carro 4x4 ou 20 min em helicóptero.",
@@ -49,6 +65,9 @@
     {
       "__resolveType": "website/sections/Seo/Seo.tsx",
       "title": "Corumbau | Contato"
+    },
+    {
+      "__resolveType": "cookie-consent"
     }
   ],
   "seo": {

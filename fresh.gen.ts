@@ -3,6 +3,7 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $_app from "./routes/_app.tsx";
+import * as $IframeModal from "./islands/IframeModal.tsx";
 import * as $InternationalizationController from "./islands/InternationalizationController.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -11,6 +12,7 @@ const manifest = {
     "./routes/_app.tsx": $_app,
   },
   islands: {
+    "./islands/IframeModal.tsx": $IframeModal,
     "./islands/InternationalizationController.tsx":
       $InternationalizationController,
   },

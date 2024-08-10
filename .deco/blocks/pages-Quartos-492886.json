@@ -64,6 +64,12 @@
     {
       "__resolveType": "website/sections/Seo/Seo.tsx",
       "title": "Corumbau | Quartos"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "cookie-consent"
+      }
     }
   ],
   "seo": {

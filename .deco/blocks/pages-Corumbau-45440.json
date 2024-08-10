@@ -172,6 +172,9 @@
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "cookie-consent"
     }
   ],
   "seo": {

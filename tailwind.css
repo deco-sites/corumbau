@@ -156,3 +156,71 @@
     top: -30px;
   }
 }
+
+.reset_styles > * {
+  all: revert;
+}
+
+.text-area + span::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #9ec537;
+  -webkit-transition: 0.4s;
+  transition: 0.4s all;
+}
+
+.text-area + span::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #9ec537;
+  -webkit-transition: 0.4s;
+  transition: 0.4s all;
+}
+
+.text-area + span i::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 0;
+  background-color: #9ec537;
+  -webkit-transition: 0.4s;
+  transition: 0.4s all;
+}
+
+.text-area + span i::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 0;
+  background-color: #9ec537;
+  -webkit-transition: 0.4s;
+  transition: 0.4s all;
+}
+
+.text-area:focus + span::before {
+  width: 100%;
+}
+
+.text-area:focus + span::after {
+  width: 100%;
+}
+
+.text-area:focus + span i::after {
+  height: 100%;
+}
+
+.text-area:focus + span i::before {
+  height: 100%;
+}

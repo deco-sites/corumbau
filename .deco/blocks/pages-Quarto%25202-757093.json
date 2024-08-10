@@ -93,6 +93,9 @@
     {
       "__resolveType": "website/sections/Seo/Seo.tsx",
       "title": "Corumbau | Quarto"
+    },
+    {
+      "__resolveType": "cookie-consent"
     }
   ],
   "seo": {
