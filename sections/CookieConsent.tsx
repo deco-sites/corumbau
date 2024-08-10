@@ -1,6 +1,6 @@
 import { useScript } from "deco/hooks/useScript.ts";
 import { useId } from "site/sdk/useId.ts";
-import IframeModal from "site/islands/IframeModal.tsx";
+import IframeModal from "../components/ui/IframeModal.tsx";
 
 const script = (id: string) => {
     const handleScroll = () => {
@@ -31,14 +31,29 @@ const script = (id: string) => {
 };
 
 interface Props {
+    /**
+     * @title Texto de consentimento
+     */
     text: string;
+    /**
+     * @title Politica de privacidade
+     */
     policy: {
+        /**
+         * @title Texto
+         */
         text: string;
+        /**
+         * @title URL
+         * @description Passe a URL da sua página de politica de privacidade. Se ela estiver no mesmo domínio que o restante do site, passe apenas /nome-da-pagina
+         */
         link: string;
     };
     buttons?: {
+        /**
+         * @title Texto do botão de consentimento
+         */
         allowText: string;
-        cancelText?: string;
     };
 }
 
@@ -52,7 +67,6 @@ function CookieConsent(
         },
         buttons = {
             allowText: "Aceitar",
-            cancelText: "Fechar",
         },
     }: Props,
 ) {

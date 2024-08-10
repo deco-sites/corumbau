@@ -1,5 +1,12 @@
 export interface Props {
+    /**
+     * @title Altura do mapa
+     */
     height: string;
+    /**
+     * @title Link do mapa
+     * @description Você pode obter esse link pelo google maps em: Compartilhar > Incorporar um mapa > Copiar o link fornecido no "src" do iframe gerado
+     */
     src: string;
 }
 

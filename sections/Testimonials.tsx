@@ -7,9 +7,17 @@ import { Title } from "site/components/ui/Title.tsx";
  */
 export interface Testimonial {
   content?: {
+    /**
+     * @title Descrição
+     */
     description?: string;
-    /** @description Image's alt text */
+    /**
+     * @title Nome do autor
+     */
     name?: string;
+    /**
+     * @title Origem do depoimento
+     */
     source?: string;
   };
 }

@@ -1,8 +1,18 @@
-import IframeModal from "site/islands/IframeModal.tsx";
+import IframeModal from "../components/ui/IframeModal.tsx";
 
 export interface Props {
+    /**
+     * @title Politica de privacidade
+     */
     policy: {
+        /**
+         * @title Texto
+         */
         text: string;
+        /**
+         * @title URL
+         * @description Passe a URL da sua página de politica de privacidade. Se ela estiver no mesmo domínio que o restante do site, passe apenas /nome-da-pagina
+         */
         link: string;
     };
 }

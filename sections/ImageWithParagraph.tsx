@@ -7,8 +7,17 @@ interface Paragraph {
 }
 
 export interface Props {
+  /**
+   * @title Paragrafo
+   */
   paragraphs?: Paragraph[];
+  /**
+   * @title Imagem
+   */
   image?: ImageWidget;
+  /**
+   * @title Posição da imagem
+   */
   placement?: "left" | "right";
 }
 

@@ -1,25 +1,57 @@
 import { useId } from "site/sdk/useId.ts";
 import Slider from "site/components/ui/Slider.tsx";
-import Icon from "site/components/ui/Icon.tsx";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { Title } from "site/components/ui/Title.tsx";
 
 export interface Image {
+    /**
+     * @title Imagem
+     */
     src: ImageWidget;
     alt: string;
+    /**
+     * @title URL
+     * @description URL para qual o card deve redirecionar ao click. Caso passe apenas /nome-da-página o usuário será redirecionado no próprio site, caso passe todo o link com http, será aberta uma nova aba
+     */
     href: string;
 }
 
+export interface Layout {
+    /**
+     * @title Numero de imagens no Mobile (Telas até 768px)
+     * @description Se nenhum valor for passado o valor default é 1 imagem
+     */
+    mobile?: 1 | 2;
+    /**
+     * @title Numero de imagens no Desktop (Telas a partir de 768px)
+     * @description Se nenhum valor for passado o valor default são 3 imagens
+     */
+    desktop?: 1 | 2 | 3 | 4 | 5;
+}
+
 export interface Props {
+    /**
+     * @title Imagens
+     */
     slides: Image[];
+    /**
+     * @title Titulo
+     */
     title?: string;
+    /**
+     * @title Intervalo do autoplay
+     * @description tempo (em segundos) para a passagem automática de testemunho. Se nada for passado, a passagem será apenas pelos controladores (dots e setas)
+     */
     interval?: number;
+    /**
+     * @title Opções de layout
+     */
     layout?: {
-        numberOfSliders?: {
-            mobile?: 1 | 2;
-            desktop?: 1 | 2 | 3 | 4 | 5;
-        };
+        /**
+         * @title numero de imagens no slide
+         */
+        numberOfSliders?: Layout;
     };
 }
 
