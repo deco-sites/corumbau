@@ -74,6 +74,38 @@
       ]
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "intersect"
+      },
+      "loading": "lazy",
+      "sections": [
+        {
+          "__resolveType": "site/sections/IconTileList.tsx",
+          "itens": [
+            {
+              "description": "<p>Para chegar ao nosso hotel de carro, siga as instruções abaixo:</p><ol><li><p>Saia da cidade pelo acesso principal à Rodovia 101.</p></li><li><p>Continue pela Rodovia 101 por aproximadamente 45 km até chegar à saída 25, onde você verá placas indicando a cidade de Vale Verde.</p></li><li><p>Pegue a saída 25 e siga as placas para Vale Verde.</p></li><li><p>Após 10 km na estrada de Vale Verde, vire à direita na Estrada do Sol.</p></li><li><p>Continue por mais 8 km até chegar ao portão principal do Hotel Paraíso Verde.</p></li></ol><p>Estacionamento gratuito está disponível para todos os hóspedes.</p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
+              "alt": "car",
+              "title": "Como Chegar ao Hotel por Carro"
+            },
+            {
+              "description": "<p>Se você está planejando chegar ao nosso hotel de helicóptero, siga as coordenadas e instruções abaixo:</p><ol><li><p>Coordenas GPS: <strong>22°54'03.2\"S 43°12'54.6\"W</strong></p></li><li><p>O heliponto do hotel está localizado ao lado da área de lazer, a uma curta distância do prédio principal.</p></li><li><p>Certifique-se de agendar seu pouso com pelo menos 24 horas de antecedência, entrando em contato com a nossa recepção para garantir que o heliponto esteja disponível.</p></li></ol><p>Nosso time estará pronto para recebê-lo e acompanhá-lo até o hotel.</p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
+              "alt": "helicoptero",
+              "title": "Como Chegar ao Hotel de Helicóptero"
+            },
+            {
+              "description": "<p>Para aqueles que preferem a experiência única de chegar de barco, siga as instruções abaixo:</p><ol><li><p>Navegue pela Baía Azul até o canal principal.</p></li><li><p>Mantenha-se à direita após a terceira boia de sinalização.</p></li><li><p>Continue pelo canal por 5 km até avistar a entrada da marina do Hotel Paraíso Verde, localizada à esquerda.</p></li><li><p>A marina está equipada com vagas para embarcações de até 30 pés. Um membro da nossa equipe estará à disposição para ajudar na atracação.</p></li></ol><p>Por favor, informe-nos com antecedência sobre sua chegada para garantirmos espaço na marina.</p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
+              "alt": "barco",
+              "title": "Como Chegar ao Hotel de Barco"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "__resolveType": "Footer"
     },
     {
