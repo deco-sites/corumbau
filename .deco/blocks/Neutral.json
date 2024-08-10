@@ -26,42 +26,8 @@
     "info": "#2e72d2"
   },
   "font": {
-    "__resolveType": "website/loaders/fonts/googleFonts.ts",
-    "fonts": [
-      {
-        "variations": [
-          {
-            "weight": "100",
-            "italic": false
-          },
-          {
-            "weight": "200"
-          },
-          {
-            "weight": "300"
-          },
-          {
-            "weight": "400"
-          },
-          {
-            "weight": "500"
-          },
-          {
-            "weight": "600"
-          },
-          {
-            "weight": "700"
-          },
-          {
-            "weight": "800"
-          },
-          {
-            "weight": "900"
-          }
-        ],
-        "family": "Albert Sans"
-      }
-    ]
+    "family": "Sense",
+    "styleSheet": "@font-face {   font-family: 'Sense';   font-style: normal;   font-weight: 700;   font-display: swap;   src: url('Sense-Bold.woff') format('woff'); }  @font-face {   font-family: 'Sense';   font-style: normal;   font-weight: 200;   font-display: swap;   src: url('Sense-ExtraLight.woff') format('woff'); }  @font-face {   font-family: 'Sense';   font-style: normal;   font-weight: 300;   font-display: swap;   src: url('Sense-Light.woff') format('woff'); }  @font-face {   font-family: 'Sense';   font-style: normal;   font-weight: 400;   font-display: swap;   src: url('Sense-Reg.woff') format('woff'); }  @font-face {   font-family: 'Sense';   font-style: normal;   font-weight: 100;   font-display: swap;   src: url('Sense-Thin.woff') format('woff'); }"
   },
   "mode": "light",
   "complementaryColors": {
