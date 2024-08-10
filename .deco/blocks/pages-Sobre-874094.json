@@ -121,6 +121,9 @@
     {
       "__resolveType": "website/sections/Seo/Seo.tsx",
       "title": "Corumbau | Sobre"
+    },
+    {
+      "__resolveType": "cookie-consent"
     }
   ],
   "seo": {

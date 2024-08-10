@@ -136,6 +136,9 @@
     {
       "__resolveType": "website/sections/Seo/Seo.tsx",
       "title": "Corumbau | Gastronomia"
+    },
+    {
+      "__resolveType": "cookie-consent"
     }
   ],
   "seo": {
