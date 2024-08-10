@@ -60,6 +60,20 @@
       "loading": "lazy"
     },
     {
+      "__resolveType": "htmx/sections/Deferred.tsx",
+      "trigger": {
+        "type": "intersect"
+      },
+      "loading": "lazy",
+      "sections": [
+        {
+          "__resolveType": "site/sections/Map.tsx",
+          "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589.4351432855012!2d-39.11337417753197!3d-16.8957935476113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7343bd55d4931f3%3A0xfe10b5a3918b45a3!2sPonta%20do%20Corumbau!5e0!3m2!1spt-BR!2sbr!4v1723249982221!5m2!1spt-BR!2sbr",
+          "height": "300"
+        }
+      ]
+    },
+    {
       "__resolveType": "Footer"
     },
     {
