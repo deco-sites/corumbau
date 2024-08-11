@@ -51,6 +51,7 @@ export interface Nav {
      */
     button?: CTA;
   };
+  languageVersion: "PT" | "ENG" | "ES";
 }
 
 export default function Header({
@@ -68,6 +69,7 @@ export default function Header({
     ],
     button: { id: "change-me-1", href: "/", text: "Change me" },
   },
+  languageVersion = "PT",
   pathname,
 }: ReturnType<typeof loader>) {
   function script() {
@@ -126,12 +128,12 @@ export default function Header({
                 </a>
                 {!!link.children?.length && (
                   <div class="hidden group-hover:flex">
-                    <ul class=" absolute top-[20px] left-0 bg-white bg-opacity-80 py-3 px-4 text-neutral text-xs flex flex-col gap-2 tracking-widest">
+                    <ul class=" absolute top-[20px] left-0 bg-white bg-opacity-80 py-3 px-4 text-neutral text-xs flex flex-col gap-2 tracking-widest min-w-40">
                       {link.children.map((childLink) => (
                         <a
                           href={childLink.url}
                           aria-label={childLink.label}
-                          class="link no-underline text-xs whitespace-nowrap tracking-widest"
+                          class="link no-underline text-xs tracking-widest"
                         >
                           {childLink.label}
                         </a>
@@ -143,7 +145,7 @@ export default function Header({
             ))}
           </ul>
           {/* TODO: add internationalization logic */}
-          <InternationalizationController />
+          <InternationalizationController languageVersion={languageVersion} />
           <ul class="flex gap-3">
             {navigation.button && (
               <CommonButton

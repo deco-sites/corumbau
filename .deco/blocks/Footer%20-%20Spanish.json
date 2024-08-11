@@ -1,0 +1,31 @@
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "reservation": {
+    "title": "Reservas e Información",
+    "phone": "+55 11 3078 4411",
+    "email": "reservas@corumbau.com.br"
+  },
+  "address": {
+    "title": "Dirección",
+    "text": "<p><span style=\"color: rgb(108, 105, 97); font-size: 11px\">Ponta do Corumbau, s/nº</span></p><p><span style=\"color: rgb(108, 105, 97); font-size: 11px\">Prado - BAHIA, Brasil</span></p><p><span style=\"color: rgb(108, 105, 97); font-size: 11px\">+55 73 3294 2250</span></p>"
+  },
+  "privacyTerms": {
+    "label": "Política de Privacidad",
+    "href": "/politica_privacidade"
+  },
+  "socials": [
+    {
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/06c6d6be-154b-453b-bb5b-139a8fbe3df8",
+      "href": "https://www.tripadvisor.es/Hotel_Review-g3844154-d1021193-Reviews-Fazenda_Sao_Francisco_Do_Corumbau-Ponta_do_Corumbau_State_of_Bahia.html"
+    },
+    {
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/461e42ea-2613-4c85-b191-2f151cc5b1b1",
+      "href": "https://www.facebook.com/FazendaSaoFranciscodoCorumbau/"
+    },
+    {
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/65e3dfe2-2778-4f53-b3c8-fc7b4dd60392",
+      "href": "https://www.instagram.com/saofranciscodocorumbau/"
+    }
+  ],
+  "copyright": "© Corumbau 2024 Todos los derechos reservados"
+}

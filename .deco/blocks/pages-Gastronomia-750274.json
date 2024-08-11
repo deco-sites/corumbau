@@ -1,148 +1,468 @@
 {
   "name": "Gastronomia",
   "path": "/gastronomia",
-  "sections": [
-    {
-      "__resolveType": "Header"
-    },
-    {
-      "__resolveType": "site/sections/Hero.tsx",
-      "title": "Os sabores da Bahia com toque internacional",
-      "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cc7244d1-a1f4-4db1-b9dd-397690b5ba33",
-      "size": "medio"
-    },
-    {
-      "__resolveType": "htmx/sections/Deferred.tsx",
-      "sections": [
-        {
-          "__resolveType": "site/sections/LabelText.tsx",
-          "title": "Comer e beber",
-          "description": "Com produtos colhidos de uma horta orgânica própria e peixes e frutos do mar pescados em Corumbau, a gastronomia da Fazenda prima pelo alto padrão de qualidade.",
-          "size": "Medio",
-          "growth": "Metade",
-          "alignment": "Esquerda"
-        }
-      ],
-      "trigger": {
-        "type": "intersect"
-      },
-      "loading": "lazy"
-    },
-    {
-      "__resolveType": "htmx/sections/Deferred.tsx",
-      "sections": [
-        {
-          "__resolveType": "site/sections/Carousel.tsx",
-          "slides": [
-            {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/43240760-f5bb-4e49-9027-75c2023c33a4",
-              "alt": "slide1"
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "Header - Spanish"
+          },
+          {
+            "__resolveType": "site/sections/Hero.tsx",
+            "title": "Los sabores de Bahia con un toque internacional",
+            "cta": [],
+            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cc7244d1-a1f4-4db1-b9dd-397690b5ba33",
+            "size": "medio"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/LabelText.tsx",
+                "title": "Comida y Bebidas",
+                "description": "Con los productos orgánicos recién cosechados de la Fazenda, pescado y mariscos locales, ofrecemos alta calidad y una cocina refinada.",
+                "size": "Medio",
+                "growth": "Metade",
+                "alignment": "Esquerda"
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
             },
-            {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b3c67cb5-2e38-479a-98b3-6e0822b281a5",
-              "alt": "slide2"
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/Carousel.tsx",
+                "slides": [
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/43240760-f5bb-4e49-9027-75c2023c33a4",
+                    "alt": "slide1"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b3c67cb5-2e38-479a-98b3-6e0822b281a5",
+                    "alt": "slide2"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9119ef4-772e-44d7-86d6-311b0d433733",
+                    "alt": "slide3"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f7e943a7-b706-4d30-a7fa-522e28a01bc6",
+                    "alt": "slide4"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/eec4481c-b3f8-479f-8c8c-18ea0ad187b0",
+                    "alt": "slide5"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4a761bea-3586-4e12-bec8-333e55868798",
+                    "alt": "slide6"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/920ac7bf-d760-44ac-b956-b147c372898c",
+                    "alt": "slide7"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/297029f3-ed91-4f75-80fe-7d312cba8929",
+                    "alt": "slide8"
+                  },
+                  {
+                    "alt": "slide9",
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/974d0f30-4a1a-4374-8a7d-477454b0641e"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/46f77d9c-7f85-4b70-a845-9c7ba87b3e0e",
+                    "alt": "slide10"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/80cd5aa6-1092-4c88-9eef-24269209b208",
+                    "alt": "slide11"
+                  }
+                ]
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
             },
-            {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9119ef4-772e-44d7-86d6-311b0d433733",
-              "alt": "slide3"
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/ImageWithParagraph.tsx",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d63654f5-e492-42e7-8cb9-9e4a03db88ed",
+                "placement": "left",
+                "paragraphs": [
+                  {
+                    "text": "Mientras que el desayuno incluye deliciosas delicias como pasteles, panes, tapiocas, quesos y jugos de frutas locales, los menús de almuerzo y cena ofrecen dos opciones de aperitivos, platos principales y postres."
+                  },
+                  {
+                    "text": "En un ambiente encantador y acogedor, el restaurante está en manos del talentoso chef Teco. Sus recetas combinan perfectamente el sabor local bahiano con la más fina cocina internacional."
+                  }
+                ]
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
             },
-            {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f7e943a7-b706-4d30-a7fa-522e28a01bc6",
-              "alt": "slide4"
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/ImageWithParagraph.tsx",
+                "paragraphs": [
+                  {
+                    "text": "El hotel también ofrece menús para vegetarianos, personas con intolerancia a la lactosa y celíacos, todos creados en colaboración con la chef Patricia Helu."
+                  },
+                  {
+                    "text": "Otro punto destacado es nuestra carta de vinos, con aproximadamente 35 tipos de varias regiones del mundo. Todos se conservan en una bodega climatizada. Nuestra selección incluye vinos tintos, blancos y rosados que han sido cuidadosamente elegidos para complementar el aclamado menú de la Fazenda."
+                  }
+                ],
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dfb57051-aea5-4a33-bab0-37ab1898f859",
+                "placement": "right"
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
             },
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "Footer - Spanish"
+          },
+          {
+            "__resolveType": "website/sections/Seo/Seo.tsx",
+            "title": "Corumbau | Gastronomía"
+          },
+          {
+            "__resolveType": "Cookie Consent - Spanish"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/multi.ts",
+          "op": "or",
+          "matchers": [
             {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/eec4481c-b3f8-479f-8c8c-18ea0ad187b0",
-              "alt": "slide5"
-            },
-            {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4a761bea-3586-4e12-bec8-333e55868798",
-              "alt": "slide6"
-            },
-            {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/920ac7bf-d760-44ac-b956-b147c372898c",
-              "alt": "slide7"
-            },
-            {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/297029f3-ed91-4f75-80fe-7d312cba8929",
-              "alt": "slide8"
-            },
-            {
-              "alt": "slide9",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/974d0f30-4a1a-4374-8a7d-477454b0641e"
-            },
-            {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/46f77d9c-7f85-4b70-a845-9c7ba87b3e0e",
-              "alt": "slide10"
-            },
-            {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/80cd5aa6-1092-4c88-9eef-24269209b208",
-              "alt": "slide11"
+              "__resolveType": "website/matchers/cookie.ts",
+              "name": "language",
+              "value": "es-ES"
             }
           ]
         }
-      ],
-      "trigger": {
-        "type": "intersect"
       },
-      "loading": "lazy"
-    },
-    {
-      "__resolveType": "htmx/sections/Deferred.tsx",
-      "sections": [
-        {
-          "__resolveType": "site/sections/ImageWithParagraph.tsx",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d63654f5-e492-42e7-8cb9-9e4a03db88ed",
-          "placement": "left",
-          "paragraphs": [
-            {
-              "text": "Enquanto o café da manhã combina delícias como bolos, pães, tapiocas, queijos e sucos de frutas regionais, o menu do almoço e do jantar sempre traz duas opções de entrada, de prato principal e sobremesa."
+      {
+        "value": [
+          {
+            "__resolveType": "Header - English"
+          },
+          {
+            "__resolveType": "site/sections/Hero.tsx",
+            "title": "The flavors of Bahia with an international touch",
+            "cta": [],
+            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cc7244d1-a1f4-4db1-b9dd-397690b5ba33",
+            "size": "medio"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/LabelText.tsx",
+                "title": "Food and Beverage",
+                "description": "With the Fazenda’s freshly-picked organic produce, local fish and seafood, we offer high quality and fine cuisine.",
+                "size": "Medio",
+                "growth": "Metade",
+                "alignment": "Esquerda"
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
             },
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/Carousel.tsx",
+                "slides": [
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/43240760-f5bb-4e49-9027-75c2023c33a4",
+                    "alt": "slide1"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b3c67cb5-2e38-479a-98b3-6e0822b281a5",
+                    "alt": "slide2"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9119ef4-772e-44d7-86d6-311b0d433733",
+                    "alt": "slide3"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f7e943a7-b706-4d30-a7fa-522e28a01bc6",
+                    "alt": "slide4"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/eec4481c-b3f8-479f-8c8c-18ea0ad187b0",
+                    "alt": "slide5"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4a761bea-3586-4e12-bec8-333e55868798",
+                    "alt": "slide6"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/920ac7bf-d760-44ac-b956-b147c372898c",
+                    "alt": "slide7"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/297029f3-ed91-4f75-80fe-7d312cba8929",
+                    "alt": "slide8"
+                  },
+                  {
+                    "alt": "slide9",
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/974d0f30-4a1a-4374-8a7d-477454b0641e"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/46f77d9c-7f85-4b70-a845-9c7ba87b3e0e",
+                    "alt": "slide10"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/80cd5aa6-1092-4c88-9eef-24269209b208",
+                    "alt": "slide11"
+                  }
+                ]
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
+            },
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/ImageWithParagraph.tsx",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d63654f5-e492-42e7-8cb9-9e4a03db88ed",
+                "placement": "left",
+                "paragraphs": [
+                  {
+                    "text": "While breakfast is made of delicious treats such as cakes, breads, tapiocas, cheeses and juices local fruit juices, the lunch and dinner menus offer two options of appetizers, main courses and desserts."
+                  },
+                  {
+                    "text": "In a charming and warming ambiance, the restaurant is in the very capable hands of chef Teco. His recipes blend local Bahian flavor and the finest international cuisine perfectly."
+                  }
+                ]
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
+            },
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/ImageWithParagraph.tsx",
+                "paragraphs": [
+                  {
+                    "text": "The hotel also offers menus for vegetarians, those who are lactose intolerant and celiacs, all created together with the chef Patricia Helu."
+                  },
+                  {
+                    "text": "Another highlight is our wine list with approximately 35 types from several regions around the world. All are kept in a climate-controlled wine cellar. Our selection includes red, white and rosé wines that have been carefully selected to complement the Fazenda’s celebrated menu."
+                  }
+                ],
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dfb57051-aea5-4a33-bab0-37ab1898f859",
+                "placement": "right"
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
+            },
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "Footer - English"
+          },
+          {
+            "__resolveType": "website/sections/Seo/Seo.tsx",
+            "title": "Corumbau | Dining"
+          },
+          {
+            "__resolveType": "Cookie Consent - English"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/multi.ts",
+          "op": "or",
+          "matchers": [
             {
-              "text": "Com ambiente charmoso e acolhedor, o restaurante é comandado pelo chef Teco. Suas receitas mesclam com perfeição os sabores da Bahia com a mais refinada culinária internacional."
+              "__resolveType": "website/matchers/cookie.ts",
+              "name": "language",
+              "value": "en-US"
             }
           ]
         }
-      ],
-      "trigger": {
-        "type": "intersect"
       },
-      "loading": "lazy"
-    },
-    {
-      "__resolveType": "htmx/sections/Deferred.tsx",
-      "sections": [
-        {
-          "__resolveType": "site/sections/ImageWithParagraph.tsx",
-          "paragraphs": [
-            {
-              "text": "O hotel também oferece cardápio vegetariano, vegano, sem glúten e sem lactose desenvolvido em parceria com a chef Patricia Helu."
+      {
+        "value": [
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "site/sections/Hero.tsx",
+            "title": "Os sabores da Bahia com toque internacional",
+            "cta": [],
+            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cc7244d1-a1f4-4db1-b9dd-397690b5ba33",
+            "size": "medio"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/LabelText.tsx",
+                "title": "Comer e beber",
+                "description": "Com produtos colhidos de uma horta orgânica própria e peixes e frutos do mar pescados em Corumbau, a gastronomia da Fazenda prima pelo alto padrão de qualidade.",
+                "size": "Medio",
+                "growth": "Metade",
+                "alignment": "Esquerda"
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
             },
-            {
-              "text": "Destaque para a carta de vinhos com cerca de 35 rótulos de várias regiões do mundo que ficam acomodados em uma adega climatizada. Há opções de tintos, brancos e rosés cuidadosamente selecionados para harmonizar com a diferenciada culinária da Fazenda."
-            }
-          ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dfb57051-aea5-4a33-bab0-37ab1898f859",
-          "placement": "right"
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/Carousel.tsx",
+                "slides": [
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/43240760-f5bb-4e49-9027-75c2023c33a4",
+                    "alt": "slide1"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b3c67cb5-2e38-479a-98b3-6e0822b281a5",
+                    "alt": "slide2"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9119ef4-772e-44d7-86d6-311b0d433733",
+                    "alt": "slide3"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f7e943a7-b706-4d30-a7fa-522e28a01bc6",
+                    "alt": "slide4"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/eec4481c-b3f8-479f-8c8c-18ea0ad187b0",
+                    "alt": "slide5"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4a761bea-3586-4e12-bec8-333e55868798",
+                    "alt": "slide6"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/920ac7bf-d760-44ac-b956-b147c372898c",
+                    "alt": "slide7"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/297029f3-ed91-4f75-80fe-7d312cba8929",
+                    "alt": "slide8"
+                  },
+                  {
+                    "alt": "slide9",
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/974d0f30-4a1a-4374-8a7d-477454b0641e"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/46f77d9c-7f85-4b70-a845-9c7ba87b3e0e",
+                    "alt": "slide10"
+                  },
+                  {
+                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/80cd5aa6-1092-4c88-9eef-24269209b208",
+                    "alt": "slide11"
+                  }
+                ]
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
+            },
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/ImageWithParagraph.tsx",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d63654f5-e492-42e7-8cb9-9e4a03db88ed",
+                "placement": "left",
+                "paragraphs": [
+                  {
+                    "text": "Enquanto o café da manhã combina delícias como bolos, pães, tapiocas, queijos e sucos de frutas regionais, o menu do almoço e do jantar sempre traz duas opções de entrada, de prato principal e sobremesa."
+                  },
+                  {
+                    "text": "Com ambiente charmoso e acolhedor, o restaurante é comandado pelo chef Teco. Suas receitas mesclam com perfeição os sabores da Bahia com a mais refinada culinária internacional."
+                  }
+                ]
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
+            },
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "htmx/sections/Deferred.tsx",
+            "sections": [
+              {
+                "__resolveType": "site/sections/ImageWithParagraph.tsx",
+                "paragraphs": [
+                  {
+                    "text": "O hotel também oferece cardápio vegetariano, vegano, sem glúten e sem lactose desenvolvido em parceria com a chef Patricia Helu."
+                  },
+                  {
+                    "text": "Destaque para a carta de vinhos com cerca de 35 rótulos de várias regiões do mundo que ficam acomodados em uma adega climatizada. Há opções de tintos, brancos e rosés cuidadosamente selecionados para harmonizar com a diferenciada culinária da Fazenda."
+                  }
+                ],
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dfb57051-aea5-4a33-bab0-37ab1898f859",
+                "placement": "right"
+              }
+            ],
+            "trigger": {
+              "type": "intersect"
+            },
+            "loading": "lazy"
+          },
+          {
+            "__resolveType": "Footer"
+          },
+          {
+            "__resolveType": "website/sections/Seo/Seo.tsx",
+            "title": "Corumbau | Gastronomia"
+          },
+          {
+            "__resolveType": "cookie-consent"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
         }
-      ],
-      "trigger": {
-        "type": "intersect"
-      },
-      "loading": "lazy"
-    },
-    {
-      "__resolveType": "Footer"
-    },
-    {
-      "__resolveType": "website/sections/Seo/Seo.tsx",
-      "title": "Corumbau | Gastronomia"
-    },
-    {
-      "__resolveType": "cookie-consent"
-    }
-  ],
+      }
+    ]
+  },
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },

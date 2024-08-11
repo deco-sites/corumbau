@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import IframeModal from "site/components/ui/IframeModal.tsx";
 
 interface Social {
   /**
@@ -12,26 +13,40 @@ interface Social {
   href: string;
 }
 
-export interface Props {
+interface Reservation {
   /**
-   * @title Reserva
+   * @title Titulo
    */
-  reservation: {
-    /**
-     * @title Telefone
-     */
-    phone: string;
-    /**
-     * @title Email
-     */
-    email: string;
-  };
+  title: string;
+  /**
+   * @title Telefone
+   */
+  phone: string;
+  /**
+   * @title Email
+   */
+  email: string;
+}
+
+interface Address {
+  /**
+   * @title Titulo
+   */
+  title: string;
   /**
    * @title Endereço
    * @description Atenção! Adicionar estilos no editor pode sobrescrever a estilização padrão do texto
    * @format rich-text
    */
-  address: string;
+  text: string;
+}
+
+export interface Props {
+  /**
+   * @title Reserva
+   */
+  reservation: Reservation;
+  address: Address;
   copyright?: string;
   /**
    * @title Política de Privacidade
@@ -54,10 +69,14 @@ export interface Props {
 
 export default function Footer({
   reservation = {
+    title: "RESERVAS E INFORMAÇÕES",
     phone: "00 0000-0000",
     email: "johndoe@gmail.com",
   },
-  address = "Ponta do Corumbau, s/nº Prado - BAHIA, Brasil +55 73 3294 2250",
+  address = {
+    title: "ENDEREÇO",
+    text: "Ponta do Corumbau, s/nº Prado - BAHIA, Brasil +55 73 3294 2250",
+  },
 
   copyright = "© 2024 deco.cx. All rights reserved.",
   privacyTerms = {
@@ -93,9 +112,9 @@ export default function Footer({
       <div class="text-sm border-t border-accent w-full lg:mt-10">
         <div class="flex flex-col gap-20 max-w-[85%] mx-auto w-full py-10">
           <div class="flex flex-col gap-6 justify-between lg:flex-row">
-            <div class="flex flex-col gap-[25px] tracking-widest">
-              <h4 class="text-secondary font-bold text-base">
-                RESERVAS E INFORMAÇÕES
+            <div class="flex flex-col gap-[25px] tracking-widest w-[250px]">
+              <h4 class="text-secondary font-bold text-base uppercase">
+                {reservation.title}
               </h4>
               <div class="flex flex-col gap-4">
                 <p class="text-primary font-bold text-base">
@@ -127,10 +146,12 @@ export default function Footer({
               ))}
             </div>
             <div class="flex flex-col gap-[25px] tracking-widest">
-              <h4 class="text-secondary font-bold text-base">ENDEREÇO</h4>
+              <h4 class="text-secondary font-bold text-base uppercase">
+                {address.title}
+              </h4>
 
               <div
-                dangerouslySetInnerHTML={{ __html: address }}
+                dangerouslySetInnerHTML={{ __html: address.text }}
                 class="flex flex-col gap-4 text-[13px] text-neutral font-extralight"
               />
             </div>
@@ -140,12 +161,11 @@ export default function Footer({
           <div class="py-5 max-w-[85%] mx-auto w-full text-white">
             <span class="text-xs flex gap-4">
               <p>{copyright}</p>
-              <a
-                class="opacity-1 hover:opacity-70 transition-all duration-300"
-                href={privacyTerms.href}
-              >
-                {privacyTerms.label}
-              </a>
+              <IframeModal
+                iframeLink={privacyTerms.href}
+                buttonText={privacyTerms.label}
+                customClass="opacity-1 hover:opacity-70 transition-all duration-300"
+              />
             </span>
           </div>
         </div>

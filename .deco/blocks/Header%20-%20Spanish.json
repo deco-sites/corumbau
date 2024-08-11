@@ -15,45 +15,45 @@
       {
         "children": [
           {
-            "label": "Super Deluxe Bungalows",
-            "url": "/quarto"
+            "url": "/quarto",
+            "label": "Super Bungalows Deluxe"
           },
           {
-            "label": "Deluxe Suites in Bungalows",
+            "label": "Deluxe Suite en Bungalow",
             "url": "/quarto2"
           },
           {
-            "label": "Deluxe Suites in The Main House",
+            "label": "Deluxe Suite en la Casa Principal",
             "url": "/quarto3"
           }
         ],
-        "label": "ROOMS",
+        "label": "HABITACIONES",
         "url": "/quartos"
       },
       {
         "children": [],
-        "label": "DINING",
+        "label": "GASTRONOMÍA",
         "url": "/gastronomia"
       },
       {
         "children": [],
-        "label": "SPECIAL OFFERS",
+        "label": "ESPECIALES",
         "url": "/especiais"
       },
       {
         "children": [],
-        "label": "CONTACT",
+        "label": "CONTACTO",
         "url": "/contato"
       }
     ],
     "button": {
       "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
-      "text": "BOOK NOW"
+      "text": "RESERVAR"
     }
   },
+  "languageVersion": "ES",
   "logo": {
     "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c1389e3d-8e87-43c0-8fb5-b4ef4a05580a",
     "alt": "corumbau icon"
-  },
-  "languageVersion": "ENG"
+  }
 }

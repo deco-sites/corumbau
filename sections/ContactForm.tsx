@@ -1,32 +1,74 @@
 import IframeModal from "../components/ui/IframeModal.tsx";
 
+interface Policy {
+    /**
+     * @title Descrição
+     */
+    description: string;
+    /**
+     * @title Texto
+     */
+    text: string;
+    /**
+     * @title URL
+     * @description Passe a URL da sua página de politica de privacidade. Se ela estiver no mesmo domínio que o restante do site, passe apenas /nome-da-pagina
+     */
+    link: string;
+}
+
+interface FormLabel {
+    /**
+     * @title Input Nome
+     */
+    name: string;
+    /**
+     * @title Input Email
+     */
+    email: string;
+    /**
+     * @title Input Telefone
+     */
+    phone: string;
+    /**
+     * @title Textarea de mensagem
+     */
+    message: string;
+    /**
+     * @title Texto do botão
+     */
+    button: string;
+}
+
 export interface Props {
     /**
      * @title Politica de privacidade
      */
-    policy: {
-        /**
-         * @title Texto
-         */
-        text: string;
-        /**
-         * @title URL
-         * @description Passe a URL da sua página de politica de privacidade. Se ela estiver no mesmo domínio que o restante do site, passe apenas /nome-da-pagina
-         */
-        link: string;
-    };
+    policy: Policy;
+    /**
+     * @title Placeholders dos inputs
+     * @description Definirá os placeholders que será exibido em cada input do formulário
+     */
+    formLabels: FormLabel;
 }
 
 const DEFAULT_PROPS: Props = {
     policy: {
+        description: "Aceito os termos de uso dos dados conforme indicado na",
         text:
             "Sua privacidade é importante para nós. Leia nossa política para entender como coletamos e usamos seus dados.",
         link: "/politica_privacidade",
     },
+    formLabels: {
+        email: "Se email",
+        message: "Deixe sua mensagem aqui...",
+        name: "Seu nome",
+        phone: "Seu telefone",
+        button: "Enviar",
+    },
 };
 
 export default function ContactForm(props: Props) {
-    const { policy } = { ...DEFAULT_PROPS, ...props };
+    const { policy, formLabels } = { ...DEFAULT_PROPS, ...props };
 
     return (
         <div class="w-full flex justify-center pt-10 fade-in-down">
@@ -38,7 +80,7 @@ export default function ContactForm(props: Props) {
                                 class="pb-5 border-b border-base-gray w-full focus:border-b-primary focus:outline-none text-base-gray"
                                 type="text"
                                 name="name"
-                                placeholder="Seu nome*"
+                                placeholder={`${formLabels.name}*`}
                                 arial-label="Seu nome"
                             />
                         </div>
@@ -47,7 +89,7 @@ export default function ContactForm(props: Props) {
                                 class="pb-5 border-b border-base-gray w-full focus:border-b-primary focus:outline-none text-base-gray"
                                 type="email"
                                 name="email"
-                                placeholder="Seu email*"
+                                placeholder={`${formLabels.email}*`}
                                 arial-label="Seu email"
                             />
                         </div>
@@ -56,7 +98,7 @@ export default function ContactForm(props: Props) {
                                 class="pb-5 border-b border-base-gray w-full focus:border-b-primary focus:outline-none text-base-gray"
                                 type="tel"
                                 name="phone"
-                                placeholder="Seu telefone*"
+                                placeholder={`${formLabels.phone}*`}
                                 arial-label="Seu telefone"
                             />
                         </div>
@@ -66,7 +108,7 @@ export default function ContactForm(props: Props) {
                             <textarea
                                 class="p-9 bg-accent w-full h-80 text-area focus:outline-none"
                                 name="message"
-                                placeholder="Deixe sua mensagem aqui..."
+                                placeholder={`${formLabels.message}*`}
                             >
                             </textarea>
                             <span>
@@ -85,8 +127,8 @@ export default function ContactForm(props: Props) {
                                     style="width: initial;"
                                 />{" "}
                                 <label for="accept">
-                                    Aceito os termos de uso dos dados conforme
-                                    indicado na{" "}
+                                    {policy.description}
+                                    {" "}
                                 </label>
                                 <IframeModal
                                     buttonText={policy.text}
@@ -99,7 +141,7 @@ export default function ContactForm(props: Props) {
                     <button
                         class={`font-normal mt-7 text-center text-base bg-primary text-white rounded-sm py-[15px] transition-all duration-300 px-5 min-w-36 hover:bg-secondary`}
                     >
-                        Enviar
+                        {formLabels.button}
                     </button>
                 </form>
             </div>

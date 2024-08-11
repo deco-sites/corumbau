@@ -1,0 +1,11 @@
+{
+  "__resolveType": "site/sections/CookieConsent.tsx",
+  "policy": {
+    "text": "Privacy Policy",
+    "link": "/politica_privacidade"
+  },
+  "text": "We use cookies to ensure the best browsing experience. By continuing on our website, you agree with our ",
+  "buttons": {
+    "allowText": "I AGREE"
+  }
+}
