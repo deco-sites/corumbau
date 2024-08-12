@@ -18,106 +18,88 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "El Hotel",
-                "description": "Ubicado en una extensa franja de arena a lo largo de la costa."
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "El Hotel",
+              "description": "Ubicado en una extensa franja de arena a lo largo de la costa."
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Carousel.tsx",
-                "slides": [
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26",
-                    "alt": "slider1"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72",
-                    "alt": "slider2"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c",
-                    "alt": "slider3"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045",
-                    "alt": "slider4"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb",
-                    "alt": "slider5"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a",
-                    "alt": "slider6"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390",
-                    "alt": "slider7"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11",
-                    "alt": "slider8"
-                  },
-                  {
-                    "alt": "slider9",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73",
-                    "alt": "slider10"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3",
-                    "alt": "slider11"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8",
-                    "alt": "slider12"
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "eager"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26",
+                  "alt": "slider1"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72",
+                  "alt": "slider2"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c",
+                  "alt": "slider3"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045",
+                  "alt": "slider4"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb",
+                  "alt": "slider5"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a",
+                  "alt": "slider6"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390",
+                  "alt": "slider7"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11",
+                  "alt": "slider8"
+                },
+                {
+                  "alt": "slider9",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73",
+                  "alt": "slider10"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3",
+                  "alt": "slider11"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8",
+                  "alt": "slider12"
+                }
+              ]
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/ImageWithParagraph.tsx",
-                "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
-                "placement": "left",
-                "paragraph": [
-                  null
-                ],
-                "paragraphs": [
-                  {
-                    "text": "Situada en una extensión de 167 hectáreas, la Fazenda combina el lujo de un hotel con la comodidad y la elegancia informal de una casa de playa."
-                  },
-                  {
-                    "text": "Este proyecto del arquitecto Roberto Migotto combina recursos modernos de infraestructura con la vastedad y la exuberancia del entorno natural."
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
+              "placement": "left",
+              "paragraph": [
+                null
+              ],
+              "paragraphs": [
+                {
+                  "text": "Situada en una extensión de 167 hectáreas, la Fazenda combina el lujo de un hotel con la comodidad y la elegancia informal de una casa de playa."
+                },
+                {
+                  "text": "Este proyecto del arquitecto Roberto Migotto combina recursos modernos de infraestructura con la vastedad y la exuberancia del entorno natural."
+                }
+              ]
+            }
           },
           {
             "__resolveType": "Footer - Spanish"
@@ -156,106 +138,88 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "The Hotel",
-                "description": "Located in an extensive strip of sand along the seashore."
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "The Hotel",
+              "description": "Located in an extensive strip of sand along the seashore."
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Carousel.tsx",
-                "slides": [
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26",
-                    "alt": "slider1"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72",
-                    "alt": "slider2"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c",
-                    "alt": "slider3"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045",
-                    "alt": "slider4"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb",
-                    "alt": "slider5"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a",
-                    "alt": "slider6"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390",
-                    "alt": "slider7"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11",
-                    "alt": "slider8"
-                  },
-                  {
-                    "alt": "slider9",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73",
-                    "alt": "slider10"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3",
-                    "alt": "slider11"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8",
-                    "alt": "slider12"
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "eager"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26",
+                  "alt": "slider1"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72",
+                  "alt": "slider2"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c",
+                  "alt": "slider3"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045",
+                  "alt": "slider4"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb",
+                  "alt": "slider5"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a",
+                  "alt": "slider6"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390",
+                  "alt": "slider7"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11",
+                  "alt": "slider8"
+                },
+                {
+                  "alt": "slider9",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73",
+                  "alt": "slider10"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3",
+                  "alt": "slider11"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8",
+                  "alt": "slider12"
+                }
+              ]
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/ImageWithParagraph.tsx",
-                "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
-                "placement": "left",
-                "paragraph": [
-                  null
-                ],
-                "paragraphs": [
-                  {
-                    "text": "Set amid an area of 167 hectares, the Fazenda blends the luxury of a hotel with the comfort and casual elegance of a beach house."
-                  },
-                  {
-                    "text": "This project by architect Roberto Migotto combines modern infrastructure resources with the vastness and the lushness of the natural surroundings."
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
+              "placement": "left",
+              "paragraph": [
+                null
+              ],
+              "paragraphs": [
+                {
+                  "text": "Set amid an area of 167 hectares, the Fazenda blends the luxury of a hotel with the comfort and casual elegance of a beach house."
+                },
+                {
+                  "text": "This project by architect Roberto Migotto combines modern infrastructure resources with the vastness and the lushness of the natural surroundings."
+                }
+              ]
+            }
           },
           {
             "__resolveType": "Footer - English"
@@ -294,106 +258,88 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "O Hotel",
-                "description": "Situado numa extensa faixa de areia que avança sobre o mar."
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "O Hotel",
+              "description": "Situado numa extensa faixa de areia que avança sobre o mar."
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Carousel.tsx",
-                "slides": [
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26",
-                    "alt": "slider1"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72",
-                    "alt": "slider2"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c",
-                    "alt": "slider3"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045",
-                    "alt": "slider4"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb",
-                    "alt": "slider5"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a",
-                    "alt": "slider6"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390",
-                    "alt": "slider7"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11",
-                    "alt": "slider8"
-                  },
-                  {
-                    "alt": "slider9",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73",
-                    "alt": "slider10"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3",
-                    "alt": "slider11"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8",
-                    "alt": "slider12"
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "eager"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26",
+                  "alt": "slider1"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72",
+                  "alt": "slider2"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c",
+                  "alt": "slider3"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045",
+                  "alt": "slider4"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb",
+                  "alt": "slider5"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a",
+                  "alt": "slider6"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390",
+                  "alt": "slider7"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11",
+                  "alt": "slider8"
+                },
+                {
+                  "alt": "slider9",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73",
+                  "alt": "slider10"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3",
+                  "alt": "slider11"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8",
+                  "alt": "slider12"
+                }
+              ]
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/ImageWithParagraph.tsx",
-                "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
-                "placement": "left",
-                "paragraph": [
-                  null
-                ],
-                "paragraphs": [
-                  {
-                    "text": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia."
-                  },
-                  {
-                    "text": "O projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local."
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
+              "placement": "left",
+              "paragraph": [
+                null
+              ],
+              "paragraphs": [
+                {
+                  "text": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia."
+                },
+                {
+                  "text": "O projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local."
+                }
+              ]
+            }
           },
           {
             "__resolveType": "Footer"

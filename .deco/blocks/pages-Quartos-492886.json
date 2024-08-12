@@ -16,51 +16,39 @@
             "title": "¡Privacidad Total!"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Las Habitaciones",
-                "description": "La Fazenda São Francisco do Corumbau cuenta con solo 10 habitaciones y ofrece total privacidad para sus huéspedes. La combinación adecuada de muebles hermosos y funcionales crea el ambiente perfecto, amplias terrazas con impresionantes vistas al océano, infraestructura moderna combinada con la simplicidad de la naturaleza misma: el contraste perfecto para tu bienestar.",
-                "size": "Medio"
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Las Habitaciones",
+              "description": "La Fazenda São Francisco do Corumbau cuenta con solo 10 habitaciones y ofrece total privacidad para sus huéspedes. La combinación adecuada de muebles hermosos y funcionales crea el ambiente perfecto, amplias terrazas con impresionantes vistas al océano, infraestructura moderna combinada con la simplicidad de la naturaleza misma: el contraste perfecto para tu bienestar.",
+              "size": "Medio"
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Gallery.tsx",
-                "images": [
-                  {
-                    "label": "<p>Super</p><p>Bungalows Deluxe</p>",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec8dc25b-3ce0-4bf1-b0f5-8e12a780bc8e",
-                    "href": "/quarto",
-                    "alt": "bangalo-super-luxo"
-                  },
-                  {
-                    "label": "<p>Deluxe</p><p>Suite en Bungalow</p>",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9759185-74c7-43a8-b46e-7f7a15718960",
-                    "href": "/quarto2",
-                    "alt": "suite-luxo-em-bangalo"
-                  },
-                  {
-                    "label": "<p>Deluxe</p><p>Suite en la Casa Principal</p>",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ac776bc0-2948-4d77-af51-d7a8fb120ada",
-                    "href": "/quarto3",
-                    "alt": "suite-luxo-na-sede"
-                  }
-                ]
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Gallery.tsx",
+              "images": [
+                {
+                  "label": "<p>Super</p><p>Bungalows Deluxe</p>",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec8dc25b-3ce0-4bf1-b0f5-8e12a780bc8e",
+                  "href": "/quarto",
+                  "alt": "bangalo-super-luxo"
+                },
+                {
+                  "label": "<p>Deluxe</p><p>Suite en Bungalow</p>",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9759185-74c7-43a8-b46e-7f7a15718960",
+                  "href": "/quarto2",
+                  "alt": "suite-luxo-em-bangalo"
+                },
+                {
+                  "label": "<p>Deluxe</p><p>Suite en la Casa Principal</p>",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ac776bc0-2948-4d77-af51-d7a8fb120ada",
+                  "href": "/quarto3",
+                  "alt": "suite-luxo-na-sede"
+                }
+              ]
+            }
           },
           {
             "__resolveType": "Footer - Spanish"
@@ -100,51 +88,39 @@
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/85c14d06-d14c-4dc6-b498-4062ef255239"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "The Rooms",
-                "description": "The Fazenda São Francisco do Corumbau features only 10 rooms and offers total privacy for its guests. The right combination of beautiful and functional furniture to create the perfect ambience, large terraces with stunning ocean views, modern infrastructure paired with the simplicity of nature itself – the perfect contrast for your well-being.",
-                "size": "Medio"
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "The Rooms",
+              "description": "The Fazenda São Francisco do Corumbau features only 10 rooms and offers total privacy for its guests. The right combination of beautiful and functional furniture to create the perfect ambience, large terraces with stunning ocean views, modern infrastructure paired with the simplicity of nature itself – the perfect contrast for your well-being.",
+              "size": "Medio"
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Gallery.tsx",
-                "images": [
-                  {
-                    "label": "<p>Super</p><p>Deluxe Bungalows</p>",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec8dc25b-3ce0-4bf1-b0f5-8e12a780bc8e",
-                    "href": "/quarto",
-                    "alt": "bangalo-super-luxo"
-                  },
-                  {
-                    "label": "<p>Deluxe</p><p>Suite in Bungalow</p>",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9759185-74c7-43a8-b46e-7f7a15718960",
-                    "href": "/quarto2",
-                    "alt": "suite-luxo-em-bangalo"
-                  },
-                  {
-                    "label": "<p>Deluxe</p><p>Suite in the Main House</p>",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ac776bc0-2948-4d77-af51-d7a8fb120ada",
-                    "href": "/quarto3",
-                    "alt": "suite-luxo-na-sede"
-                  }
-                ]
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Gallery.tsx",
+              "images": [
+                {
+                  "label": "<p>Super</p><p>Deluxe Bungalows</p>",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec8dc25b-3ce0-4bf1-b0f5-8e12a780bc8e",
+                  "href": "/quarto",
+                  "alt": "bangalo-super-luxo"
+                },
+                {
+                  "label": "<p>Deluxe</p><p>Suite in Bungalow</p>",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9759185-74c7-43a8-b46e-7f7a15718960",
+                  "href": "/quarto2",
+                  "alt": "suite-luxo-em-bangalo"
+                },
+                {
+                  "label": "<p>Deluxe</p><p>Suite in the Main House</p>",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ac776bc0-2948-4d77-af51-d7a8fb120ada",
+                  "href": "/quarto3",
+                  "alt": "suite-luxo-na-sede"
+                }
+              ]
+            }
           },
           {
             "__resolveType": "Footer - English"
@@ -184,51 +160,39 @@
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/85c14d06-d14c-4dc6-b498-4062ef255239"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Os Quartos",
-                "description": "A Fazenda São Francisco do Corumbau conta com apenas 10 quartos e oferece total privacidade aos seus hóspedes. Móveis com desenhos integrados ao espaço e amplas varandas com vistas deslumbrantes, moderna infraestrutura combinada à simplicidade da natureza – o contraste perfeito para seu bem estar.",
-                "size": "Medio"
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Os Quartos",
+              "description": "A Fazenda São Francisco do Corumbau conta com apenas 10 quartos e oferece total privacidade aos seus hóspedes. Móveis com desenhos integrados ao espaço e amplas varandas com vistas deslumbrantes, moderna infraestrutura combinada à simplicidade da natureza – o contraste perfeito para seu bem estar.",
+              "size": "Medio"
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Gallery.tsx",
-                "images": [
-                  {
-                    "label": "<p>Bangalô</p><p>Super Luxo</p>",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec8dc25b-3ce0-4bf1-b0f5-8e12a780bc8e",
-                    "href": "/quarto",
-                    "alt": "bangalo-super-luxo"
-                  },
-                  {
-                    "label": "<p>Suíte</p><p>Luxo em Bangalô</p>",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9759185-74c7-43a8-b46e-7f7a15718960",
-                    "href": "/quarto2",
-                    "alt": "suite-luxo-em-bangalo"
-                  },
-                  {
-                    "label": "<p>Suíte </p><p>Luxo na sede</p>",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ac776bc0-2948-4d77-af51-d7a8fb120ada",
-                    "href": "/quarto3",
-                    "alt": "suite-luxo-na-sede"
-                  }
-                ]
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Gallery.tsx",
+              "images": [
+                {
+                  "label": "<p>Bangalô</p><p>Super Luxo</p>",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec8dc25b-3ce0-4bf1-b0f5-8e12a780bc8e",
+                  "href": "/quarto",
+                  "alt": "bangalo-super-luxo"
+                },
+                {
+                  "label": "<p>Suíte</p><p>Luxo em Bangalô</p>",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9759185-74c7-43a8-b46e-7f7a15718960",
+                  "href": "/quarto2",
+                  "alt": "suite-luxo-em-bangalo"
+                },
+                {
+                  "label": "<p>Suíte </p><p>Luxo na sede</p>",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ac776bc0-2948-4d77-af51-d7a8fb120ada",
+                  "href": "/quarto3",
+                  "alt": "suite-luxo-na-sede"
+                }
+              ]
+            }
           },
           {
             "__resolveType": "Footer"

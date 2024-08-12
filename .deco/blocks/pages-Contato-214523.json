@@ -18,104 +18,74 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Contáctanos",
-                "description": "Gracias por tu interés. Por favor, completa el formulario a continuación y envíanos tus preguntas o comentarios. Responderemos a tu consulta lo antes posible.",
-                "size": "Medio"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Contáctanos",
+              "description": "Gracias por tu interés. Por favor, completa el formulario a continuación y envíanos tus preguntas o comentarios. Responderemos a tu consulta lo antes posible.",
+              "size": "Medio"
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/ContactForm.tsx",
-                "policy": {
-                  "text": "Política de Privacidad",
-                  "link": "/politica_privacidade",
-                  "description": "Acepto los términos de uso de los datos tal como se indica en"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ContactForm.tsx",
+              "policy": {
+                "text": "Política de Privacidad",
+                "link": "/politica_privacidade",
+                "description": "Acepto los términos de uso de los datos tal como se indica en"
+              },
+              "formLabels": {
+                "name": "Tu Nombre",
+                "email": "Tu Correo Electrónico",
+                "phone": "Tu Teléfono",
+                "message": "Deja tu mensaje aquí...",
+                "button": "Enviar"
+              }
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Cómo Llegar",
+              "description": "Aeropuerto de Porto Seguro – 4 horas en vehículo 4x4 o 20 minutos en helicóptero.",
+              "size": "Medio"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Map.tsx",
+              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589.4351432855012!2d-39.11337417753197!3d-16.8957935476113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7343bd55d4931f3%3A0xfe10b5a3918b45a3!2sPonta%20do%20Corumbau!5e0!3m2!1spt-BR!2sbr!4v1723249982221!5m2!1spt-BR!2sbr",
+              "height": "300"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/IconTileList.tsx",
+              "itens": [
+                {
+                  "description": "<p>Para llegar a nuestro hotel en coche, siga las instrucciones a continuación:</p><ol><li><p>Salga de la ciudad por el acceso principal a la Rodovia 101.</p></li><li><p>Continúe por la Rodovia 101 durante aproximadamente 45 km hasta llegar a la salida 25, donde verá señales que indican la ciudad de Vale Verde.</p></li><li><p>Tome la salida 25 y siga las señales hacia Vale Verde.</p></li><li><p>Después de 10 km en la carretera de Vale Verde, gire a la derecha en la Estrada do Sol.</p></li><li><p>Continúe durante otros 8 km hasta llegar a la entrada principal del Hotel Paraíso Verde.</p></li></ol><p>El estacionamiento gratuito está disponible para todos los huéspedes.</p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
+                  "alt": "car",
+                  "title": "Cómo Llegar al Hotel en Coche"
                 },
-                "formLabels": {
-                  "name": "Tu Nombre",
-                  "email": "Tu Correo Electrónico",
-                  "phone": "Tu Teléfono",
-                  "message": "Deja tu mensaje aquí...",
-                  "button": "Enviar"
+                {
+                  "description": "<p>Si está planeando llegar a nuestro hotel en helicóptero, siga las coordenadas e instrucciones a continuación:</p><ol><li><p><strong>Coordenadas GPS:</strong> 22°54'03.2\"S 43°12'54.6\"W</p></li><li><p>El helipuerto del hotel está ubicado junto a la zona de recreo, a corta distancia del edificio principal.</p></li><li><p>Asegúrese de programar su aterrizaje con al menos 24 horas de antelación, contactando a nuestra recepción para garantizar que el helipuerto esté disponible.</p></li></ol><p>Nuestro equipo estará listo para recibirle y acompañarle hasta el hotel.</p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
+                  "alt": "helicoptero",
+                  "title": "Cómo Llegar al Hotel en Helicóptero"
+                },
+                {
+                  "description": "<p>Para aquellos que prefieren la experiencia única de llegar en barco, siga las instrucciones a continuación:</p><ol><li><p>Navegue por la Baía Azul hasta el canal principal.</p></li><li><p>Manténgase a la derecha después de la tercera boya de señalización.</p></li><li><p>Continúe por el canal durante 5 km hasta avistar la entrada de la marina del Hotel Paraíso Verde, ubicada a la izquierda.</p></li><li><p>La marina está equipada con espacios para embarcaciones de hasta 30 pies. Un miembro de nuestro equipo estará disponible para ayudar con el atraque.</p></li></ol><p>Por favor, infórmenos con anticipación sobre su llegada para garantizar espacio en la marina.</p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
+                  "alt": "barco",
+                  "title": "Cómo Llegar al Hotel en Barco"
                 }
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Cómo Llegar",
-                "description": "Aeropuerto de Porto Seguro – 4 horas en vehículo 4x4 o 20 minutos en helicóptero.",
-                "size": "Medio"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Map.tsx",
-                "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589.4351432855012!2d-39.11337417753197!3d-16.8957935476113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7343bd55d4931f3%3A0xfe10b5a3918b45a3!2sPonta%20do%20Corumbau!5e0!3m2!1spt-BR!2sbr!4v1723249982221!5m2!1spt-BR!2sbr",
-                "height": "300"
-              }
-            ]
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/IconTileList.tsx",
-                "itens": [
-                  {
-                    "description": "<p>Para llegar a nuestro hotel en coche, siga las instrucciones a continuación:</p><ol><li><p>Salga de la ciudad por el acceso principal a la Rodovia 101.</p></li><li><p>Continúe por la Rodovia 101 durante aproximadamente 45 km hasta llegar a la salida 25, donde verá señales que indican la ciudad de Vale Verde.</p></li><li><p>Tome la salida 25 y siga las señales hacia Vale Verde.</p></li><li><p>Después de 10 km en la carretera de Vale Verde, gire a la derecha en la Estrada do Sol.</p></li><li><p>Continúe durante otros 8 km hasta llegar a la entrada principal del Hotel Paraíso Verde.</p></li></ol><p>El estacionamiento gratuito está disponible para todos los huéspedes.</p>",
-                    "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
-                    "alt": "car",
-                    "title": "Cómo Llegar al Hotel en Coche"
-                  },
-                  {
-                    "description": "<p>Si está planeando llegar a nuestro hotel en helicóptero, siga las coordenadas e instrucciones a continuación:</p><ol><li><p><strong>Coordenadas GPS:</strong> 22°54'03.2\"S 43°12'54.6\"W</p></li><li><p>El helipuerto del hotel está ubicado junto a la zona de recreo, a corta distancia del edificio principal.</p></li><li><p>Asegúrese de programar su aterrizaje con al menos 24 horas de antelación, contactando a nuestra recepción para garantizar que el helipuerto esté disponible.</p></li></ol><p>Nuestro equipo estará listo para recibirle y acompañarle hasta el hotel.</p>",
-                    "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
-                    "alt": "helicoptero",
-                    "title": "Cómo Llegar al Hotel en Helicóptero"
-                  },
-                  {
-                    "description": "<p>Para aquellos que prefieren la experiencia única de llegar en barco, siga las instrucciones a continuación:</p><ol><li><p>Navegue por la Baía Azul hasta el canal principal.</p></li><li><p>Manténgase a la derecha después de la tercera boya de señalización.</p></li><li><p>Continúe por el canal durante 5 km hasta avistar la entrada de la marina del Hotel Paraíso Verde, ubicada a la izquierda.</p></li><li><p>La marina está equipada con espacios para embarcaciones de hasta 30 pies. Un miembro de nuestro equipo estará disponible para ayudar con el atraque.</p></li></ol><p>Por favor, infórmenos con anticipación sobre su llegada para garantizar espacio en la marina.</p>",
-                    "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
-                    "alt": "barco",
-                    "title": "Cómo Llegar al Hotel en Barco"
-                  }
-                ]
-              }
-            ]
+              ]
+            }
           },
           {
             "__resolveType": "Footer - Spanish"
@@ -154,104 +124,74 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Contact us",
-                "description": "Thank you for your interest. Please fill out the form below and send us your questions or comments. We will respond to your query as soon as possible.",
-                "size": "Medio"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Contact us",
+              "description": "Thank you for your interest. Please fill out the form below and send us your questions or comments. We will respond to your query as soon as possible.",
+              "size": "Medio"
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/ContactForm.tsx",
-                "policy": {
-                  "text": "Privacy Policy",
-                  "link": "/politica_privacidade",
-                  "description": "I accept the terms of use of the data as indicated in"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ContactForm.tsx",
+              "policy": {
+                "text": "Privacy Policy",
+                "link": "/politica_privacidade",
+                "description": "I accept the terms of use of the data as indicated in"
+              },
+              "formLabels": {
+                "name": "Your Name",
+                "email": "Your Email",
+                "phone": "You Telephone",
+                "message": "Leave your message here...",
+                "button": "Send"
+              }
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Como Chegar",
+              "description": "Porto Seguro Airport – 4 hours by 4x4 vehicle or 20 minutes by helicopter.",
+              "size": "Medio"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Map.tsx",
+              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589.4351432855012!2d-39.11337417753197!3d-16.8957935476113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7343bd55d4931f3%3A0xfe10b5a3918b45a3!2sPonta%20do%20Corumbau!5e0!3m2!1spt-BR!2sbr!4v1723249982221!5m2!1spt-BR!2sbr",
+              "height": "300"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/IconTileList.tsx",
+              "itens": [
+                {
+                  "description": "<p>Para chegar ao nosso hotel de carro, siga as instruções abaixo:</p><ol><li><p>Saia da cidade pelo acesso principal à Rodovia 101.</p></li><li><p>Continue pela Rodovia 101 por aproximadamente 45 km até chegar à saída 25, onde você verá placas indicando a cidade de Vale Verde.</p></li><li><p>Pegue a saída 25 e siga as placas para Vale Verde.</p></li><li><p>Após 10 km na estrada de Vale Verde, vire à direita na Estrada do Sol.</p></li><li><p>Continue por mais 8 km até chegar ao portão principal do Hotel Paraíso Verde.</p></li></ol><p>Estacionamento gratuito está disponível para todos os hóspedes.</p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
+                  "alt": "car",
+                  "title": "Como Chegar ao Hotel por Carro"
                 },
-                "formLabels": {
-                  "name": "Your Name",
-                  "email": "Your Email",
-                  "phone": "You Telephone",
-                  "message": "Leave your message here...",
-                  "button": "Send"
+                {
+                  "description": "<p>Se você está planejando chegar ao nosso hotel de helicóptero, siga as coordenadas e instruções abaixo:</p><ol><li><p>Coordenas GPS: <strong>22°54'03.2\"S 43°12'54.6\"W</strong></p></li><li><p>O heliponto do hotel está localizado ao lado da área de lazer, a uma curta distância do prédio principal.</p></li><li><p>Certifique-se de agendar seu pouso com pelo menos 24 horas de antecedência, entrando em contato com a nossa recepção para garantir que o heliponto esteja disponível.</p></li></ol><p>Nosso time estará pronto para recebê-lo e acompanhá-lo até o hotel.</p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
+                  "alt": "helicoptero",
+                  "title": "Como Chegar ao Hotel de Helicóptero"
+                },
+                {
+                  "description": "<p>Para aqueles que preferem a experiência única de chegar de barco, siga as instruções abaixo:</p><ol><li><p>Navegue pela Baía Azul até o canal principal.</p></li><li><p>Mantenha-se à direita após a terceira boia de sinalização.</p></li><li><p>Continue pelo canal por 5 km até avistar a entrada da marina do Hotel Paraíso Verde, localizada à esquerda.</p></li><li><p>A marina está equipada com vagas para embarcações de até 30 pés. Um membro da nossa equipe estará à disposição para ajudar na atracação.</p></li></ol><p>Por favor, informe-nos com antecedência sobre sua chegada para garantirmos espaço na marina.</p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
+                  "alt": "barco",
+                  "title": "Como Chegar ao Hotel de Barco"
                 }
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Como Chegar",
-                "description": "Porto Seguro Airport – 4 hours by 4x4 vehicle or 20 minutes by helicopter.",
-                "size": "Medio"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Map.tsx",
-                "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589.4351432855012!2d-39.11337417753197!3d-16.8957935476113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7343bd55d4931f3%3A0xfe10b5a3918b45a3!2sPonta%20do%20Corumbau!5e0!3m2!1spt-BR!2sbr!4v1723249982221!5m2!1spt-BR!2sbr",
-                "height": "300"
-              }
-            ]
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/IconTileList.tsx",
-                "itens": [
-                  {
-                    "description": "<p>Para chegar ao nosso hotel de carro, siga as instruções abaixo:</p><ol><li><p>Saia da cidade pelo acesso principal à Rodovia 101.</p></li><li><p>Continue pela Rodovia 101 por aproximadamente 45 km até chegar à saída 25, onde você verá placas indicando a cidade de Vale Verde.</p></li><li><p>Pegue a saída 25 e siga as placas para Vale Verde.</p></li><li><p>Após 10 km na estrada de Vale Verde, vire à direita na Estrada do Sol.</p></li><li><p>Continue por mais 8 km até chegar ao portão principal do Hotel Paraíso Verde.</p></li></ol><p>Estacionamento gratuito está disponível para todos os hóspedes.</p>",
-                    "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
-                    "alt": "car",
-                    "title": "Como Chegar ao Hotel por Carro"
-                  },
-                  {
-                    "description": "<p>Se você está planejando chegar ao nosso hotel de helicóptero, siga as coordenadas e instruções abaixo:</p><ol><li><p>Coordenas GPS: <strong>22°54'03.2\"S 43°12'54.6\"W</strong></p></li><li><p>O heliponto do hotel está localizado ao lado da área de lazer, a uma curta distância do prédio principal.</p></li><li><p>Certifique-se de agendar seu pouso com pelo menos 24 horas de antecedência, entrando em contato com a nossa recepção para garantir que o heliponto esteja disponível.</p></li></ol><p>Nosso time estará pronto para recebê-lo e acompanhá-lo até o hotel.</p>",
-                    "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
-                    "alt": "helicoptero",
-                    "title": "Como Chegar ao Hotel de Helicóptero"
-                  },
-                  {
-                    "description": "<p>Para aqueles que preferem a experiência única de chegar de barco, siga as instruções abaixo:</p><ol><li><p>Navegue pela Baía Azul até o canal principal.</p></li><li><p>Mantenha-se à direita após a terceira boia de sinalização.</p></li><li><p>Continue pelo canal por 5 km até avistar a entrada da marina do Hotel Paraíso Verde, localizada à esquerda.</p></li><li><p>A marina está equipada com vagas para embarcações de até 30 pés. Um membro da nossa equipe estará à disposição para ajudar na atracação.</p></li></ol><p>Por favor, informe-nos com antecedência sobre sua chegada para garantirmos espaço na marina.</p>",
-                    "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
-                    "alt": "barco",
-                    "title": "Como Chegar ao Hotel de Barco"
-                  }
-                ]
-              }
-            ]
+              ]
+            }
           },
           {
             "__resolveType": "Footer - English"
@@ -290,104 +230,74 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Entre em contato",
-                "description": "Muito obrigado pelo seu interesse. Por favor, preencha o formulário abaixo e envie-nos suas perguntas e comentários, entraremos em contato em breve.",
-                "size": "Medio"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Entre em contato",
+              "description": "Muito obrigado pelo seu interesse. Por favor, preencha o formulário abaixo e envie-nos suas perguntas e comentários, entraremos em contato em breve.",
+              "size": "Medio"
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/ContactForm.tsx",
-                "policy": {
-                  "text": "Politica de privacidade",
-                  "link": "/politica_privacidade",
-                  "description": "Aceito os termos de uso dos dados conforme indicado na"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ContactForm.tsx",
+              "policy": {
+                "text": "Politica de privacidade",
+                "link": "/politica_privacidade",
+                "description": "Aceito os termos de uso dos dados conforme indicado na"
+              },
+              "formLabels": {
+                "name": "Seu nome",
+                "email": "Seu email",
+                "phone": "Seu telefone",
+                "message": "Deixe sua mensagem aqui...",
+                "button": "Enviar"
+              }
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Como Chegar",
+              "description": "Aeroporto de Porto Seguro – 4h00 em carro 4x4 ou 20 min em helicóptero.",
+              "size": "Medio"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Map.tsx",
+              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589.4351432855012!2d-39.11337417753197!3d-16.8957935476113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7343bd55d4931f3%3A0xfe10b5a3918b45a3!2sPonta%20do%20Corumbau!5e0!3m2!1spt-BR!2sbr!4v1723249982221!5m2!1spt-BR!2sbr",
+              "height": "300"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/IconTileList.tsx",
+              "itens": [
+                {
+                  "description": "<p>Para chegar ao nosso hotel de carro, siga as instruções abaixo:</p><ol><li><p>Saia da cidade pelo acesso principal à Rodovia 101.</p></li><li><p>Continue pela Rodovia 101 por aproximadamente 45 km até chegar à saída 25, onde você verá placas indicando a cidade de Vale Verde.</p></li><li><p>Pegue a saída 25 e siga as placas para Vale Verde.</p></li><li><p>Após 10 km na estrada de Vale Verde, vire à direita na Estrada do Sol.</p></li><li><p>Continue por mais 8 km até chegar ao portão principal do Hotel Paraíso Verde.</p></li></ol><p>Estacionamento gratuito está disponível para todos os hóspedes.</p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
+                  "alt": "car",
+                  "title": "Como Chegar ao Hotel por Carro"
                 },
-                "formLabels": {
-                  "name": "Seu nome",
-                  "email": "Seu email",
-                  "phone": "Seu telefone",
-                  "message": "Deixe sua mensagem aqui...",
-                  "button": "Enviar"
+                {
+                  "description": "<p>Se você está planejando chegar ao nosso hotel de helicóptero, siga as coordenadas e instruções abaixo:</p><ol><li><p>Coordenas GPS: <strong>22°54'03.2\"S 43°12'54.6\"W</strong></p></li><li><p>O heliponto do hotel está localizado ao lado da área de lazer, a uma curta distância do prédio principal.</p></li><li><p>Certifique-se de agendar seu pouso com pelo menos 24 horas de antecedência, entrando em contato com a nossa recepção para garantir que o heliponto esteja disponível.</p></li></ol><p>Nosso time estará pronto para recebê-lo e acompanhá-lo até o hotel.</p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
+                  "alt": "helicoptero",
+                  "title": "Como Chegar ao Hotel de Helicóptero"
+                },
+                {
+                  "description": "<p>Para aqueles que preferem a experiência única de chegar de barco, siga as instruções abaixo:</p><ol><li><p>Navegue pela Baía Azul até o canal principal.</p></li><li><p>Mantenha-se à direita após a terceira boia de sinalização.</p></li><li><p>Continue pelo canal por 5 km até avistar a entrada da marina do Hotel Paraíso Verde, localizada à esquerda.</p></li><li><p>A marina está equipada com vagas para embarcações de até 30 pés. Um membro da nossa equipe estará à disposição para ajudar na atracação.</p></li></ol><p>Por favor, informe-nos com antecedência sobre sua chegada para garantirmos espaço na marina.</p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
+                  "alt": "barco",
+                  "title": "Como Chegar ao Hotel de Barco"
                 }
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Como Chegar",
-                "description": "Aeroporto de Porto Seguro – 4h00 em carro 4x4 ou 20 min em helicóptero.",
-                "size": "Medio"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Map.tsx",
-                "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589.4351432855012!2d-39.11337417753197!3d-16.8957935476113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7343bd55d4931f3%3A0xfe10b5a3918b45a3!2sPonta%20do%20Corumbau!5e0!3m2!1spt-BR!2sbr!4v1723249982221!5m2!1spt-BR!2sbr",
-                "height": "300"
-              }
-            ]
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/IconTileList.tsx",
-                "itens": [
-                  {
-                    "description": "<p>Para chegar ao nosso hotel de carro, siga as instruções abaixo:</p><ol><li><p>Saia da cidade pelo acesso principal à Rodovia 101.</p></li><li><p>Continue pela Rodovia 101 por aproximadamente 45 km até chegar à saída 25, onde você verá placas indicando a cidade de Vale Verde.</p></li><li><p>Pegue a saída 25 e siga as placas para Vale Verde.</p></li><li><p>Após 10 km na estrada de Vale Verde, vire à direita na Estrada do Sol.</p></li><li><p>Continue por mais 8 km até chegar ao portão principal do Hotel Paraíso Verde.</p></li></ol><p>Estacionamento gratuito está disponível para todos os hóspedes.</p>",
-                    "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
-                    "alt": "car",
-                    "title": "Como Chegar ao Hotel por Carro"
-                  },
-                  {
-                    "description": "<p>Se você está planejando chegar ao nosso hotel de helicóptero, siga as coordenadas e instruções abaixo:</p><ol><li><p>Coordenas GPS: <strong>22°54'03.2\"S 43°12'54.6\"W</strong></p></li><li><p>O heliponto do hotel está localizado ao lado da área de lazer, a uma curta distância do prédio principal.</p></li><li><p>Certifique-se de agendar seu pouso com pelo menos 24 horas de antecedência, entrando em contato com a nossa recepção para garantir que o heliponto esteja disponível.</p></li></ol><p>Nosso time estará pronto para recebê-lo e acompanhá-lo até o hotel.</p>",
-                    "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
-                    "alt": "helicoptero",
-                    "title": "Como Chegar ao Hotel de Helicóptero"
-                  },
-                  {
-                    "description": "<p>Para aqueles que preferem a experiência única de chegar de barco, siga as instruções abaixo:</p><ol><li><p>Navegue pela Baía Azul até o canal principal.</p></li><li><p>Mantenha-se à direita após a terceira boia de sinalização.</p></li><li><p>Continue pelo canal por 5 km até avistar a entrada da marina do Hotel Paraíso Verde, localizada à esquerda.</p></li><li><p>A marina está equipada com vagas para embarcações de até 30 pés. Um membro da nossa equipe estará à disposição para ajudar na atracação.</p></li></ol><p>Por favor, informe-nos com antecedência sobre sua chegada para garantirmos espaço na marina.</p>",
-                    "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
-                    "alt": "barco",
-                    "title": "Como Chegar ao Hotel de Barco"
-                  }
-                ]
-              }
-            ]
+              ]
+            }
           },
           {
             "__resolveType": "Footer"

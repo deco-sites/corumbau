@@ -18,75 +18,57 @@
             "title": "Suite Deluxe en la Casa Principal"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Vista Excepcional",
-                "description": "Ubicada en el primer piso del hotel, con 40 m². Su terraza ofrece una vista excepcional del océano, el jardín y la piscina.",
-                "button": {
-                  "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
-                  "text": "RESERVA"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Vista Excepcional",
+              "description": "Ubicada en el primer piso del hotel, con 40 m². Su terraza ofrece una vista excepcional del océano, el jardín y la piscina.",
+              "button": {
+                "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
+                "text": "RESERVA"
+              },
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "alt": "slide1",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/854780ca-730a-4e4e-99a6-d7010f6a66b8"
                 },
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f136ab32-760b-4c10-92d0-63aae9d1a40a",
+                  "alt": "slide2"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/af6616ba-b799-4687-a70a-f055ff233bad",
+                  "alt": "slide3"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9c49cf9-0935-4ca6-817f-d2267474c1c8",
+                  "alt": "slide4"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/19a9f590-9511-45a1-841c-c9c2105b2361",
+                  "alt": "slide5"
+                }
+              ]
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Carousel.tsx",
-                "slides": [
-                  {
-                    "alt": "slide1",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/854780ca-730a-4e4e-99a6-d7010f6a66b8"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f136ab32-760b-4c10-92d0-63aae9d1a40a",
-                    "alt": "slide2"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/af6616ba-b799-4687-a70a-f055ff233bad",
-                    "alt": "slide3"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9c49cf9-0935-4ca6-817f-d2267474c1c8",
-                    "alt": "slide4"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/19a9f590-9511-45a1-841c-c9c2105b2361",
-                    "alt": "slide5"
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Características",
-                "description": "Cama king size, toallas y sábanas de algodón egipcio, máquina de café Nespresso, artículos de tocador de L’Occitane, aire acondicionado, minibar, altavoces con conexión Bluetooth, reproductor Blu-ray y DVD, televisión por cable, wifi, caja fuerte, servicio de cobertura.",
-                "button": {},
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Características",
+              "description": "Cama king size, toallas y sábanas de algodón egipcio, máquina de café Nespresso, artículos de tocador de L’Occitane, aire acondicionado, minibar, altavoces con conexión Bluetooth, reproductor Blu-ray y DVD, televisión por cable, wifi, caja fuerte, servicio de cobertura.",
+              "button": {},
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
           },
           {
             "__resolveType": "Footer - Spanish"
@@ -125,75 +107,57 @@
             "title": "Deluxe Suite in the Main House"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Exceptional View",
-                "description": "Located on the first floor of the hotel with 40 m2. Its terrace provides an exceptional view of the ocean, the garden and the swimming pool.",
-                "button": {
-                  "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
-                  "text": "BOOK NOW"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Exceptional View",
+              "description": "Located on the first floor of the hotel with 40 m2. Its terrace provides an exceptional view of the ocean, the garden and the swimming pool.",
+              "button": {
+                "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
+                "text": "BOOK NOW"
+              },
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "alt": "slide1",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/854780ca-730a-4e4e-99a6-d7010f6a66b8"
                 },
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f136ab32-760b-4c10-92d0-63aae9d1a40a",
+                  "alt": "slide2"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/af6616ba-b799-4687-a70a-f055ff233bad",
+                  "alt": "slide3"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9c49cf9-0935-4ca6-817f-d2267474c1c8",
+                  "alt": "slide4"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/19a9f590-9511-45a1-841c-c9c2105b2361",
+                  "alt": "slide5"
+                }
+              ]
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Carousel.tsx",
-                "slides": [
-                  {
-                    "alt": "slide1",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/854780ca-730a-4e4e-99a6-d7010f6a66b8"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f136ab32-760b-4c10-92d0-63aae9d1a40a",
-                    "alt": "slide2"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/af6616ba-b799-4687-a70a-f055ff233bad",
-                    "alt": "slide3"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9c49cf9-0935-4ca6-817f-d2267474c1c8",
-                    "alt": "slide4"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/19a9f590-9511-45a1-841c-c9c2105b2361",
-                    "alt": "slide5"
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Features",
-                "description": "a king size bed, towels and sheets made of Egyptian cotton, Nespresso coffee machine, amenities from L´Occitane, air conditioning, a minibar, speakers with bluetooth connection, a blu-ray, DVD player, cable television, wi-fi, a safe, turndown service.",
-                "button": {},
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Features",
+              "description": "a king size bed, towels and sheets made of Egyptian cotton, Nespresso coffee machine, amenities from L´Occitane, air conditioning, a minibar, speakers with bluetooth connection, a blu-ray, DVD player, cable television, wi-fi, a safe, turndown service.",
+              "button": {},
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
           },
           {
             "__resolveType": "Footer - English"
@@ -232,75 +196,57 @@
             "title": "Suíte Luxo na Sede"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Vista Privilegiada",
-                "description": "Localizada no 1º andar do hotel e com 40 m², a varanda é frente mar com vista para o jardim e piscina.",
-                "button": {
-                  "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
-                  "text": "RESERVAR"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Vista Privilegiada",
+              "description": "Localizada no 1º andar do hotel e com 40 m², a varanda é frente mar com vista para o jardim e piscina.",
+              "button": {
+                "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
+                "text": "RESERVAR"
+              },
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "alt": "slide1",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/854780ca-730a-4e4e-99a6-d7010f6a66b8"
                 },
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f136ab32-760b-4c10-92d0-63aae9d1a40a",
+                  "alt": "slide2"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/af6616ba-b799-4687-a70a-f055ff233bad",
+                  "alt": "slide3"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9c49cf9-0935-4ca6-817f-d2267474c1c8",
+                  "alt": "slide4"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/19a9f590-9511-45a1-841c-c9c2105b2361",
+                  "alt": "slide5"
+                }
+              ]
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Carousel.tsx",
-                "slides": [
-                  {
-                    "alt": "slide1",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/854780ca-730a-4e4e-99a6-d7010f6a66b8"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f136ab32-760b-4c10-92d0-63aae9d1a40a",
-                    "alt": "slide2"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/af6616ba-b799-4687-a70a-f055ff233bad",
-                    "alt": "slide3"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e9c49cf9-0935-4ca6-817f-d2267474c1c8",
-                    "alt": "slide4"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/19a9f590-9511-45a1-841c-c9c2105b2361",
-                    "alt": "slide5"
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Comodidades",
-                "description": "Cama king size, roupas de banho e lençóis de algodão egípcio Trousseau, máquina de café Nespresso, amenities L'Occitane, alto-falantes com conexão bluetooth, blu-ray, tv à cabo, frigobar, wi-fi, cofre, ar condicionado e serviço de abertura de cama.",
-                "button": {},
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Comodidades",
+              "description": "Cama king size, roupas de banho e lençóis de algodão egípcio Trousseau, máquina de café Nespresso, amenities L'Occitane, alto-falantes com conexão bluetooth, blu-ray, tv à cabo, frigobar, wi-fi, cofre, ar condicionado e serviço de abertura de cama.",
+              "button": {},
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
           },
           {
             "__resolveType": "Footer"

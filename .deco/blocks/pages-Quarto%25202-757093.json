@@ -18,79 +18,61 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Relajación total garantizada",
-                "description": "02 bungalows con dos suites de 40 m² cada una y una terraza con vista al jardín.",
-                "button": {
-                  "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
-                  "text": "RESERVAR"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Relajación total garantizada",
+              "description": "02 bungalows con dos suites de 40 m² cada una y una terraza con vista al jardín.",
+              "button": {
+                "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
+                "text": "RESERVAR"
+              },
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/42aafa35-8a8d-4ab6-8a5d-b67b11ea93d9",
+                  "alt": "slide1"
                 },
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "revealed"
-            },
-            "loading": "lazy"
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/aa32cfee-28f9-4fed-b1e8-a496e6743d08",
+                  "alt": "slide2"
+                },
+                {
+                  "alt": "slide3",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b0237172-27ba-4a03-8aca-9811d4ba5015"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dc49f7fa-dab8-450b-a607-91a187ec61b7",
+                  "alt": "slide4"
+                },
+                {
+                  "alt": "slide5",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a27b7cb2-21f6-44e9-bdfa-bc58f86156a3"
+                },
+                {
+                  "alt": "slide6",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/441b61ac-5833-42ae-8620-2c5d19c21afb"
+                }
+              ]
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Carousel.tsx",
-                "slides": [
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/42aafa35-8a8d-4ab6-8a5d-b67b11ea93d9",
-                    "alt": "slide1"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/aa32cfee-28f9-4fed-b1e8-a496e6743d08",
-                    "alt": "slide2"
-                  },
-                  {
-                    "alt": "slide3",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b0237172-27ba-4a03-8aca-9811d4ba5015"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dc49f7fa-dab8-450b-a607-91a187ec61b7",
-                    "alt": "slide4"
-                  },
-                  {
-                    "alt": "slide5",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a27b7cb2-21f6-44e9-bdfa-bc58f86156a3"
-                  },
-                  {
-                    "alt": "slide6",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/441b61ac-5833-42ae-8620-2c5d19c21afb"
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "revealed"
-            },
-            "loading": "eager"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Características",
-                "description": "Cama king size, toallas y sábanas de algodón egipcio, máquina de café Nespresso, artículos de tocador de L’Occitane, aire acondicionado, minibar, altavoces con conexión Bluetooth, reproductor Blu-ray y DVD, televisión por cable, wifi, caja fuerte, ventilador de techo y hamaca, servicio de cobertura.",
-                "button": {},
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "revealed"
-            },
-            "loading": "eager"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Características",
+              "description": "Cama king size, toallas y sábanas de algodón egipcio, máquina de café Nespresso, artículos de tocador de L’Occitane, aire acondicionado, minibar, altavoces con conexión Bluetooth, reproductor Blu-ray y DVD, televisión por cable, wifi, caja fuerte, ventilador de techo y hamaca, servicio de cobertura.",
+              "button": {},
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
           },
           {
             "__resolveType": "Footer - Spanish"
@@ -129,79 +111,61 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Total relaxation guaranteed",
-                "description": "02 bungalows with two 40 m2 suites each and a terrace facing the garden.",
-                "button": {
-                  "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
-                  "text": "BOOK NOW"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Total relaxation guaranteed",
+              "description": "02 bungalows with two 40 m2 suites each and a terrace facing the garden.",
+              "button": {
+                "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
+                "text": "BOOK NOW"
+              },
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/42aafa35-8a8d-4ab6-8a5d-b67b11ea93d9",
+                  "alt": "slide1"
                 },
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "revealed"
-            },
-            "loading": "lazy"
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/aa32cfee-28f9-4fed-b1e8-a496e6743d08",
+                  "alt": "slide2"
+                },
+                {
+                  "alt": "slide3",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b0237172-27ba-4a03-8aca-9811d4ba5015"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dc49f7fa-dab8-450b-a607-91a187ec61b7",
+                  "alt": "slide4"
+                },
+                {
+                  "alt": "slide5",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a27b7cb2-21f6-44e9-bdfa-bc58f86156a3"
+                },
+                {
+                  "alt": "slide6",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/441b61ac-5833-42ae-8620-2c5d19c21afb"
+                }
+              ]
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Carousel.tsx",
-                "slides": [
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/42aafa35-8a8d-4ab6-8a5d-b67b11ea93d9",
-                    "alt": "slide1"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/aa32cfee-28f9-4fed-b1e8-a496e6743d08",
-                    "alt": "slide2"
-                  },
-                  {
-                    "alt": "slide3",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b0237172-27ba-4a03-8aca-9811d4ba5015"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dc49f7fa-dab8-450b-a607-91a187ec61b7",
-                    "alt": "slide4"
-                  },
-                  {
-                    "alt": "slide5",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a27b7cb2-21f6-44e9-bdfa-bc58f86156a3"
-                  },
-                  {
-                    "alt": "slide6",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/441b61ac-5833-42ae-8620-2c5d19c21afb"
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "revealed"
-            },
-            "loading": "eager"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Features",
-                "description": "a king size bed, towels and sheets made of Egyptian cotton, Nespresso coffee machine, bathroom amenities from L´Occitane, air conditioning, a minibar, speakers with bluetooth connection, a blu-ray, DVD player, cable television, wi-fi, a safe, a ceiling fan and a hammock, turndown service.",
-                "button": {},
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "revealed"
-            },
-            "loading": "eager"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Features",
+              "description": "a king size bed, towels and sheets made of Egyptian cotton, Nespresso coffee machine, bathroom amenities from L´Occitane, air conditioning, a minibar, speakers with bluetooth connection, a blu-ray, DVD player, cable television, wi-fi, a safe, a ceiling fan and a hammock, turndown service.",
+              "button": {},
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
           },
           {
             "__resolveType": "Footer - English"
@@ -240,79 +204,61 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Relax Total",
-                "description": "São 02 bangalôs, com 02 suítes cada, medindo 40 m² e varanda de frente para o mar e com vista para o jardim.",
-                "button": {
-                  "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
-                  "text": "RESERVAR"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Relax Total",
+              "description": "São 02 bangalôs, com 02 suítes cada, medindo 40 m² e varanda de frente para o mar e com vista para o jardim.",
+              "button": {
+                "href": "https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl",
+                "text": "RESERVAR"
+              },
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/42aafa35-8a8d-4ab6-8a5d-b67b11ea93d9",
+                  "alt": "slide1"
                 },
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "revealed"
-            },
-            "loading": "lazy"
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/aa32cfee-28f9-4fed-b1e8-a496e6743d08",
+                  "alt": "slide2"
+                },
+                {
+                  "alt": "slide3",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b0237172-27ba-4a03-8aca-9811d4ba5015"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dc49f7fa-dab8-450b-a607-91a187ec61b7",
+                  "alt": "slide4"
+                },
+                {
+                  "alt": "slide5",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a27b7cb2-21f6-44e9-bdfa-bc58f86156a3"
+                },
+                {
+                  "alt": "slide6",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/441b61ac-5833-42ae-8620-2c5d19c21afb"
+                }
+              ]
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/Carousel.tsx",
-                "slides": [
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/42aafa35-8a8d-4ab6-8a5d-b67b11ea93d9",
-                    "alt": "slide1"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/aa32cfee-28f9-4fed-b1e8-a496e6743d08",
-                    "alt": "slide2"
-                  },
-                  {
-                    "alt": "slide3",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b0237172-27ba-4a03-8aca-9811d4ba5015"
-                  },
-                  {
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dc49f7fa-dab8-450b-a607-91a187ec61b7",
-                    "alt": "slide4"
-                  },
-                  {
-                    "alt": "slide5",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a27b7cb2-21f6-44e9-bdfa-bc58f86156a3"
-                  },
-                  {
-                    "alt": "slide6",
-                    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/441b61ac-5833-42ae-8620-2c5d19c21afb"
-                  }
-                ]
-              }
-            ],
-            "trigger": {
-              "type": "revealed"
-            },
-            "loading": "eager"
-          },
-          {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "sections": [
-              {
-                "__resolveType": "site/sections/LabelText.tsx",
-                "title": "Comodidades",
-                "description": "Cama king size, roupas de banho e lençóis de algodão egípcio Trousseau, máquina de café Nespresso, amenities L'Occitane, alto-falantes com conexão bluetooth, blu-ray, frigobar, tv à cabo, wi-fi, cofre, ventilador de teto, ar condicionado e serviço de abertura de cama.",
-                "button": {},
-                "size": "Medio",
-                "alignment": "Esquerda"
-              }
-            ],
-            "trigger": {
-              "type": "revealed"
-            },
-            "loading": "eager"
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Comodidades",
+              "description": "Cama king size, roupas de banho e lençóis de algodão egípcio Trousseau, máquina de café Nespresso, amenities L'Occitane, alto-falantes com conexão bluetooth, blu-ray, frigobar, tv à cabo, wi-fi, cofre, ventilador de teto, ar condicionado e serviço de abertura de cama.",
+              "button": {},
+              "size": "Medio",
+              "alignment": "Esquerda"
+            }
           },
           {
             "__resolveType": "Footer"

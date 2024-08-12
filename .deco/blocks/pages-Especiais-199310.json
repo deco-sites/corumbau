@@ -18,34 +18,22 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/DescriptiveBanner.tsx",
-                "description": "<p><span style=\"color: #ffffff; font-size: 32pt\">¡Ofertas de temporada baja 2023!</span><span style=\"color: #ffffff\"><br><br></span><span style=\"color: #ffffff; font-size: 18pt\">En mayo y junio, al alojarte 03 noches obtén un 10% de descuento, 04 noches obtén un 15% o 05 noches o más y obtén un 20% de descuento.</span></p><p><span style=\"color: #ffffff; font-size: 18pt\">Haz tu reserva enviando un correo electrónico a </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br\"><span style=\"color: #ffffff; font-size: 18pt\">reservas@corumbau.com.br</span></a><span style=\"color: #ffffff; font-size: 18pt\"> o llámanos al </span><strong><span style=\"color: #ffffff; font-size: 18pt\">+55 11 3682 2111 </span></strong><span style=\"color: #ffffff; font-size: 18pt\">o al</span><strong><span style=\"color: #ffffff; font-size: 18pt\"> +55 11 3078 4411 por WhatsApp.</span></strong></p>",
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
-                "alt": "desconto1"
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "description": "<p><span style=\"color: #ffffff; font-size: 32pt\">¡Ofertas de temporada baja 2023!</span><span style=\"color: #ffffff\"><br><br></span><span style=\"color: #ffffff; font-size: 18pt\">En mayo y junio, al alojarte 03 noches obtén un 10% de descuento, 04 noches obtén un 15% o 05 noches o más y obtén un 20% de descuento.</span></p><p><span style=\"color: #ffffff; font-size: 18pt\">Haz tu reserva enviando un correo electrónico a </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br\"><span style=\"color: #ffffff; font-size: 18pt\">reservas@corumbau.com.br</span></a><span style=\"color: #ffffff; font-size: 18pt\"> o llámanos al </span><strong><span style=\"color: #ffffff; font-size: 18pt\">+55 11 3682 2111 </span></strong><span style=\"color: #ffffff; font-size: 18pt\">o al</span><strong><span style=\"color: #ffffff; font-size: 18pt\"> +55 11 3078 4411 por WhatsApp.</span></strong></p>",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
+              "alt": "desconto1"
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/DescriptiveBanner.tsx",
-                "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">¡Ofertas de temporada baja!</span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">¡Alójate 05 noches y paga solo 04 noches!</span></strong></p><p><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">De julio a septiembre de 2023.</span><br><span style=\"color: #ffffff\"><br></span><span style=\"color: #ffffff; font-size: 18pt\">Haz tu reserva enviando un correo electrónico a </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br\"><span style=\"color: #ffffff; font-size: 18pt\">reservas@corumbau.com.br</span></a><span style=\"color: #ffffff; font-size: 18pt\"> o llámanos al </span><strong><span style=\"color: #ffffff; font-size: 18pt\">+55 11 3682 2111 </span></strong><span style=\"color: #ffffff; font-size: 18pt\">o al</span><strong><span style=\"color: #ffffff; font-size: 18pt\"> +55 11 3078 4411 por WhatsApp.</span></strong></p>",
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/98c74237-1c3e-4e13-9b69-ffe8cc63480d",
-                "alt": "desconto2"
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">¡Ofertas de temporada baja!</span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">¡Alójate 05 noches y paga solo 04 noches!</span></strong></p><p><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">De julio a septiembre de 2023.</span><br><span style=\"color: #ffffff\"><br></span><span style=\"color: #ffffff; font-size: 18pt\">Haz tu reserva enviando un correo electrónico a </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br\"><span style=\"color: #ffffff; font-size: 18pt\">reservas@corumbau.com.br</span></a><span style=\"color: #ffffff; font-size: 18pt\"> o llámanos al </span><strong><span style=\"color: #ffffff; font-size: 18pt\">+55 11 3682 2111 </span></strong><span style=\"color: #ffffff; font-size: 18pt\">o al</span><strong><span style=\"color: #ffffff; font-size: 18pt\"> +55 11 3078 4411 por WhatsApp.</span></strong></p>",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/98c74237-1c3e-4e13-9b69-ffe8cc63480d",
+              "alt": "desconto2"
+            }
           },
           {
             "__resolveType": "Footer - Spanish"
@@ -84,34 +72,22 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/DescriptiveBanner.tsx",
-                "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Low season deals 2023!</span><br><br><span style=\"font-size: 18pt\">In May and June, stay for 03 nights and get 10% discount, 04 nights and get 15% or 05 nights or more and get 20% discount!</span><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">.</span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Make your reservation by sending an e-mail to </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br?subject=Tarifas%20com%20desconto%20Agosto%202019\"><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">reservas@corumbau.com.br</span></a><span style=\"color: rgb(222, 227, 229); font-size: 18pt\"> or cal us at </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">11 3682 2111 </span></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">or </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">+55</span></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\"> </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">11 3078 4411 WhatsApp</span></strong></p>",
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
-                "alt": "desconto1"
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Low season deals 2023!</span><br><br><span style=\"font-size: 18pt\">In May and June, stay for 03 nights and get 10% discount, 04 nights and get 15% or 05 nights or more and get 20% discount!</span><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">.</span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Make your reservation by sending an e-mail to </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br?subject=Tarifas%20com%20desconto%20Agosto%202019\"><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">reservas@corumbau.com.br</span></a><span style=\"color: rgb(222, 227, 229); font-size: 18pt\"> or cal us at </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">11 3682 2111 </span></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">or </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">+55</span></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\"> </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">11 3078 4411 WhatsApp</span></strong></p>",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
+              "alt": "desconto1"
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/DescriptiveBanner.tsx",
-                "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Low season deals!</span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Stay 05 nights and pay 04 nights!</span></strong></p><p><span style=\"color: #ffffff; font-size: 18pt\">From July till September 2023 . </span><br><br><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Make your reservation by sending an e-mail to</span></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:corumbau@corumbau.com.br?subject=Descontos%20Baixa%20Temporada\"><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">reservas@corumbau.com.br</span></a><span style=\"color: rgb(222, 227, 229); font-size: 16pt\"> or </span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">call us +55 11 3682 2111 or +55&nbsp;11 3078 4411 WhatsApp</span></p>",
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/98c74237-1c3e-4e13-9b69-ffe8cc63480d",
-                "alt": "desconto2"
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Low season deals!</span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Stay 05 nights and pay 04 nights!</span></strong></p><p><span style=\"color: #ffffff; font-size: 18pt\">From July till September 2023 . </span><br><br><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Make your reservation by sending an e-mail to</span></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:corumbau@corumbau.com.br?subject=Descontos%20Baixa%20Temporada\"><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">reservas@corumbau.com.br</span></a><span style=\"color: rgb(222, 227, 229); font-size: 16pt\"> or </span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">call us +55 11 3682 2111 or +55&nbsp;11 3078 4411 WhatsApp</span></p>",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/98c74237-1c3e-4e13-9b69-ffe8cc63480d",
+              "alt": "desconto2"
+            }
           },
           {
             "__resolveType": "Footer - English"
@@ -150,34 +126,22 @@
             "size": "medio"
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/DescriptiveBanner.tsx",
-                "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Descontos Especiais!</span><br><br><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Em maio e em junho reserve 03 noites e ganhe&nbsp;10% de desconto,&nbsp;04 noites e ganhe 15%&nbsp;ou 05 noites e ganhe 20%.</span></strong></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br?subject=Tarifas%20com%20desconto%20Agosto%202019\"><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">reservas@corumbau.com.br</span></strong></a><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\"> ou 11 3078 4411 WhatsApp /&nbsp;11 3682 2111</span></strong></p>",
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
-                "alt": "desconto1"
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Descontos Especiais!</span><br><br><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Em maio e em junho reserve 03 noites e ganhe&nbsp;10% de desconto,&nbsp;04 noites e ganhe 15%&nbsp;ou 05 noites e ganhe 20%.</span></strong></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br?subject=Tarifas%20com%20desconto%20Agosto%202019\"><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">reservas@corumbau.com.br</span></strong></a><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\"> ou 11 3078 4411 WhatsApp /&nbsp;11 3682 2111</span></strong></p>",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
+              "alt": "desconto1"
+            }
           },
           {
-            "__resolveType": "htmx/sections/Deferred.tsx",
-            "trigger": {
-              "type": "intersect"
-            },
-            "loading": "lazy",
-            "sections": [
-              {
-                "__resolveType": "site/sections/DescriptiveBanner.tsx",
-                "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Exclusividade e Desconto!</span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Reserve 05&nbsp;noites e pague&nbsp;04 noites!</span></strong><br><br><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">Válido&nbsp;para estadia de julho&nbsp;a setembro&nbsp;2023</span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">Contatos: </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:corumbau@corumbau.com.br?subject=Descontos%20Baixa%20Temporada\"><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">reservas@corumbau.com.br</span></a></p><p><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">F.&nbsp;11 3078 4411 WhatsApp&nbsp;/ 11 3682 2111</span></p>",
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/98c74237-1c3e-4e13-9b69-ffe8cc63480d",
-                "alt": "desconto2"
-              }
-            ]
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Exclusividade e Desconto!</span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Reserve 05&nbsp;noites e pague&nbsp;04 noites!</span></strong><br><br><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">Válido&nbsp;para estadia de julho&nbsp;a setembro&nbsp;2023</span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">Contatos: </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:corumbau@corumbau.com.br?subject=Descontos%20Baixa%20Temporada\"><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">reservas@corumbau.com.br</span></a></p><p><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">F.&nbsp;11 3078 4411 WhatsApp&nbsp;/ 11 3682 2111</span></p>",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/98c74237-1c3e-4e13-9b69-ffe8cc63480d",
+              "alt": "desconto2"
+            }
           },
           {
             "__resolveType": "Footer"
