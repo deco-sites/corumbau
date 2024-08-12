@@ -158,13 +158,14 @@ function ProductShelf(props: Props) {
                                         ? "_blank"
                                         : "_self"}
                                     rel="noopener"
+                                    class="group overflow-hidden"
                                 >
                                     <Image
                                         src={slide.src}
                                         alt={slide.alt}
                                         width={287}
                                         height={387}
-                                        class="w-[90%]"
+                                        class="w-[90%] group-hover:scale-110 transition-transform duration-500"
                                     />
                                 </a>
                             </Slider.Item>
