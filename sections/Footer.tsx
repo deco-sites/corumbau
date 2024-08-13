@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import { LoadingFallbackProps } from "deco/mod.ts";
 import IframeModal from "site/components/ui/IframeModal.tsx";
 
 interface Social {
@@ -173,3 +174,8 @@ export default function Footer({
     </>
   );
 }
+
+export const LoadingFallback = (props: LoadingFallbackProps<Props>) => (
+  // deno-lint-ignore no-explicit-any
+  <Footer {...props as any} loading="lazy" />
+);

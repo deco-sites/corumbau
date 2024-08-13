@@ -4,6 +4,7 @@ import { useScript } from "deco/hooks/useScript.ts";
 import { FnContext } from "deco/types.ts";
 import { CommonButton } from "site/components/ui/Button.tsx";
 import InternationalizationController from "../islands/InternationalizationController.tsx";
+import { LoadingFallbackProps } from "deco/mod.ts";
 
 export interface CTA {
   id?: string;
@@ -224,3 +225,8 @@ export const loader = (props: Nav, req: Request, _ctx: FnContext) => {
     pathname,
   };
 };
+
+export const LoadingFallback = (props: LoadingFallbackProps<Nav>) => (
+  // deno-lint-ignore no-explicit-any
+  <Header {...props as any} loading="lazy" />
+);
