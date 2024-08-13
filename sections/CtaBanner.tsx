@@ -48,7 +48,7 @@ export default function CtaBanner(
         <div class="pt-10 flex flex-col items-center gap-5 fade-in-down">
             <Title text={title} />
             <div
-                class={`relative w-full h-[50vh] md:h-[80vh] lg:h-[70vh] bg-cover flex items-center justify-center bg-center`}
+                class={`relative w-full h-[50vh] md:h-[80vh] lg:h-[70vh] flex items-center justify-center`}
             >
                 <Image
                     src={image}
@@ -74,3 +74,10 @@ export default function CtaBanner(
         </div>
     );
 }
+
+export const LoadingFallback = () => {
+    <div
+        class={`relative w-full h-[50vh] md:h-[80vh] lg:h-[70vh]`}
+    >
+    </div>;
+};

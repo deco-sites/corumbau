@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import { LoadingFallbackProps } from "deco/mod.ts";
 import { Title } from "site/components/ui/Title.tsx";
 
 /**
@@ -103,3 +104,36 @@ export default function IconTileList(props: Props) {
         </div>
     );
 }
+
+export const LoadingFallback = (
+    { title, itens }: LoadingFallbackProps<Props>,
+) => {
+    return (
+        <div class="w-full flex flex-col items-center pt-10 gap-4 fade-in-down">
+            {title && (
+                <div class="w-[90%] xl:w-[85%] flex justify-start">
+                    <Title text={title} />
+                </div>
+            )}
+            <div class="w-[90%] xl:w-[85%] flex justify-start">
+                <ul class="flex flex-col gap-2 invisible">
+                    {itens?.map((item) => (
+                        <li>
+                            <div class="flex items-center gap-2">
+                                <h4 class="text-neutral font-medium text-xl">
+                                    {item.title}
+                                </h4>
+                            </div>
+                            <div
+                                class="reset_styles text-neutral ml-8"
+                                dangerouslySetInnerHTML={{
+                                    __html: item.description || "",
+                                }}
+                            />
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </div>
+    );
+};

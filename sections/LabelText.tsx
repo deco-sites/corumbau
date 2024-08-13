@@ -1,4 +1,5 @@
 import { CommonButton } from "site/components/ui/Button.tsx";
+import { Placeholder } from "site/components/ui/SectionPlaceholder.tsx";
 
 export interface Props {
     /**
@@ -94,3 +95,5 @@ export default function LabelText(
         </div>
     );
 }
+
+export const LoadingFallback = () => <Placeholder height="88px" />;

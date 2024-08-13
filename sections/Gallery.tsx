@@ -1,6 +1,7 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { Title } from "site/components/ui/Title.tsx";
+import { Placeholder } from "site/components/ui/SectionPlaceholder.tsx";
 
 /** @titleBy alt */
 interface ImageItem {
@@ -98,3 +99,5 @@ export default function Gallery(props: Props) {
         </div>
     );
 }
+
+export const LoadingFallback = () => <Placeholder height="70vh" />;

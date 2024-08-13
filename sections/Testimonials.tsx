@@ -1,3 +1,4 @@
+import { Placeholder } from "site/components/ui/SectionPlaceholder.tsx";
 import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
 import { Title } from "site/components/ui/Title.tsx";
@@ -189,3 +190,5 @@ function Carousel(props: Props) {
 }
 
 export default Carousel;
+
+export const LoadingFallback = () => <Placeholder height="340px" />;

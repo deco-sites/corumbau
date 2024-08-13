@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import { Placeholder } from "site/components/ui/SectionPlaceholder.tsx";
 
 export interface Props {
     /**
@@ -46,3 +47,5 @@ export default function (props: Props) {
         </div>
     );
 }
+
+export const LoadingFallback = () => <Placeholder height="50vh" />;

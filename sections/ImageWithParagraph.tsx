@@ -1,5 +1,6 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import { Placeholder } from "site/components/ui/SectionPlaceholder.tsx";
 
 interface Paragraph {
   /** @format textarea */
@@ -71,3 +72,5 @@ export default function ImageWithParagraph({
     </div>
   );
 }
+
+export const LoadingFallback = () => <Placeholder height="50vh" />;

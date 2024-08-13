@@ -13,58 +13,91 @@ export default defineApp(async (_req, ctx) => {
 
       {/* Include Icons and manifest */}
       <Head>
+        <link
+          rel="preconnect"
+          href={asset("Sense-Light.woff")}
+          as="font"
+          type="font/woff"
+        />
+        <link
+          rel="preconnect"
+          href={asset("Sense-Reg.woff")}
+          as="font"
+          type="font/woff"
+        />
+        <link
+          rel="preconnect"
+          href={asset("Sense-Thin.woff")}
+          as="font"
+          type="font/woff"
+        />
+        <link
+          rel="preconnect"
+          href={asset("Sense-ExtraLight.woff")}
+          as="font"
+          type="font/woff"
+        />
+        <link
+          rel="preconnect"
+          href={asset("Sense-Bold.woff")}
+          as="font"
+          type="font/woff"
+        />
         {/* Enable View Transitions API */}
         <style
           dangerouslySetInnerHTML={{
             __html: `@view-transition { navigation: auto; }`,
           }}
         />
+
         <style
           dangerouslySetInnerHTML={{
             __html: `@font-face {
-  font-family: 'Sense';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('Sense-Bold.woff') format('woff');
-}
+                      font-family: 'Sense';
+                      font-style: normal;
+                      font-weight: 700;
+                      font-display: swap;
+                      src: url(${asset("Sense-Bold.woff")}) format('woff');
+                    }
 
-@font-face {
-  font-family: 'Sense';
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url('Sense-ExtraLight.woff') format('woff');
-}
+                    @font-face {
+                      font-family: 'Sense';
+                      font-style: normal;
+                      font-weight: 200;
+                      font-display: swap;
+                      src: url(${
+              asset("Sense-ExtraLight.woff")
+            }) format('woff');
+                    }
 
-@font-face {
-  font-family: 'Sense';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url('Sense-Light.woff') format('woff');
-}
+                    @font-face {
+                      font-family: 'Sense';
+                      font-style: normal;
+                      font-weight: 300;
+                      font-display: swap;
+                      src: url(${asset("Sense-Light.woff")}) format('woff');
+                    }
 
-@font-face {
-  font-family: 'Sense';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('Sense-Reg.woff') format('woff');
-}
+                    @font-face {
+                      font-family: 'Sense';
+                      font-style: normal;
+                      font-weight: 400;
+                      font-display: swap;
+                      src: url(${asset("Sense-Reg.woff")}) format('woff');
+                    }
 
-@font-face {
-  font-family: 'Sense';
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url('Sense-Thin.woff') format('woff');
-}
-  
-body {
-  font-family: 'Sense', sans-serif  
-}
-`,
+                    @font-face {
+                      font-family: 'Sense';
+                      font-style: normal;
+                      font-weight: 100;
+                      font-display: swap;
+                      src: url(${asset("Sense-Thin.woff")}) format('woff');
+                    }
+                      
+                    * {
+                      font-family: 'Sense', sans-serif  
+                    }
+                    `,
           }}
         />
 

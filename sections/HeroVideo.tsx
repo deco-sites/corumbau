@@ -1,4 +1,5 @@
 import { VideoWidget } from "apps/admin/widgets.ts";
+import { LoadingFallbackProps } from "deco/mod.ts";
 
 export interface Props {
     /**
@@ -47,3 +48,14 @@ export default function HeroVideo({
         </div>
     );
 }
+
+export const LoadingFallback = (
+    { size }: LoadingFallbackProps<Props>,
+) => {
+    <div
+        class={` ${
+            size === "grande" ? "h-[90vh]" : "h-[50vh] md:h-[80vh] lg:h-[70vh]"
+        } flex items-end justify-start fade-in relative`}
+    >
+    </div>;
+};

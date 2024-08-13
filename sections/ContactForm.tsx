@@ -2,6 +2,7 @@ import IframeModal from "../components/ui/IframeModal.tsx";
 import { useComponent } from "../sections/Component.tsx";
 import { AppContext } from "site/apps/site.ts";
 import type { AppContext as ResendApp } from "apps/resend/mod.ts";
+import { Placeholder } from "site/components/ui/SectionPlaceholder.tsx";
 
 interface Policy {
     /**
@@ -251,3 +252,5 @@ export default function ContactForm(props: Props) {
         </div>
     );
 }
+
+export const LoadingFallback = () => <Placeholder height="670px" />;

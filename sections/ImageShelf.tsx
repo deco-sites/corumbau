@@ -3,6 +3,7 @@ import Slider from "site/components/ui/Slider.tsx";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { Title } from "site/components/ui/Title.tsx";
+import { Placeholder } from "site/components/ui/SectionPlaceholder.tsx";
 
 export interface Image {
     /**
@@ -204,3 +205,5 @@ function ProductShelf(props: Props) {
 }
 
 export default ProductShelf;
+
+export const LoadingFallback = () => <Placeholder height="50vh" />;

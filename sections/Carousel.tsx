@@ -2,6 +2,7 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
 import Image from "apps/website/components/Image.tsx";
+import { Placeholder } from "site/components/ui/SectionPlaceholder.tsx";
 
 /**
  * @titleBy alt
@@ -182,3 +183,5 @@ function Carousel(props: Props) {
 }
 
 export default Carousel;
+
+export const LoadingFallback = () => <Placeholder height="80vh" />;

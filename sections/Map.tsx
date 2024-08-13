@@ -1,3 +1,6 @@
+import { LoadingFallbackProps } from "deco/mod.ts";
+import { Placeholder } from "site/components/ui/SectionPlaceholder.tsx";
+
 export interface Props {
     /**
      * @title Altura do mapa
@@ -36,3 +39,7 @@ export default function Map(props: Props) {
         </div>
     );
 }
+
+export const LoadingFallback = (
+    { height }: LoadingFallbackProps<Props>,
+) => <Placeholder height={height || DEFAULT_PROPS.height} />;
