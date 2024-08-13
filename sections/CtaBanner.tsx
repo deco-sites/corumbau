@@ -76,8 +76,10 @@ export default function CtaBanner(
 }
 
 export const LoadingFallback = () => {
-    <div
-        class={`relative w-full h-[50vh] md:h-[80vh] lg:h-[70vh]`}
-    >
-    </div>;
+    return (
+        <div
+            class={`relative w-full h-[50vh] md:h-[80vh] lg:h-[70vh]`}
+        >
+        </div>
+    );
 };
