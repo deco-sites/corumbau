@@ -15,47 +15,50 @@
             "size": "grande"
           },
           {
-            "__resolveType": "site/sections/ImageShelf.tsx",
-            "layout": {
-              "numberOfSliders": {
-                "mobile": 1,
-                "desktop": 3
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageShelf.tsx",
+              "layout": {
+                "numberOfSliders": {
+                  "mobile": 1,
+                  "desktop": 3
+                },
+                "showArrows": false
               },
-              "showArrows": false
-            },
-            "slides": [
-              {
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
-                "alt": "teste",
-                "href": "#"
-              },
-              {
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
-                "alt": "teste",
-                "href": "#"
-              },
-              {
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
-                "alt": "teste",
-                "href": "#"
-              },
-              {
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
-                "alt": "teste",
-                "href": "#"
-              },
-              {
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
-                "alt": "teste",
-                "href": "#"
-              },
-              {
-                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
-                "alt": "teste",
-                "href": "#"
-              }
-            ],
-            "title": "Titulo testes"
+              "slides": [
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
+                  "alt": "teste",
+                  "href": "#"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
+                  "alt": "teste",
+                  "href": "#"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
+                  "alt": "teste",
+                  "href": "#"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
+                  "alt": "teste",
+                  "href": "#"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
+                  "alt": "teste",
+                  "href": "#"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4141ffae-dd96-45af-bb4a-ee205b1c81d4",
+                  "alt": "teste",
+                  "href": "#"
+                }
+              ],
+              "title": "Titulo testes"
+            }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
