@@ -26,6 +26,7 @@ export interface Testimonial {
 export interface Props {
   /**
    * @title Titulo da Seção
+   * @format rich-text
    */
   title?: string;
   /**

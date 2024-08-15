@@ -26,6 +26,7 @@ interface ListItem {
 export interface Props {
     /**
      * @title Titulo da seção
+     * @format rich-text
      */
     title?: string;
     /**

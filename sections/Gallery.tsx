@@ -24,7 +24,14 @@ interface ImageItem {
 }
 
 export interface Props {
+    /**
+     * @title Titulo
+     * @format rich-text
+     */
     title?: string;
+    /**
+     * @title Imagens
+     */
     images: ImageItem[];
 }
 
