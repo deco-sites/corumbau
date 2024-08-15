@@ -8,5 +8,6 @@ export default defineConfig({
     manifest,
     // deno-lint-ignore no-explicit-any
     tailwind: tailwind as any,
+    htmx: true,
   }),
 });

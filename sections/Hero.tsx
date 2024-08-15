@@ -39,6 +39,7 @@ export default function HeroFlats(props: Props) {
     >
       <Image
         src={image}
+        alt={image}
         class="w-full h-full object-cover"
         width={1440}
         height={size == "grande" ? 819 : 637}

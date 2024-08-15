@@ -1,12 +1,1 @@
-{
-  "__resolveType": "site/apps/deco/resend.ts",
-  "apiWrite": {},
-  "emailTo": [
-    "hilzakysenshiro@gmail.com"
-  ],
-  "apiKey": {
-    "__resolveType": "website/loaders/secret.ts",
-    "encrypted": "3e9163b26b8d6bd5184b6b0913af5b9d26c7cb3cc9110f1717b82b92ba9bc0cd33f8493e2ffc8dbc38a12018a5645d1b",
-    "name": "RESENDkEY"
-  }
-}
+{"__resolveType":"site/apps/deco/resend.ts","apiWrite":{},"emailTo":["hilzakysenshiro@gmail.com"],"apiKey":{"__resolveType":"website/loaders/secret.ts","encrypted":"a09ef8068328c45641bbdcf512efed6f700a9284f65e63e38313a7f47b6c7b16aad4b92c33acbe9aefdc892a810ee115","name":"RESENDkEY"}}
