@@ -38,6 +38,7 @@ export interface Props {
     slides: Image[];
     /**
      * @title Titulo
+     * @format rich-text
      */
     title?: string;
     /**
