@@ -119,7 +119,7 @@
           },
           {
             "__resolveType": "site/sections/Hero.tsx",
-            "title": "Acomodações à beira mar",
+            "title": "Condições Especiais ao longo do ano",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05b3676f-4f77-4f0a-bf10-f918bea25ebe",
@@ -129,7 +129,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Descontos Especiais!</span><br><br><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Em maio e em junho reserve 03 noites e ganhe&nbsp;10% de desconto,&nbsp;04 noites e ganhe 15%&nbsp;ou 05 noites e ganhe 20%.</span></strong></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br?subject=Tarifas%20com%20desconto%20Agosto%202019\"><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">reservas@corumbau.com.br</span></strong></a><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\"> ou 11 3078 4411 WhatsApp /&nbsp;11 3682 2111</span></strong></p>",
+              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Descontos Progressivos!</span><br><br></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">De março a dezembro reserve: </span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">03 noites e ganhe&nbsp;10% de desconto.</span></strong></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">04 noites e ganhe 15%&nbsp;de desconto.</span></strong></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">05 noites e ganhe 20% de desconto.</span></strong></p><p></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br?subject=Tarifas%20com%20desconto%20Agosto%202019\"><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Exceto feriados prolongados, Carnaval, Natal e Reveillon. </span></strong></a></p>",
               "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
               "alt": "desconto1"
             }
@@ -138,8 +138,8 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Exclusividade e Desconto!</span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Reserve 05&nbsp;noites e pague&nbsp;04 noites!</span></strong><br><br><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">Válido&nbsp;para estadia de julho&nbsp;a setembro&nbsp;2023</span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">Contatos: </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:corumbau@corumbau.com.br?subject=Descontos%20Baixa%20Temporada\"><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">reservas@corumbau.com.br</span></a></p><p><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">F.&nbsp;11 3078 4411 WhatsApp&nbsp;/ 11 3682 2111</span></p>",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/98c74237-1c3e-4e13-9b69-ffe8cc63480d",
+              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Reveillon 2024/2025</span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Mínimo 7 noites.</span></strong><br><br><span style=\"font-size: 16pt\">Paz tranquilidade e exclusividade. Veja condições diretamente com a nossa central de reservas.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:corumbau@corumbau.com.br?subject=Descontos%20Baixa%20Temporada\"><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">reservas@corumbau.com.br ou </span></a><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">WhatsApp (11) 3078 4411</span></p>",
+              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/32922556-de33-4803-ad2e-2e691bd3972d/FSFC-piscina-noite-corte.jpg",
               "alt": "desconto2"
             }
           },
