@@ -252,30 +252,6 @@
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/Testimonials.tsx",
-              "title": "Nossos clientes",
-              "slides": [
-                {
-                  "content": {
-                    "description": "Perfeito em tudo. O que falar desse hotel: SIMPLESMENTE PERFEITO EM TODOS OS DETALHES!!!! Só indo para entender o quanto ele é especial. Serviço impecável, comida melhor da vida, praia sensacional... Experiência única!",
-                    "name": "Fabiana P.",
-                    "source": "Trip Advisor"
-                  }
-                },
-                {
-                  "content": {
-                    "description": "Perfeito em tudo. O que falar desse hotel: SIMPLESMENTE PERFEITO EM TODOS OS DETALHES!!!! Só indo para entender o quanto ele é especial. Serviço impecável, comida melhor da vida, praia sensacional... Experiência única!",
-                    "name": "Fabiana P.",
-                    "source": "Trip Advisor"
-                  }
-                }
-              ],
-              "interval": 10
-            }
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
               "__resolveType": "site/sections/CtaBanner.tsx",
               "title": "Especiais",
               "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/17188e59-a1dd-46c8-b1ac-490fb5edd2ee",
