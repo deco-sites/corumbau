@@ -4,9 +4,8 @@
     "jsonLDs": [],
     "noIndexing": false,
     "descriptionTemplate": "%s | www.corumbau.com.br",
-    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/206981f9-99a1-4d9a-bb3b-2ccbf6ed10d0/AF-Logo-Amendoeira-560.png",
-    "title": "Fazenda São Francisco do Corumbau",
-    "titleTemplate": "%s"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b62cf9db-6294-456a-99fc-4cbe643c9723",
+    "title": "Fazenda São Francisco do Corumbau"
   },
   "global": [
     {
