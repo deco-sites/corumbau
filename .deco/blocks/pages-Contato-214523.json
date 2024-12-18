@@ -222,23 +222,6 @@
             "__resolveType": "Header"
           },
           {
-            "__resolveType": "site/sections/Hero.tsx",
-            "title": "Longe de tudo",
-            "cta": [],
-            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/533d0d0d-4ba7-45f3-8fca-25194383b59d/073-Albori-Fazenda-Sao-Francisco-Drone.jpg",
-            "size": "medio"
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/LabelText.tsx",
-              "title": "Entre em contato",
-              "description": "Muito obrigado pelo seu interesse. Por favor, preencha o formulário abaixo e envie-nos suas perguntas e comentários, entraremos em contato em breve.",
-              "size": "Medio"
-            }
-          },
-          {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ContactForm.tsx",
@@ -298,6 +281,23 @@
                   "title": "Como Chegar ao Hotel de Barco"
                 }
               ]
+            }
+          },
+          {
+            "__resolveType": "site/sections/Hero.tsx",
+            "title": "Longe de tudo",
+            "cta": [],
+            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/533d0d0d-4ba7-45f3-8fca-25194383b59d/073-Albori-Fazenda-Sao-Francisco-Drone.jpg",
+            "size": "medio"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Entre em contato",
+              "description": "Muito obrigado pelo seu interesse. Por favor, preencha o formulário abaixo e envie-nos suas perguntas e comentários, entraremos em contato em breve.",
+              "size": "Medio"
             }
           },
           {
