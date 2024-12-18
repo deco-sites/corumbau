@@ -222,23 +222,12 @@
             "__resolveType": "Header"
           },
           {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/ContactForm.tsx",
-              "policy": {
-                "text": "Politica de privacidade",
-                "link": "/politica_privacidade",
-                "description": "Aceito os termos de uso dos dados conforme indicado na"
-              },
-              "formLabels": {
-                "name": "Seu nome",
-                "email": "Seu email",
-                "phone": "Seu telefone",
-                "message": "Deixe sua mensagem aqui...",
-                "button": "Enviar"
-              },
-              "sentEmail": false
-            }
+            "__resolveType": "site/sections/Hero.tsx",
+            "title": "Longe de tudo",
+            "cta": [],
+            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/533d0d0d-4ba7-45f3-8fca-25194383b59d/073-Albori-Fazenda-Sao-Francisco-Drone.jpg",
+            "size": "medio"
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -263,19 +252,19 @@
               "__resolveType": "site/sections/IconTileList.tsx",
               "itens": [
                 {
-                  "description": "<p><span style=\"font-size: 12pt\">Para chegar ao nosso hotel de carro, siga as instruções abaixo:</span></p><ol><li><p><span style=\"font-size: 12pt\">Saindo de Porto Seguro siga na BA 367 em direção a Eunápolis.</span></p></li><li><p><span style=\"font-size: 12pt\">Em Eunápolis siga pela BR 101, sul, em direção a Itamaraju.</span></p></li><li><p><span style=\"font-size: 12pt\">Em Itamaraju seguir pela BA 489 em direção a Guarani. Abasteçam em Itamaraju, em Corumbau não há postos de gasolina.</span></p></li><li><p><span style=\"font-size: 12pt\">Este último trecho de estrada, aproximadamente 1h15 ou 53km, de Guarani até Corumbau a estrada é de terra e normalmente tem estado bem cuidada. Por favor entrar em contato para atualizar condições de estrada.</span></p></li></ol><p><span style=\"font-size: 12pt\">No total serão cerca de 4 horas de viagem de Porto seguro</span></p>",
+                  "description": "<p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">Para chegar ao nosso hotel de carro, poderá contratar um parceiro ou alugar um carro e seguir as instruções abaixo:</span></p><ol><li><p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">Saindo de Porto Seguro siga na BA 367 em direção a Eunápolis.</span></p></li><li><p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">Em Eunápolis siga pela BR 101, sul, em direção a Itamaraju.</span></p></li><li><p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">Em Itamaraju seguir pela BA 489 em direção a Guarani. Abasteçam em Itamaraju, em Corumbau não há postos de gasolina.</span></p></li><li><p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">Este último trecho de estrada, tem 53km de Guarani até Corumbau leva cerca de 1h15. A estrada é de terra e normalmente tem estado bem cuidada. Por favor entrar em contato para atualizar condições de estrada.</span></p><p></p></li></ol><p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">No total serão cerca de 4 horas de viagem de Porto seguro até à Fazenda São Francisco. Caso queira contratar um parceiro </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><span style=\"color: #aad010; font-size: 12pt\">clique aqui</span></a><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">.</span></p>",
                   "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
                   "alt": "car",
                   "title": "Como Chegar ao Hotel por Carro"
                 },
                 {
-                  "description": "<p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">Se você está planejando chegar ao nosso hotel de helicóptero, entre em contato com o nosso parceiro, Rotorfly, Rosa (73) 98808 8846</span></p><p></p><p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">A duração da viagem é de 20 minutos, custa aproximadamente R$5.200,00 por trecho para até 03 pessoas.</span></p><p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">O pouso é feito dentro da Fazenda </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.google.com/maps/place/Porto+Seguro,+BA,+45810-000/@-16.9098009,-39.1295869,70m/data=!3m1!1e3!4m6!3m5!1s0x73696a94abc86ff:0x677df9529c95e80f!8m2!3d-16.4443537!4d-39.0653656!16zL20vMDJiZmY5?entry=ttu&amp;g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D#:~:text=%2D16.909863%2C%20%2D39.129485\"><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">-16.909863, -39.129485</span></a><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">.</span></p><p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">É possível levar uma bagagem de mão por passageiro, as bagagens extras seguirão de carro e haverá custo extra.<br></span></p><p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">Nosso time estará pronto para recebê-lo e acompanhá-lo até o hotel.</span></p>",
+                  "description": "<p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">Também é possivel chegar de helicoptero até a Fazenda São Francisco a partir do Aeroporto de Porto Seguro. </span></p><p></p><p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">A duração da viagem é de 20 minuto para até 03 pessoas.É possível levar uma bagagem de mão por passageiro. As bagagens extras seguirão de carro e haverá custo extra.</span></p><p></p><p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">O pouso é feito dentro da Fazenda </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.google.com/maps/place/Porto+Seguro,+BA,+45810-000/@-16.9098009,-39.1295869,70m/data=!3m1!1e3!4m6!3m5!1s0x73696a94abc86ff:0x677df9529c95e80f!8m2!3d-16.4443537!4d-39.0653656!16zL20vMDJiZmY5?entry=ttu&amp;g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D#:~:text=%2D16.909863%2C%20%2D39.129485\"><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">-16.909863, -39.129485</span></a><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">. Nosso time estará pronto para recebê-lo e acompanhá-lo até o hotel.</span><br><br><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">Para mais informações </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><span style=\"color: #aad010; font-size: 12pt\">clique aqui</span></a><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">.</span></p>",
                   "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
                   "alt": "helicoptero",
                   "title": "Como Chegar ao Hotel de Helicóptero"
                 },
                 {
-                  "description": "<p><span style=\"color: rgb(149, 148, 143); font-size: 12pt\">Para aqueles que preferem a experiência única de chegar de barco, temos dois parceiros que sempre indicamos, Ivan (73) 99968-1520 ou Facundo (73) 99934 7501</span></p><p><span style=\"color: rgb(149, 148, 143); font-size: 12pt\">Saindo do aeroporto de Porto Seguro deverão se dirigir ao píer de Porto Seguro onde embarcarão (os parceiros passarão maiores detalhes) A viagem tem duração de 1h30 e tem um custo aproximado de R$ 4.500,00 (cada trecho). Lancha tem capacidade para até 08 pessoas; Há vários tamanhos de lancha e os valores podem ser diferentes. Favor consultar os parceiros.&nbsp;&nbsp;</span></p><p><span style=\"color: rgb(149, 148, 143); font-size: 12pt\">Sugerimos que os transfers realizados de lancha sejam feitos na parte da manhã. Condições climatéricas poderão influenciar.</span></p><p></p><p><span style=\"color: rgb(149, 148, 143); font-size: 12pt\">Ao chegarem em Corumbau nossa equipe os encontrará e auxiliará no desembarque que acontecerá na praia.</span></p>",
+                  "description": "<p><span style=\"font-size: 12pt\">Para aqueles que preferem a experiência única de chegar de barco, existe a opção de traslado partindo do píer de Porto Seguro.</span></p><p></p><p><span style=\"font-size: 12pt\">A viagem tem duração aproximada de 1h30 e pode acomodar até 8 pessoas, dependendo do tipo de lancha escolhida. Recomendamos que o traslado seja realizado pela manhã, considerando as condições climáticas.</span></p><p></p><p><span style=\"font-size: 12pt\">Ao chegar em Corumbau, nossa equipe estará pronta para recebê-los e auxiliá-los no desembarque, que ocorrerá diretamente na praia.</span></p><p></p><p><span style=\"font-size: 12pt\">Para mais informações </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><span style=\"color: #aad010; font-size: 12pt\">clique aqui</span></a><span style=\"font-size: 12pt\">.</span></p>",
                   "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
                   "alt": "barco",
                   "title": "Como Chegar ao Hotel de Barco"
@@ -284,20 +273,31 @@
             }
           },
           {
-            "__resolveType": "site/sections/Hero.tsx",
-            "title": "Longe de tudo",
-            "cta": [],
-            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/533d0d0d-4ba7-45f3-8fca-25194383b59d/073-Albori-Fazenda-Sao-Francisco-Drone.jpg",
-            "size": "medio"
-          },
-          {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/LabelText.tsx",
               "title": "Entre em contato",
-              "description": "Muito obrigado pelo seu interesse. Por favor, preencha o formulário abaixo e envie-nos suas perguntas e comentários, entraremos em contato em breve.",
+              "description": "Para mais informações preencha o formulário abaixo e entraremos em contato.",
               "size": "Medio"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ContactForm.tsx",
+              "policy": {
+                "text": "Politica de privacidade",
+                "link": "/politica_privacidade",
+                "description": "Aceito os termos de uso dos dados conforme indicado na"
+              },
+              "formLabels": {
+                "name": "Seu nome",
+                "email": "Seu email",
+                "phone": "Seu telefone",
+                "message": "Deixe sua mensagem aqui...",
+                "button": "Enviar"
+              },
+              "sentEmail": false
             }
           },
           {
