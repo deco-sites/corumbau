@@ -1,1 +1,59 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[{"children":[],"label":"HOTEL","url":"/sobre"},{"children":[],"label":"CORUMBAU","url":"/corumbau"},{"children":[{"label":"Super Deluxe Bungalows","url":"/quarto"},{"label":"Deluxe Suites in Bungalows","url":"/quarto2"},{"label":"Deluxe Suites in The Main House","url":"/quarto3"}],"label":"ROOMS","url":"/quartos"},{"children":[],"label":"DINING","url":"/gastronomia"},{"children":[],"label":"SPECIAL OFFERS","url":"/especiais"},{"children":[],"label":"GETTING HERE","url":"/contato"}],"button":{"href":"https://us2.cloudbeds.com/pt-br/reservas/pLEU0d?currency=brl","text":"BOOK NOW"}},"logo":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c1389e3d-8e87-43c0-8fb5-b4ef4a05580a","alt":"corumbau icon"},"languageVersion":"ENG"}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "children": [],
+        "label": "HOTEL",
+        "url": "/sobre"
+      },
+      {
+        "children": [],
+        "label": "CORUMBAU",
+        "url": "/corumbau"
+      },
+      {
+        "children": [
+          {
+            "label": "Super Deluxe Bungalows",
+            "url": "/quarto"
+          },
+          {
+            "label": "Deluxe Suites in Bungalows",
+            "url": "/quarto2"
+          },
+          {
+            "label": "Deluxe Suites in The Main House",
+            "url": "/quarto3"
+          }
+        ],
+        "label": "ROOMS",
+        "url": "/quartos"
+      },
+      {
+        "children": [],
+        "label": "DINING",
+        "url": "/gastronomia"
+      },
+      {
+        "children": [],
+        "label": "SPECIAL OFFERS",
+        "url": "/especiais"
+      },
+      {
+        "children": [],
+        "label": "GETTING HERE",
+        "url": "/contato"
+      }
+    ],
+    "button": {
+      "href": "https://book.omnibees.com/hotel/20763?lang=pt-BR&currencyId=16",
+      "text": "BOOK NOW"
+    }
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c1389e3d-8e87-43c0-8fb5-b4ef4a05580a",
+    "alt": "corumbau icon"
+  },
+  "languageVersion": "ENG"
+}
