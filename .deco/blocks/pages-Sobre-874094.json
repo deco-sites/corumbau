@@ -1,1 +1,365 @@
-{"name":"Sobre","path":"/sobre","sections":{"__resolveType":"website/flags/multivariate.ts","variants":[{"value":[{"__resolveType":"Header - Spanish"},{"__resolveType":"site/sections/Hero.tsx","title":"Una hermosa finca frente a la playa","cta":[],"description":"This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6","size":"medio"},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/LabelText.tsx","title":"<p><span style=\"font-size: 32pt\">EL HOTEL</span></p>","description":"Ubicado en una extensa franja de arena a lo largo de la costa."}},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/Carousel.tsx","slides":[{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26","alt":"slider1"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72","alt":"slider2"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c","alt":"slider3"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045","alt":"slider4"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb","alt":"slider5"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a","alt":"slider6"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390","alt":"slider7"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11","alt":"slider8"},{"alt":"slider9","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73","alt":"slider10"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3","alt":"slider11"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8","alt":"slider12"}]}},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/ImageWithParagraph.tsx","description":"A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86","placement":"left","paragraph":[null],"paragraphs":[{"text":"Situada en una extensión de 167 hectáreas, la Fazenda combina el lujo de un hotel con la comodidad y la elegancia informal de una casa de playa."},{"text":"Este proyecto del arquitecto Roberto Migotto combina recursos modernos de infraestructura con la vastedad y la exuberancia del entorno natural."}]}},{"__resolveType":"Footer - Spanish"},{"__resolveType":"website/sections/Seo/Seo.tsx","title":"Corumbau | Sobre"},{"__resolveType":"Cookie Consent - Spanish"}],"rule":{"__resolveType":"website/matchers/multi.ts","op":"or","matchers":[{"__resolveType":"website/matchers/cookie.ts","name":"language","value":"es-ES"}]}},{"value":[{"__resolveType":"Header - English"},{"__resolveType":"site/sections/Hero.tsx","title":"A beautiful beach-front farm","cta":[],"description":"This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6","size":"medio"},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/LabelText.tsx","title":"<p><span style=\"font-size: 32pt\">THE HOTEL</span></p>","description":"Located in an extensive strip of sand along the seashore."}},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/Carousel.tsx","slides":[{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26","alt":"slider1"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72","alt":"slider2"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c","alt":"slider3"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045","alt":"slider4"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb","alt":"slider5"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a","alt":"slider6"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390","alt":"slider7"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11","alt":"slider8"},{"alt":"slider9","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73","alt":"slider10"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3","alt":"slider11"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8","alt":"slider12"}]}},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/ImageWithParagraph.tsx","description":"A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86","placement":"left","paragraph":[null],"paragraphs":[{"text":"Set amid an area of 167 hectares, the Fazenda blends the luxury of a hotel with the comfort and casual elegance of a beach house."},{"text":"This project by architect Roberto Migotto combines modern infrastructure resources with the vastness and the lushness of the natural surroundings."}]}},{"__resolveType":"Footer - English"},{"__resolveType":"website/sections/Seo/Seo.tsx","title":"Corumbau | About"},{"__resolveType":"Cookie Consent - English"}],"rule":{"__resolveType":"website/matchers/multi.ts","op":"or","matchers":[{"__resolveType":"website/matchers/cookie.ts","name":"language","value":"en-US"}]}},{"value":[{"__resolveType":"Header"},{"__resolveType":"site/sections/Hero.tsx","title":"Uma bela Fazenda à beira-mar","cta":[],"description":"This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6","size":"medio"},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/LabelText.tsx","title":"<p><span style=\"font-size: 32pt\">O HOTEL</span></p>","description":"Situado numa extensa faixa de areia que avança sobre o mar."}},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/Carousel.tsx","slides":[{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26","alt":"slider1"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72","alt":"slider2"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c","alt":"slider3"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045","alt":"slider4"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb","alt":"slider5"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a","alt":"slider6"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390","alt":"slider7"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11","alt":"slider8"},{"alt":"slider9","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73","alt":"slider10"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3","alt":"slider11"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8","alt":"slider12"}]}},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/ImageWithParagraph.tsx","description":"A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86","placement":"left","paragraph":[null],"paragraphs":[{"text":"A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia."},{"text":"O projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local."}]}},{"__resolveType":"Footer"},{"__resolveType":"website/sections/Seo/Seo.tsx","title":"Corumbau | Sobre"},{"__resolveType":"cookie-consent"}],"rule":{"__resolveType":"website/matchers/always.ts"}}]},"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "path": "/sobre",
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "Header - Spanish"
+          },
+          {
+            "__resolveType": "site/sections/Hero.tsx",
+            "title": "Una hermosa finca frente a la playa",
+            "cta": [],
+            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6",
+            "size": "medio"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "<p><span style=\"font-size: 32pt\">EL HOTEL</span></p>",
+              "description": "Ubicado en una extensa franja de arena a lo largo de la costa."
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26",
+                  "alt": "slider1"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72",
+                  "alt": "slider2"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c",
+                  "alt": "slider3"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045",
+                  "alt": "slider4"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb",
+                  "alt": "slider5"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a",
+                  "alt": "slider6"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390",
+                  "alt": "slider7"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11",
+                  "alt": "slider8"
+                },
+                {
+                  "alt": "slider9",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73",
+                  "alt": "slider10"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3",
+                  "alt": "slider11"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8",
+                  "alt": "slider12"
+                }
+              ]
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
+              "placement": "left",
+              "paragraph": [
+                null
+              ],
+              "paragraphs": [
+                {
+                  "text": "Situada en una extensión de 167 hectáreas, la Fazenda combina el lujo de un hotel con la comodidad y la elegancia informal de una casa de playa."
+                },
+                {
+                  "text": "Este proyecto del arquitecto Roberto Migotto combina recursos modernos de infraestructura con la vastedad y la exuberancia del entorno natural."
+                }
+              ]
+            }
+          },
+          {
+            "__resolveType": "Footer - Spanish"
+          },
+          {
+            "__resolveType": "website/sections/Seo/Seo.tsx",
+            "title": "Corumbau | Sobre"
+          },
+          {
+            "__resolveType": "Cookie Consent - Spanish"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/multi.ts",
+          "op": "or",
+          "matchers": [
+            {
+              "__resolveType": "website/matchers/cookie.ts",
+              "name": "language",
+              "value": "es-ES"
+            }
+          ]
+        }
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "Header - English"
+          },
+          {
+            "__resolveType": "site/sections/Hero.tsx",
+            "title": "A beautiful beach-front farm",
+            "cta": [],
+            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6",
+            "size": "medio"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "<p><span style=\"font-size: 32pt\">THE HOTEL</span></p>",
+              "description": "Located in an extensive strip of sand along the seashore."
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26",
+                  "alt": "slider1"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72",
+                  "alt": "slider2"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c",
+                  "alt": "slider3"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045",
+                  "alt": "slider4"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb",
+                  "alt": "slider5"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a",
+                  "alt": "slider6"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390",
+                  "alt": "slider7"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11",
+                  "alt": "slider8"
+                },
+                {
+                  "alt": "slider9",
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73",
+                  "alt": "slider10"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3",
+                  "alt": "slider11"
+                },
+                {
+                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8",
+                  "alt": "slider12"
+                }
+              ]
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
+              "placement": "left",
+              "paragraph": [
+                null
+              ],
+              "paragraphs": [
+                {
+                  "text": "Set amid an area of 167 hectares, the Fazenda blends the luxury of a hotel with the comfort and casual elegance of a beach house."
+                },
+                {
+                  "text": "This project by architect Roberto Migotto combines modern infrastructure resources with the vastness and the lushness of the natural surroundings."
+                }
+              ]
+            }
+          },
+          {
+            "__resolveType": "Footer - English"
+          },
+          {
+            "__resolveType": "website/sections/Seo/Seo.tsx",
+            "title": "Corumbau | About"
+          },
+          {
+            "__resolveType": "Cookie Consent - English"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/multi.ts",
+          "op": "or",
+          "matchers": [
+            {
+              "__resolveType": "website/matchers/cookie.ts",
+              "name": "language",
+              "value": "en-US"
+            }
+          ]
+        }
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "site/sections/Hero.tsx",
+            "title": "Uma bela Fazenda à beira-mar",
+            "cta": [],
+            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6",
+            "size": "medio"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "<p><span style=\"font-size: 32pt\">O HOTEL</span></p>",
+              "description": "Situado numa extensa faixa de areia que avança sobre o mar."
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Carousel.tsx",
+              "slides": [
+                {
+                  "src": "https://data.decoassets.com/corumbau/a98e0fda-e63a-441d-ba12-a70161b07200/Site-hotel-1-light.jpg",
+                  "alt": "slider1"
+                },
+                {
+                  "src": "https://data.decoassets.com/corumbau/6ea6b811-eb31-4098-a7aa-8a5ad000e63b/Site-hotel-foto-2-light.jpg",
+                  "alt": "slider2"
+                },
+                {
+                  "src": "https://data.decoassets.com/corumbau/96f08a14-687d-4a4b-9297-cb919bcac730/Site-hotel-3-light.jpg",
+                  "alt": "slider3"
+                },
+                {
+                  "src": "https://data.decoassets.com/corumbau/c0a568d8-bb8c-43b5-9fa3-211eb2759848/Site-hotel-4-light.jpg",
+                  "alt": "slider4"
+                },
+                {
+                  "src": "https://data.decoassets.com/corumbau/332e12b3-5a6e-4b9e-82d3-2c4192e9fe63/Site-hotel-5-light.jpg",
+                  "alt": "slider5"
+                },
+                {
+                  "src": "https://data.decoassets.com/corumbau/783a25e6-dc77-4b80-abbc-fb34dd1238be/Site-hotel-6-light.jpg",
+                  "alt": "slider6"
+                },
+                {
+                  "src": "https://data.decoassets.com/corumbau/e0298582-375f-4039-a001-a90350d13d00/Site-hotel-8-light.jpg",
+                  "alt": "slider7"
+                },
+                {
+                  "src": "https://data.decoassets.com/corumbau/000a339a-b247-4e97-91cc-e8574e271622/Site-hotel-7-light.JPG",
+                  "alt": "slider8"
+                },
+                {
+                  "alt": "slider9",
+                  "src": "https://data.decoassets.com/corumbau/9bab0a88-add8-46d0-8f6c-888b54b1127c/Site-hotel-9-light.jpg"
+                },
+                {
+                  "src": "https://data.decoassets.com/corumbau/dc7860df-d4e9-4b17-9594-b84975d2a969/Site-hotel-10-light.jpg",
+                  "alt": "slider10"
+                },
+                {
+                  "src": "https://data.decoassets.com/corumbau/d559a320-1b1f-4678-bcd6-3dd5c00b4771/Site-hotel-11-light.jpg",
+                  "alt": "slider11"
+                },
+                {
+                  "src": "https://data.decoassets.com/corumbau/735bdc1f-d2db-4669-a8f8-75ad6e176ca3/Site-hotel-12-light.jpg",
+                  "alt": "slider12"
+                }
+              ]
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
+              "image": "https://data.decoassets.com/corumbau/2a204a20-9d06-45a3-8b48-43ae3940145c/Site-Hotel-(Espreguicadeira-e-Carla)-light.JPG",
+              "placement": "left",
+              "paragraph": [
+                null
+              ],
+              "paragraphs": [
+                {
+                  "text": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia."
+                },
+                {
+                  "text": "O projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local."
+                }
+              ]
+            }
+          },
+          {
+            "__resolveType": "Footer"
+          },
+          {
+            "__resolveType": "website/sections/Seo/Seo.tsx",
+            "title": "Corumbau | Sobre"
+          },
+          {
+            "__resolveType": "cookie-consent"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "Hotel"
+}
