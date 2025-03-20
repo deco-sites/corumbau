@@ -129,8 +129,8 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Reveillon 2024/2025</span></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Mínimo 7 noites.</span></strong><br><br><strong><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">Paz, conforto e exclusividade. Veja condições diretamente com a nossa central de reservas. </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 16pt\">Clique aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">.</span></strong></p>",
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/32922556-de33-4803-ad2e-2e691bd3972d/FSFC-piscina-noite-corte.jpg",
+              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Dia do Trabalho</span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Mínimo 3 noites</span><br><br><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">Venha descansar e recarregar a sua energia conosco</span></p><p><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">e ganhe uma massagem relaxante para o casal.</span></p><p></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">Veja condições diretamente com a nossa central de reservas. </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 15pt\">Clique aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">.</span></strong></p>",
+              "src": "https://assets.decocache.com/corumbau/89ce1e80-3c44-48f2-bb13-468fef03746a/spa-promo-dia-do-trabalho.jpg",
               "alt": "desconto2"
             }
           },
@@ -138,8 +138,17 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Janeiro 2025 </span><br></strong></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Um local mágico para recarregar suas energias e relaxar!</span></p><p></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Simule a sua estadia, veja diponibilidades e condições </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">.</span></strong></p>",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b62cf9db-6294-456a-99fc-4cbe643c9723",
+              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Corpus Christi</span><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">  </span></strong><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">19 a 22 de junho</span><strong><br></strong></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Aproveite o feriado em familia neste pequeno paraíso na terra!</span></p><p></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Simule a sua estadia, veja diponibilidades e condições </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">.</span></strong></p>",
+              "src": "https://assets.decocache.com/corumbau/f66040e0-fc5b-4288-a3bc-e00f93a00b74/promo-corpus-christi.jpg",
+              "alt": "desconto1"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Temporada das Baleias Jubarte </span><br></strong></p><p><strong><span style=\"font-size: 15pt\">Julho, agosto e setembro</span></strong></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Clique </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\"> e veja condições diretamente com a nossa central de reservas.</span></strong></p>",
+              "src": "https://assets.decocache.com/corumbau/e4b014f5-f16f-49fa-80ba-a370a0787396/promo-baleias.jpg",
               "alt": "desconto1"
             }
           },
