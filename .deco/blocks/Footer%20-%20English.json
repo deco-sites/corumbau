@@ -11,16 +11,24 @@
   },
   "socials": [
     {
+      "href": "https://wa.me/551130784411",
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5f018e52-a76f-4747-8908-659379a33dc1"
+    },
+    {
       "href": "https://www.tripadvisor.es/Hotel_Review-g3844154-d1021193-Reviews-Fazenda_Sao_Francisco_Do_Corumbau-Ponta_do_Corumbau_State_of_Bahia.html",
-      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/06c6d6be-154b-453b-bb5b-139a8fbe3df8"
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ea2199c1-de88-4c07-b434-16e1e94a5322"
     },
     {
-      "href": "https://www.facebook.com/FazendaSaoFranciscodoCorumbau/",
-      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/461e42ea-2613-4c85-b191-2f151cc5b1b1"
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/344a762b-6022-42ac-b9e1-5f09dca07539",
+      "href": "https://www.facebook.com/FazendaSaoFranciscodoCorumbau/"
     },
     {
-      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/65e3dfe2-2778-4f53-b3c8-fc7b4dd60392",
-      "href": "https://www.instagram.com/saofranciscodocorumbau/"
+      "href": "https://www.instagram.com/saofranciscodocorumbau/",
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0d5e18b9-69fe-4e9e-af38-9533896294ec"
+    },
+    {
+      "href": "https://maps.app.goo.gl/nKoBTTLYZgiFuDbY9",
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/22a606a1-0b11-484d-8e67-2995de146fef/image.svg"
     }
   ],
   "address": {
