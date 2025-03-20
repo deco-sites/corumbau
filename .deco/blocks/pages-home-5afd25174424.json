@@ -55,7 +55,7 @@
               "__resolveType": "site/sections/CtaBanner.tsx",
               "title": "Ofertas Especiales",
               "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/17188e59-a1dd-46c8-b1ac-490fb5edd2ee",
-              "ctaText": "Descuento",
+              "ctaText": "Condiciones y paquetes especiales",
               "buttonText": "Saber más",
               "href": "/especiais"
             }
@@ -155,9 +155,9 @@
               "__resolveType": "site/sections/CtaBanner.tsx",
               "title": "Special Offers",
               "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/17188e59-a1dd-46c8-b1ac-490fb5edd2ee",
-              "ctaText": "Low season deals 2023!",
               "buttonText": "LEARN MORE",
-              "href": "/especiais"
+              "href": "/especiais",
+              "ctaText": "Special Offers and Conditions"
             }
           },
           {

@@ -75,18 +75,36 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Make your reservation by sending an e-mail to </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:reservas@corumbau.com.br?subject=Tarifas%20com%20desconto%20Agosto%202019\"><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">reservas@corumbau.com.br</span></a><span style=\"color: rgb(222, 227, 229); font-size: 18pt\"> or cal us at </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">11 3682 2111 </span></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">or </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">+55</span></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\"> </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">11 3078 4411 WhatsApp</span></strong></p>",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
-              "alt": "desconto1"
+              "alt": "desconto2",
+              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Labor Day </span><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">may 1st to 4th</span></p><p><strong><span style=\"font-size: 18pt\">Minimum stay: 3 nights</span></strong></p><p><span style=\"font-size: 16pt\">Come relax with us and enjoy a complimentary relaxing massage for the couple.</span></p><p><span style=\"font-size: 15pt\">Check conditions directly with our reservations center.</span><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\"> </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 15pt\">Clique aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">.</span></strong></p>",
+              "src": "https://assets.decocache.com/corumbau/89ce1e80-3c44-48f2-bb13-468fef03746a/spa-promo-dia-do-trabalho.jpg"
             }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><br><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Make your reservation by sending an e-mail to</span></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:corumbau@corumbau.com.br?subject=Descontos%20Baixa%20Temporada\"><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">reservas@corumbau.com.br</span></a><span style=\"color: rgb(222, 227, 229); font-size: 16pt\"> or</span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 16pt\">call us +55 11 3682 2111 or +55&nbsp;11 3078 4411 WhatsApp</span></p>",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/98c74237-1c3e-4e13-9b69-ffe8cc63480d",
-              "alt": "desconto2"
+              "alt": "desconto1",
+              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Corpus Christi</span><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">  </span></strong><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">19 a 22 de junho</span><strong><br></strong></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Aproveite o feriado em familia neste pequeno paraíso na terra!</span></p><p></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Simule a sua estadia, veja diponibilidades e condições </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">.</span></strong></p>",
+              "src": "https://assets.decocache.com/corumbau/f66040e0-fc5b-4288-a3bc-e00f93a00b74/promo-corpus-christi.jpg"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "alt": "desconto1",
+              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Temporada das Baleias Jubarte </span><br></strong></p><p><strong><span style=\"color: #ffffff; font-size: 16pt\">Julho, Agosto e Setembro</span></strong></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Clique </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\"> e veja condições diretamente com a nossa central de reservas.</span></strong></p>",
+              "src": "https://assets.decocache.com/corumbau/70335d23-d111-49dc-978d-077f06af894b/promo-baleias.jpg"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "alt": "desconto1",
+              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Descontos Progressivos!</span><br><br></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">De 09 de março a 30 de novembro reserve </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">04 noites e ganhe 10%&nbsp;</span></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">de desconto, </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">05 noites e ganhe 15% de desconto.</span></strong></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Exceto feriados prolongados. Para mais informações </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">clique aqui</span></strong></a><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">.</span></strong></p>",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af"
             }
           },
           {
@@ -128,37 +146,25 @@
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Dia do Trabalho </span><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">01 a 04 de maio</span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Mínimo 3 noites</span><br><br><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">Venha descansar conosco e ganhe uma massagem relaxante para o casal.</span></p><p></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">Veja condições diretamente com a nossa central de reservas. </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 15pt\">Clique aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">.</span></strong></p>",
-              "src": "https://assets.decocache.com/corumbau/89ce1e80-3c44-48f2-bb13-468fef03746a/spa-promo-dia-do-trabalho.jpg",
-              "alt": "desconto2"
+              "__resolveType": "Banner Special offer 1"
             }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Corpus Christi</span><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">  </span></strong><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">19 a 22 de junho</span><strong><br></strong></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Aproveite o feriado em familia neste pequeno paraíso na terra!</span></p><p></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Simule a sua estadia, veja diponibilidades e condições </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">.</span></strong></p>",
-              "src": "https://assets.decocache.com/corumbau/f66040e0-fc5b-4288-a3bc-e00f93a00b74/promo-corpus-christi.jpg",
-              "alt": "desconto1"
+              "__resolveType": "Banner Special offer 2"
             }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Temporada das Baleias Jubarte </span><br></strong></p><p><strong><span style=\"color: #ffffff; font-size: 16pt\">Julho, Agosto e Setembro</span></strong></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Clique </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\"> e veja condições diretamente com a nossa central de reservas.</span></strong></p>",
-              "src": "https://assets.decocache.com/corumbau/70335d23-d111-49dc-978d-077f06af894b/promo-baleias.jpg",
-              "alt": "desconto1"
+              "__resolveType": "Banner Special offer 3"
             }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Descontos Progressivos!</span><br><br></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">De 09 de março a 30 de novembro reserve </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">04 noites e ganhe 10%&nbsp;</span></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">de desconto, </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">05 noites e ganhe 15% de desconto.</span></strong></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Exceto feriados prolongados. Para mais informações </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">clique aqui</span></strong></a><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">.</span></strong></p>",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
-              "alt": "desconto1"
+              "__resolveType": "Banner Special offer 4"
             }
           },
           {
