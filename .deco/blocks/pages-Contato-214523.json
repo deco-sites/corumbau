@@ -14,35 +14,8 @@
             "title": "Lejos de todo",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5e1d2c14-1c11-4b3b-a66b-d8e3e16e9aac",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/533d0d0d-4ba7-45f3-8fca-25194383b59d/073-Albori-Fazenda-Sao-Francisco-Drone.jpg",
             "size": "medio"
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/LabelText.tsx",
-              "title": "Contáctanos",
-              "description": "Gracias por tu interés. Por favor, completa el formulario a continuación y envíanos tus preguntas o comentarios. Responderemos a tu consulta lo antes posible.",
-              "size": "Medio"
-            }
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/ContactForm.tsx",
-              "policy": {
-                "text": "Política de Privacidad",
-                "link": "/politica_privacidade",
-                "description": "Acepto los términos de uso de los datos tal como se indica en"
-              },
-              "formLabels": {
-                "name": "Tu Nombre",
-                "email": "Tu Correo Electrónico",
-                "phone": "Tu Teléfono",
-                "message": "Deja tu mensaje aquí...",
-                "button": "Enviar"
-              }
-            }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -57,7 +30,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/Map.tsx",
-              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589.4351432855012!2d-39.11337417753197!3d-16.8957935476113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7343bd55d4931f3%3A0xfe10b5a3918b45a3!2sPonta%20do%20Corumbau!5e0!3m2!1spt-BR!2sbr!4v1723249982221!5m2!1spt-BR!2sbr",
+              "src": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13818.510005978822!2d-39.12406700596021!3d-16.90122063966931!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1729033600317!5m2!1spt-BR!2sbr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
               "height": "300"
             }
           },
@@ -85,6 +58,33 @@
                   "title": "Cómo Llegar al Hotel en Barco"
                 }
               ]
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "Contáctanos",
+              "description": "Gracias por tu interés. Por favor, completa el formulario a continuación y envíanos tus preguntas o comentarios. Responderemos a tu consulta lo antes posible.",
+              "size": "Medio"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ContactForm.tsx",
+              "policy": {
+                "text": "Política de Privacidad",
+                "link": "/politica_privacidade",
+                "description": "Acepto los términos de uso de los datos tal como se indica en"
+              },
+              "formLabels": {
+                "name": "Tu Nombre",
+                "email": "Tu Correo Electrónico",
+                "phone": "Tu Teléfono",
+                "message": "Deja tu mensaje aquí...",
+                "button": "Enviar"
+              }
             }
           },
           {
@@ -120,8 +120,51 @@
             "title": "Far away from everything",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5e1d2c14-1c11-4b3b-a66b-d8e3e16e9aac",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/533d0d0d-4ba7-45f3-8fca-25194383b59d/073-Albori-Fazenda-Sao-Francisco-Drone.jpg",
             "size": "medio"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/LabelText.tsx",
+              "title": "<p>How to get here</p>",
+              "description": "Porto Seguro Airport – 4 hours by 4x4 vehicle or 20 minutes by helicopter.",
+              "size": "Medio"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Map.tsx",
+              "src": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13818.510005978822!2d-39.12406700596021!3d-16.90122063966931!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1729033600317!5m2!1spt-BR!2sbr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+              "height": "300"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/IconTileList.tsx",
+              "itens": [
+                {
+                  "description": "<p>To reach our hotel by car, please follow the instructions below. We also have a partner that can provide this service. Contact us for details.</p><ol><li><p>From Porto Seguro, take the BA-367 highway towards Eunápolis.</p></li><li><p>In Eunápolis, continue on the BR-101 southbound towards Itamaraju.</p></li><li><p>From Itamaraju, take the BA-489 highway towards Guarani. Be sure to refuel in Itamaraju, as there are no gas stations in Corumbau.</p></li><li><p>The final stretch, approximately 1 hour and 15 minutes (53 km) from Guarani to Corumbau, is on a dirt road that is usually well-maintained. Please contact us for updated on road conditions.</p></li></ol><p>The total trip time from Porto Seguro is approximately 4 hours.</p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
+                  "alt": "car",
+                  "title": "How to arrive by car"
+                },
+                {
+                  "description": "<p><span style=\"font-size: 12pt\">If you are planning to arrive at our hotel by helicopter, please contact our partner, Rotorfly, Rosa (+55 73 98808-8846).</span></p><p><span style=\"font-size: 12pt\">The flight lasts approximately 20 minutes and costs around R$ 5,200.00 per leg for up to 3 passengers.<br>Landing takes place within the Fazenda premises at coordinates </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.google.com/maps/@-16.909907,-39.1295944,115m/data=!3m1!1e3?entry=ttu&amp;g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D#:~:text=%2D16.909863%2C%20%2D39.129478\"><span style=\"font-size: 12pt\">-16.909863, -39.129485</span></a><span style=\"font-size: 12pt\">.</span></p><p><span style=\"font-size: 12pt\">Each passenger can bring one carry-on bag; additional luggage will be transported by car for an extra cost.</span></p><p><span style=\"font-size: 12pt\">Our team will be ready to welcome you and escort you to the hotel.</span></p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
+                  "alt": "helicoptero",
+                  "title": "How to arrive by Helicopter"
+                },
+                {
+                  "description": "<p><span style=\"font-size: 12pt\">For those who prefer the unique experience of arriving by boat, we have two trusted partners we always recommend: Ivan (+55 73 99968-1520) or Facundo (+55 73 99934-7501).</span></p><p><span style=\"font-size: 12pt\">Departing from Porto Seguro Airport, you will need to head to the Porto Seguro pier, where you will board the boat (the partners will provide further details). The trip lasts approximately 1 hour and 30 minutes and costs around R$ 4,500.00 (per leg). The boats have a capacity of up to 8 passengers. There are different boat sizes, and the prices may vary. Please consult the partners directly.</span></p><p><span style=\"font-size: 12pt\">We suggest that boat transfers be scheduled for the morning. Weather conditions may affect the trip.</span></p><p><span style=\"font-size: 12pt\">Upon arriving in Corumbau, our team will be there to meet you and assist with the disembarkation, which will take place on the beach.</span></p>",
+                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
+                  "alt": "barco",
+                  "title": "How to arrive by boat"
+                }
+              ]
+            }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -148,49 +191,6 @@
                 "message": "Leave your message here...",
                 "button": "Send"
               }
-            }
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/LabelText.tsx",
-              "title": "Como Chegar",
-              "description": "Porto Seguro Airport – 4 hours by 4x4 vehicle or 20 minutes by helicopter.",
-              "size": "Medio"
-            }
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/Map.tsx",
-              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589.4351432855012!2d-39.11337417753197!3d-16.8957935476113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7343bd55d4931f3%3A0xfe10b5a3918b45a3!2sPonta%20do%20Corumbau!5e0!3m2!1spt-BR!2sbr!4v1723249982221!5m2!1spt-BR!2sbr",
-              "height": "300"
-            }
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/IconTileList.tsx",
-              "itens": [
-                {
-                  "description": "<p>To reach our hotel by car, please follow the instructions below or contact our partner - Robinho (+55 73 98808 8846)</p><ol><li><p>From Porto Seguro, take the BA-367 highway towards Eunápolis.</p></li><li><p>In Eunápolis, continue on the BR-101 southbound towards Itamaraju.</p></li><li><p>From Itamaraju, take the BA-489 highway towards Guarani. Be sure to refuel in Itamaraju, as there are no gas stations in Corumbau.</p></li><li><p>The final stretch, approximately 1 hour and 15 minutes (53 km) from Guarani to Corumbau, is on a dirt road that is usually well-maintained. Please contact us for updated road conditions.</p></li></ol><p>The total trip from Porto Seguro takes approximately 4 hours.</p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
-                  "alt": "car",
-                  "title": "How to arrive by car"
-                },
-                {
-                  "description": "<p><span style=\"font-size: 12pt\">If you are planning to arrive at our hotel by helicopter, please contact our partner, Rotorfly, Rosa (+55 73 98808-8846).</span></p><p><span style=\"font-size: 12pt\">The flight lasts approximately 20 minutes and costs around R$ 5,200.00 per leg for up to 3 passengers.<br>Landing takes place within the Fazenda premises at coordinates </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.google.com/maps/@-16.909907,-39.1295944,115m/data=!3m1!1e3?entry=ttu&amp;g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D#:~:text=%2D16.909863%2C%20%2D39.129478\"><span style=\"font-size: 12pt\">-16.909863, -39.129485</span></a><span style=\"font-size: 12pt\">.</span></p><p><span style=\"font-size: 12pt\">Each passenger can bring one carry-on bag; additional luggage will be transported by car for an extra cost.</span></p><p><span style=\"font-size: 12pt\">Our team will be ready to welcome you and escort you to the hotel.</span></p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
-                  "alt": "helicoptero",
-                  "title": "How to arrive by Helicopter"
-                },
-                {
-                  "description": "<p><span style=\"font-size: 12pt\">For those who prefer the unique experience of arriving by boat, we have two trusted partners we always recommend: Ivan (+55 73 99968-1520) or Facundo (+55 73 99934-7501).</span></p><p><span style=\"font-size: 12pt\">Departing from Porto Seguro Airport, you will need to head to the Porto Seguro pier, where you will board the boat (the partners will provide further details). The trip lasts approximately 1 hour and 30 minutes and costs around R$ 4,500.00 (per leg). The boats have a capacity of up to 8 passengers. There are different boat sizes, and the prices may vary. Please consult the partners directly.</span></p><p><span style=\"font-size: 12pt\">We suggest that boat transfers be scheduled for the morning. Weather conditions may affect the trip.</span></p><p><span style=\"font-size: 12pt\">Upon arriving in Corumbau, our team will be there to meet you and assist with the disembarkation, which will take place on the beach.</span></p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
-                  "alt": "barco",
-                  "title": "How to arrive by boat"
-                }
-              ]
             }
           },
           {
