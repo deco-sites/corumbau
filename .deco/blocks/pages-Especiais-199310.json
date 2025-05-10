@@ -21,15 +21,6 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Dia do Trabalho </span><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">01 a 04 de maio</span></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Mínimo 3 noites</span><br><br><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">Venha descansar conosco e ganhe uma massagem relaxante para o casal.</span></p><p></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">Veja condições diretamente com a nossa central de reservas. </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 15pt\">Clique aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">.</span></strong></p>",
-              "src": "https://assets.decocache.com/corumbau/89ce1e80-3c44-48f2-bb13-468fef03746a/spa-promo-dia-do-trabalho.jpg",
-              "alt": "desconto2"
-            }
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
               "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Corpus Christi</span><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">  </span></strong><span style=\"color: rgb(222, 227, 229); font-size: 15pt\">19 a 22 de junho</span><strong><br></strong></p><p><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Aproveite o feriado em familia neste pequeno paraíso na terra!</span></p><p></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Simule a sua estadia, veja diponibilidades e condições </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">.</span></strong></p>",
               "src": "https://assets.decocache.com/corumbau/f66040e0-fc5b-4288-a3bc-e00f93a00b74/promo-corpus-christi.jpg",
               "alt": "desconto1"
@@ -93,15 +84,6 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "alt": "desconto2",
-              "description": "<p><span style=\"color: rgb(255, 255, 255); font-size: 32pt\">Labor Day </span><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">may 1st to 4th</span></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">Minimum stay: 3 nights</span></strong></p><p><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">Come relax with us and enjoy a complimentary relaxing massage for the couple.</span></p><p><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">Check conditions directly with our reservations center.</span><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\"> </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 15pt\">Click here</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">.</span></strong></p>",
-              "src": "https://assets.decocache.com/corumbau/89ce1e80-3c44-48f2-bb13-468fef03746a/spa-promo-dia-do-trabalho.jpg"
-            }
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
               "alt": "desconto1",
               "description": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 36pt\">Corpus Christi</span><span style=\"color: rgb(255, 255, 255)\"> </span><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">– June 19th to 22nd</span></strong></p><p></p><p><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">Enjoy the holiday with your family in this little paradise on Earth!</span></p><p></p><p><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">Check availability, rates, and conditions</span><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\"> </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">here</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">.</span></strong></p>",
               "src": "https://assets.decocache.com/corumbau/f66040e0-fc5b-4288-a3bc-e00f93a00b74/promo-corpus-christi.jpg"
@@ -160,12 +142,6 @@
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05b3676f-4f77-4f0a-bf10-f918bea25ebe",
             "size": "medio"
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "Banner Special offer 1"
-            }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
