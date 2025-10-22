@@ -20,19 +20,13 @@
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Temporada das Baleias Jubarte </span><br></strong></p><p><strong><span style=\"color: #ffffff; font-size: 16pt\">Julho, Agosto e Setembro</span></strong></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Clique </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\"> e veja condições diretamente com a nossa central de reservas.</span></strong></p>",
-              "src": "https://assets.decocache.com/corumbau/70335d23-d111-49dc-978d-077f06af894b/promo-baleias.jpg",
-              "alt": "desconto1"
+              "__resolveType": "Banner Special Ballenas "
             }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Descontos Progressivos!</span><br><br></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">De 09 de março a 30 de novembro reserve </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">04 noites e ganhe 10%&nbsp;</span></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">de desconto, </span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">05 noites e ganhe 15% de desconto.</span></strong></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Exceto feriados prolongados. Para mais informações </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">clique aqui</span></strong></a><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">.</span></strong></p>",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af",
-              "alt": "desconto1"
+              "__resolveType": "Banner Special Descuentos Progresivos"
             }
           },
           {
@@ -83,28 +77,13 @@
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "alt": "desconto1",
-              "description": "<p><strong><span style=\"color: #ffffff; font-size: 36pt\">Humpback Whale Season</span></strong></p><p><strong><span style=\"color: #ffffff; font-size: 18pt\">July, August, and September</span></strong></p><p><span style=\"color: #ffffff; font-size: 13pt\">Click</span><span style=\"font-size: 13pt\"> </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: #a9c30c; font-size: 13pt\">here</span></strong><span style=\"color: #a9c30c; font-size: 13pt\"> </span></a><span style=\"color: #ffffff; font-size: 13pt\">to check conditions directly with our reservations team.</span></p>",
-              "src": "https://assets.decocache.com/corumbau/70335d23-d111-49dc-978d-077f06af894b/promo-baleias.jpg"
+              "__resolveType": "Banner Special Progressive Discounts"
             }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "alt": "desconto1",
-              "description": "<p><strong><span style=\"color: #ffffff; font-size: 36pt\">Progressive Discounts!</span></strong></p><p></p><p><span style=\"color: #ffffff; font-size: 16pt\">From March 9 to November 30, book 4 nights and get a 10% discount, or book 5 nights or more and get a 15% discount.</span></p><p></p><p><span style=\"color: #ffffff; font-size: 13pt\">Excluding long holidays. For more information, </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">click here</span></strong></a><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">.</span></strong></p>",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1d1f817a-1865-48a6-ac6a-fcece5bbb3af"
-            }
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "alt": "desconto1",
-              "description": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 36pt\">Last holiday of the year!</span></strong></p><p></p><p><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">Enjoy the last holiday of the year and take a dip in this stunning pool!</span></p><p><span style=\"color: rgb(255, 255, 255); font-size: 16pt\">Join us from November 20 to 23 for pure relaxation.</span></p><p></p><p><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">For more information, </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">click here</span></strong></a><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">, </span><span style=\"color: #ffffff; font-size: 13pt\">or use the booking button above.</span></strong></p><p></p>",
-              "src": "https://data.decoassets.com/corumbau/a9485dcd-c56b-463b-b12c-c6879ac3934c/Light-hotel-foto-2-corte.jpg"
+              "__resolveType": "Banner Special Last Holiday of the Year"
             }
           },
           {
@@ -142,12 +121,6 @@
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05b3676f-4f77-4f0a-bf10-f918bea25ebe",
             "size": "medio"
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "Banner Special offer 3"
-            }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
