@@ -20,12 +20,6 @@
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "Banner Special Ballenas "
-            }
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
               "__resolveType": "Banner Special Descuentos Progresivos"
             }
           },
