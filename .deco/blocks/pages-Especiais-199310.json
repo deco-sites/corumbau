@@ -122,7 +122,10 @@
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "Banner Special offer 2"
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "description": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Janeiro 2026 — Férias de Verão</span><span style=\"color: rgb(255, 255, 255)\"><br></span></strong></p><p><strong><span style=\"color: #fdfcfc; font-size: 16pt\">Deixe o verão te levar a Corumbau — onde a alma encontra paz, o mar permanece quente e cada detalhe é cuidado com autenticidade. </span></strong></p><p></p><p><span style=\"color: #ffffff; font-size: 14pt\">Simule a sua estadia, veja diponibilidades e condições</span><strong><span style=\"color: rgb(255, 255, 255); font-size: 14pt\"> </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://book.omnibees.com/hotel/20763?lang=pt-BR&amp;currencyId=16\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 14pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 14pt\">.</span></strong></p>",
+              "src": "https://assets.decocache.com/corumbau/f66040e0-fc5b-4288-a3bc-e00f93a00b74/promo-corpus-christi.jpg",
+              "alt": "desconto1"
             }
           },
           {
