@@ -24,15 +24,6 @@
             }
           },
           {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/DescriptiveBanner.tsx",
-              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">¡Último feriado del año!</span><br><br><span style=\"color: #ffffff; font-size: 16pt\">¡Aproveche el último feriado del año y désese un chapuzón en esta piscina paradisíaca!</span></strong></p><p><strong><span style=\"color: #ffffff; font-size: 16pt\">Del 20 al 23 de noviembre, venga a relajarse con nosotros.</span></strong></p><p></p><p><strong><span style=\"color: #ffffff; font-size: 14pt\">Para más información, haga </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: #a5c30c; font-size: 14pt\">clic aquí</span></strong></a><strong><span style=\"color: #ffffff; font-size: 14pt\"> o en el botón de reservas de arriba.</span></strong></p>",
-              "src": "https://data.decoassets.com/corumbau/a9485dcd-c56b-463b-b12c-c6879ac3934c/Light-hotel-foto-2-corte.jpg",
-              "alt": "desconto1"
-            }
-          },
-          {
             "__resolveType": "Footer - Spanish"
           },
           {
@@ -75,12 +66,6 @@
             }
           },
           {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "Banner Special Last Holiday of the Year"
-            }
-          },
-          {
             "__resolveType": "Footer - English"
           },
           {
@@ -120,12 +105,6 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "Banner Special offer 4"
-            }
-          },
-          {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "offer 5"
             }
           },
           {
