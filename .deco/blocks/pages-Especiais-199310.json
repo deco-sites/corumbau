@@ -108,6 +108,12 @@
             }
           },
           {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "Banner Special offer 2"
+            }
+          },
+          {
             "__resolveType": "Footer"
           },
           {
