@@ -30,6 +30,12 @@
             }
           },
           {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "Carnaval ES"
+            }
+          },
+          {
             "__resolveType": "Footer - Spanish"
           },
           {
@@ -75,6 +81,15 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "Banner Special offer 2"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "description": "<p><span style=\"color: #ffffff; font-size: 32pt\">Carnival, Peace and Quiet!</span><strong><span style=\"color: #ffffff\"><br><br></span></strong><span style=\"color: #ffffff; font-size: 18pt\">Come to Corumbau and enjoy a Carnival filled with calm and relaxation.</span><strong><span style=\"color: #ffffff; font-size: 18pt\"> From February 13th to 18th, 2026, with a minimum stay of 4 nights.</span></strong></p><p></p><p><span style=\"color: #ffffff; font-size: 13pt\">For more information, please contact our reservations team.</span><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\"> </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">Click Here</span></strong></a><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">.</span></strong></p>",
+              "src": "https://data.decoassets.com/corumbau/a9485dcd-c56b-463b-b12c-c6879ac3934c/Light-hotel-foto-2-corte.jpg",
+              "alt": "Carnaval"
             }
           },
           {
@@ -126,6 +141,15 @@
               "description": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Janeiro 2026 — Férias de Verão</span><span style=\"color: rgb(255, 255, 255)\"><br></span></strong></p><p><strong><span style=\"color: #fdfcfc; font-size: 16pt\">Deixe o verão te levar a Corumbau — onde a alma encontra paz, o mar permanece quente e cada detalhe é cuidado com autenticidade. </span></strong></p><p></p><p><span style=\"color: #ffffff; font-size: 14pt\">Simule a sua estadia, veja diponibilidades e condições</span><strong><span style=\"color: rgb(255, 255, 255); font-size: 14pt\"> </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://book.omnibees.com/hotel/20763?lang=pt-BR&amp;currencyId=16\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 14pt\">aqui</span></strong></a><strong><span style=\"color: rgb(255, 255, 255); font-size: 14pt\">.</span></strong></p>",
               "src": "https://assets.decocache.com/corumbau/f66040e0-fc5b-4288-a3bc-e00f93a00b74/promo-corpus-christi.jpg",
               "alt": "desconto1"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/DescriptiveBanner.tsx",
+              "description": "<p><strong><span style=\"color: rgb(222, 227, 229); font-size: 32pt\">Carnaval, Paz e Sossego!</span><br><br></strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">Venha para Corumbau curtir um Carnaval de sossego e tranquilidade</span><strong><span style=\"color: rgb(222, 227, 229); font-size: 18pt\">. De 13 a 18 de fevereiro de 2026, mínimo de 4  noites.</span></strong></p><p></p><p><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">Para mais informações entre em contato com a nossa central de reservas, </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><strong><span style=\"color: rgb(170, 208, 16); font-size: 13pt\">clique aqui</span></strong></a><strong><span style=\"color: rgb(222, 227, 229); font-size: 13pt\">.</span></strong></p>",
+              "src": "https://data.decoassets.com/corumbau/a9485dcd-c56b-463b-b12c-c6879ac3934c/Light-hotel-foto-2-corte.jpg",
+              "alt": "Carnaval"
             }
           },
           {
