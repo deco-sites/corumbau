@@ -13,7 +13,7 @@
             "__resolveType": "site/sections/Hero.tsx",
             "title": "Descubre el Paraíso",
             "size": "medio",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/6f5ce964-0c4c-4376-9dc1-906a61de94a5"
+            "image": "https://decoims.com/corumbau/95966634-4b9a-4e5b-8f3c-d2f45726e009/6f5ce964_6f5ce964-0c4c-4376-9dc1-906a61de94a5.jpg"
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -30,51 +30,51 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5ba3cf7b-ee5b-466f-87b0-cdd77311be42",
+                  "src": "https://decoims.com/corumbau/4fab688a-214f-4fd8-a94c-6c0600b71ed9/5ba3cf7b_5ba3cf7b-ee5b-466f-87b0-cdd77311be42.jpg",
                   "alt": "slider1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b7ca1246-6ead-4801-aa45-c12e3a2733b0",
+                  "src": "https://decoims.com/corumbau/d51ab089-55d4-4bfa-ae6b-8f33970cee94/b7ca1246_b7ca1246-6ead-4801-aa45-c12e3a2733b0.jpg",
                   "alt": "slider2"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/59175889-d469-40c6-a177-2bfda7f4ebb6",
+                  "src": "https://decoims.com/corumbau/cab4c2c4-1e1c-4f38-9e2a-1973c1384462/59175889_59175889-d469-40c6-a177-2bfda7f4ebb6.jpg",
                   "alt": "slider3"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/54981c49-77af-4b24-b55a-910c82dc4fa8",
+                  "src": "https://decoims.com/corumbau/c74ce147-07a6-4f96-8b44-17c79752376c/54981c49_54981c49-77af-4b24-b55a-910c82dc4fa8.jpg",
                   "alt": "slider4"
                 },
                 {
                   "alt": "slider5",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0d83764f-80f1-4c63-971b-c73395b01197"
+                  "src": "https://decoims.com/corumbau/410f7aab-fc28-4453-808b-a7c7b7e2a768/0d83764f_0d83764f-80f1-4c63-971b-c73395b01197.jpg"
                 },
                 {
                   "alt": "slider6",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/785f777d-cb1c-4f19-8241-fa900bd9d2ac"
+                  "src": "https://decoims.com/corumbau/83bc02bb-030e-45ed-a251-564a17caeacc/785f777d_785f777d-cb1c-4f19-8241-fa900bd9d2ac.jpg"
                 },
                 {
                   "alt": "slider7",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cba02433-e75d-462f-bc9a-cbe518834325"
+                  "src": "https://decoims.com/corumbau/d02fe0cc-6437-44bc-be14-2432827a2754/cba02433_cba02433-e75d-462f-bc9a-cbe518834325.jpg"
                 },
                 {
                   "alt": "slider8",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/83fd5fce-a374-48bf-b315-70781314166a"
+                  "src": "https://decoims.com/corumbau/59bce5d9-4672-4cca-93a0-9562909d2304/83fd5fce_83fd5fce-a374-48bf-b315-70781314166a.jpg"
                 },
                 {
                   "alt": "slider9",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/08add966-7544-4cc5-96f5-d129ef13cb96"
+                  "src": "https://decoims.com/corumbau/29adc36b-7981-4016-93fc-cf8cb39f58b7/08add966_08add966-7544-4cc5-96f5-d129ef13cb96.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/97e1aaa1-d02b-4fad-8ab2-fbb6f765b376",
+                  "src": "https://decoims.com/corumbau/0a9ecd8b-fe01-4b4c-baaa-967f26b33690/97e1aaa1_97e1aaa1-d02b-4fad-8ab2-fbb6f765b376.jpg",
                   "alt": "slider10"
                 },
                 {
                   "alt": "slider11",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a48fbf43-beed-49b3-81fd-083c68e8450a"
+                  "src": "https://decoims.com/corumbau/ccf14529-42d7-415a-a10a-130c616cafbe/a48fbf43_a48fbf43-beed-49b3-81fd-083c68e8450a.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/60744061-93b7-4f32-a4b7-e74ac6269f27",
+                  "src": "https://decoims.com/corumbau/7fa5378d-669c-4ab1-b572-a582637d04d4/60744061_60744061-93b7-4f32-a4b7-e74ac6269f27.jpg",
                   "alt": "slider12"
                 }
               ]
@@ -84,7 +84,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d01f9aad-d914-4a17-a132-18cb0608a4c3",
+              "image": "https://decoims.com/corumbau/6e2a7254-3d3c-49a7-80a6-39ace8a1f6c6/d01f9aad_d01f9aad-d914-4a17-a132-18cb0608a4c3.jpg",
               "placement": "right",
               "paragraphs": [
                 {
@@ -100,7 +100,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05df1982-b3ae-495f-8932-082b1f9eacb9",
+              "image": "https://decoims.com/corumbau/b4dc7fca-3cd8-4972-bbf5-95028509d372/05df1982_05df1982-b3ae-495f-8932-082b1f9eacb9.jpg",
               "placement": "left",
               "paragraphs": [
                 {
@@ -116,7 +116,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05a93af5-c5bd-4ab5-8c76-3a46cba334a3",
+              "image": "https://decoims.com/corumbau/1b88bcae-241c-4b78-a147-8d23e662908b/05a93af5_05a93af5-c5bd-4ab5-8c76-3a46cba334a3.jpg",
               "placement": "right",
               "paragraphs": [
                 {
@@ -167,7 +167,7 @@
             "__resolveType": "site/sections/Hero.tsx",
             "title": "Discover Paradise",
             "size": "medio",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/6f5ce964-0c4c-4376-9dc1-906a61de94a5"
+            "image": "https://decoims.com/corumbau/95966634-4b9a-4e5b-8f3c-d2f45726e009/6f5ce964_6f5ce964-0c4c-4376-9dc1-906a61de94a5.jpg"
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -184,51 +184,51 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5ba3cf7b-ee5b-466f-87b0-cdd77311be42",
+                  "src": "https://decoims.com/corumbau/4fab688a-214f-4fd8-a94c-6c0600b71ed9/5ba3cf7b_5ba3cf7b-ee5b-466f-87b0-cdd77311be42.jpg",
                   "alt": "slider1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b7ca1246-6ead-4801-aa45-c12e3a2733b0",
+                  "src": "https://decoims.com/corumbau/d51ab089-55d4-4bfa-ae6b-8f33970cee94/b7ca1246_b7ca1246-6ead-4801-aa45-c12e3a2733b0.jpg",
                   "alt": "slider2"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/59175889-d469-40c6-a177-2bfda7f4ebb6",
+                  "src": "https://decoims.com/corumbau/cab4c2c4-1e1c-4f38-9e2a-1973c1384462/59175889_59175889-d469-40c6-a177-2bfda7f4ebb6.jpg",
                   "alt": "slider3"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/54981c49-77af-4b24-b55a-910c82dc4fa8",
+                  "src": "https://decoims.com/corumbau/c74ce147-07a6-4f96-8b44-17c79752376c/54981c49_54981c49-77af-4b24-b55a-910c82dc4fa8.jpg",
                   "alt": "slider4"
                 },
                 {
                   "alt": "slider5",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0d83764f-80f1-4c63-971b-c73395b01197"
+                  "src": "https://decoims.com/corumbau/410f7aab-fc28-4453-808b-a7c7b7e2a768/0d83764f_0d83764f-80f1-4c63-971b-c73395b01197.jpg"
                 },
                 {
                   "alt": "slider6",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/785f777d-cb1c-4f19-8241-fa900bd9d2ac"
+                  "src": "https://decoims.com/corumbau/83bc02bb-030e-45ed-a251-564a17caeacc/785f777d_785f777d-cb1c-4f19-8241-fa900bd9d2ac.jpg"
                 },
                 {
                   "alt": "slider7",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cba02433-e75d-462f-bc9a-cbe518834325"
+                  "src": "https://decoims.com/corumbau/d02fe0cc-6437-44bc-be14-2432827a2754/cba02433_cba02433-e75d-462f-bc9a-cbe518834325.jpg"
                 },
                 {
                   "alt": "slider8",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/83fd5fce-a374-48bf-b315-70781314166a"
+                  "src": "https://decoims.com/corumbau/59bce5d9-4672-4cca-93a0-9562909d2304/83fd5fce_83fd5fce-a374-48bf-b315-70781314166a.jpg"
                 },
                 {
                   "alt": "slider9",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/08add966-7544-4cc5-96f5-d129ef13cb96"
+                  "src": "https://decoims.com/corumbau/29adc36b-7981-4016-93fc-cf8cb39f58b7/08add966_08add966-7544-4cc5-96f5-d129ef13cb96.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/97e1aaa1-d02b-4fad-8ab2-fbb6f765b376",
+                  "src": "https://decoims.com/corumbau/0a9ecd8b-fe01-4b4c-baaa-967f26b33690/97e1aaa1_97e1aaa1-d02b-4fad-8ab2-fbb6f765b376.jpg",
                   "alt": "slider10"
                 },
                 {
                   "alt": "slider11",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a48fbf43-beed-49b3-81fd-083c68e8450a"
+                  "src": "https://decoims.com/corumbau/ccf14529-42d7-415a-a10a-130c616cafbe/a48fbf43_a48fbf43-beed-49b3-81fd-083c68e8450a.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/60744061-93b7-4f32-a4b7-e74ac6269f27",
+                  "src": "https://decoims.com/corumbau/7fa5378d-669c-4ab1-b572-a582637d04d4/60744061_60744061-93b7-4f32-a4b7-e74ac6269f27.jpg",
                   "alt": "slider12"
                 }
               ]
@@ -238,7 +238,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d01f9aad-d914-4a17-a132-18cb0608a4c3",
+              "image": "https://decoims.com/corumbau/6e2a7254-3d3c-49a7-80a6-39ace8a1f6c6/d01f9aad_d01f9aad-d914-4a17-a132-18cb0608a4c3.jpg",
               "placement": "right",
               "paragraphs": [
                 {
@@ -254,7 +254,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05df1982-b3ae-495f-8932-082b1f9eacb9",
+              "image": "https://decoims.com/corumbau/b4dc7fca-3cd8-4972-bbf5-95028509d372/05df1982_05df1982-b3ae-495f-8932-082b1f9eacb9.jpg",
               "placement": "left",
               "paragraphs": [
                 {
@@ -270,7 +270,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05a93af5-c5bd-4ab5-8c76-3a46cba334a3",
+              "image": "https://decoims.com/corumbau/1b88bcae-241c-4b78-a147-8d23e662908b/05a93af5_05a93af5-c5bd-4ab5-8c76-3a46cba334a3.jpg",
               "placement": "right",
               "paragraphs": [
                 {
@@ -321,7 +321,7 @@
             "__resolveType": "site/sections/Hero.tsx",
             "title": "Descubra o Paraíso",
             "size": "medio",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/6f5ce964-0c4c-4376-9dc1-906a61de94a5"
+            "image": "https://decoims.com/corumbau/95966634-4b9a-4e5b-8f3c-d2f45726e009/6f5ce964_6f5ce964-0c4c-4376-9dc1-906a61de94a5.jpg"
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -340,51 +340,51 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5ba3cf7b-ee5b-466f-87b0-cdd77311be42",
+                  "src": "https://decoims.com/corumbau/4fab688a-214f-4fd8-a94c-6c0600b71ed9/5ba3cf7b_5ba3cf7b-ee5b-466f-87b0-cdd77311be42.jpg",
                   "alt": "slider1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b7ca1246-6ead-4801-aa45-c12e3a2733b0",
+                  "src": "https://decoims.com/corumbau/d51ab089-55d4-4bfa-ae6b-8f33970cee94/b7ca1246_b7ca1246-6ead-4801-aa45-c12e3a2733b0.jpg",
                   "alt": "slider2"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/59175889-d469-40c6-a177-2bfda7f4ebb6",
+                  "src": "https://decoims.com/corumbau/cab4c2c4-1e1c-4f38-9e2a-1973c1384462/59175889_59175889-d469-40c6-a177-2bfda7f4ebb6.jpg",
                   "alt": "slider3"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/54981c49-77af-4b24-b55a-910c82dc4fa8",
+                  "src": "https://decoims.com/corumbau/c74ce147-07a6-4f96-8b44-17c79752376c/54981c49_54981c49-77af-4b24-b55a-910c82dc4fa8.jpg",
                   "alt": "slider4"
                 },
                 {
                   "alt": "slider5",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0d83764f-80f1-4c63-971b-c73395b01197"
+                  "src": "https://decoims.com/corumbau/410f7aab-fc28-4453-808b-a7c7b7e2a768/0d83764f_0d83764f-80f1-4c63-971b-c73395b01197.jpg"
                 },
                 {
                   "alt": "slider6",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/785f777d-cb1c-4f19-8241-fa900bd9d2ac"
+                  "src": "https://decoims.com/corumbau/83bc02bb-030e-45ed-a251-564a17caeacc/785f777d_785f777d-cb1c-4f19-8241-fa900bd9d2ac.jpg"
                 },
                 {
                   "alt": "slider7",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cba02433-e75d-462f-bc9a-cbe518834325"
+                  "src": "https://decoims.com/corumbau/d02fe0cc-6437-44bc-be14-2432827a2754/cba02433_cba02433-e75d-462f-bc9a-cbe518834325.jpg"
                 },
                 {
                   "alt": "slider8",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/83fd5fce-a374-48bf-b315-70781314166a"
+                  "src": "https://decoims.com/corumbau/59bce5d9-4672-4cca-93a0-9562909d2304/83fd5fce_83fd5fce-a374-48bf-b315-70781314166a.jpg"
                 },
                 {
                   "alt": "slider9",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/08add966-7544-4cc5-96f5-d129ef13cb96"
+                  "src": "https://decoims.com/corumbau/29adc36b-7981-4016-93fc-cf8cb39f58b7/08add966_08add966-7544-4cc5-96f5-d129ef13cb96.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/97e1aaa1-d02b-4fad-8ab2-fbb6f765b376",
+                  "src": "https://decoims.com/corumbau/0a9ecd8b-fe01-4b4c-baaa-967f26b33690/97e1aaa1_97e1aaa1-d02b-4fad-8ab2-fbb6f765b376.jpg",
                   "alt": "slider10"
                 },
                 {
                   "alt": "slider11",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a48fbf43-beed-49b3-81fd-083c68e8450a"
+                  "src": "https://decoims.com/corumbau/ccf14529-42d7-415a-a10a-130c616cafbe/a48fbf43_a48fbf43-beed-49b3-81fd-083c68e8450a.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/60744061-93b7-4f32-a4b7-e74ac6269f27",
+                  "src": "https://decoims.com/corumbau/7fa5378d-669c-4ab1-b572-a582637d04d4/60744061_60744061-93b7-4f32-a4b7-e74ac6269f27.jpg",
                   "alt": "slider12"
                 }
               ]
@@ -394,7 +394,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d01f9aad-d914-4a17-a132-18cb0608a4c3",
+              "image": "https://decoims.com/corumbau/6e2a7254-3d3c-49a7-80a6-39ace8a1f6c6/d01f9aad_d01f9aad-d914-4a17-a132-18cb0608a4c3.jpg",
               "placement": "right",
               "paragraphs": [
                 {
@@ -410,7 +410,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05df1982-b3ae-495f-8932-082b1f9eacb9",
+              "image": "https://decoims.com/corumbau/b4dc7fca-3cd8-4972-bbf5-95028509d372/05df1982_05df1982-b3ae-495f-8932-082b1f9eacb9.jpg",
               "placement": "left",
               "paragraphs": [
                 {
@@ -426,7 +426,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/05a93af5-c5bd-4ab5-8c76-3a46cba334a3",
+              "image": "https://decoims.com/corumbau/1b88bcae-241c-4b78-a147-8d23e662908b/05a93af5_05a93af5-c5bd-4ab5-8c76-3a46cba334a3.jpg",
               "placement": "right",
               "paragraphs": [
                 {

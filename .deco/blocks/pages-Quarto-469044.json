@@ -13,7 +13,7 @@
             "__resolveType": "site/sections/Hero.tsx",
             "title": "Super Bungalows Deluxe",
             "size": "medio",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dae7ea27-48d2-4b2e-ad1b-95b23408ca9d"
+            "image": "https://decoims.com/corumbau/2ca78f44-5b7a-4473-82ab-f667b0cb6f91/dae7ea27_dae7ea27-48d2-4b2e-ad1b-95b23408ca9d.jpg"
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -35,24 +35,24 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/755591a1-8213-47e8-8d53-cbc5fb54580d",
+                  "src": "https://decoims.com/corumbau/d4701436-f394-47ce-bd05-3de8d05b1007/755591a1_755591a1-8213-47e8-8d53-cbc5fb54580d.jpg",
                   "alt": "slider1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/fdbabf47-2e45-476f-bcc7-812bd1813d59",
+                  "src": "https://decoims.com/corumbau/fac3d627-04ce-4720-9dca-f9d1e926b408/fdbabf47_fdbabf47-2e45-476f-bcc7-812bd1813d59.jpg",
                   "alt": "slider2"
                 },
                 {
                   "alt": "slider3",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/7c7de8ad-b6e7-4552-aa40-c490b28b63f4"
+                  "src": "https://decoims.com/corumbau/34182364-d690-49f9-8c26-42e2095b4a4b/7c7de8ad_7c7de8ad-b6e7-4552-aa40-c490b28b63f4.jpg"
                 },
                 {
                   "alt": "slider4",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e39373ab-788b-4275-ad6d-767844cf7837"
+                  "src": "https://decoims.com/corumbau/5847a3e7-8ec8-4570-99e4-9f2af203b9e2/e39373ab_e39373ab-788b-4275-ad6d-767844cf7837.jpg"
                 },
                 {
                   "alt": "slider5",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a3a5e094-92aa-4794-83b1-6f8a4a2f93e1"
+                  "src": "https://decoims.com/corumbau/521c91b4-ee39-40b6-a991-7fc90ddd6440/a3a5e094_a3a5e094-92aa-4794-83b1-6f8a4a2f93e1.jpg"
                 }
               ]
             }
@@ -99,7 +99,7 @@
             "__resolveType": "site/sections/Hero.tsx",
             "title": "Super Deluxe Bungalows",
             "size": "medio",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dae7ea27-48d2-4b2e-ad1b-95b23408ca9d"
+            "image": "https://decoims.com/corumbau/2ca78f44-5b7a-4473-82ab-f667b0cb6f91/dae7ea27_dae7ea27-48d2-4b2e-ad1b-95b23408ca9d.jpg"
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -121,24 +121,24 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/755591a1-8213-47e8-8d53-cbc5fb54580d",
+                  "src": "https://decoims.com/corumbau/d4701436-f394-47ce-bd05-3de8d05b1007/755591a1_755591a1-8213-47e8-8d53-cbc5fb54580d.jpg",
                   "alt": "slider1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/fdbabf47-2e45-476f-bcc7-812bd1813d59",
+                  "src": "https://decoims.com/corumbau/fac3d627-04ce-4720-9dca-f9d1e926b408/fdbabf47_fdbabf47-2e45-476f-bcc7-812bd1813d59.jpg",
                   "alt": "slider2"
                 },
                 {
                   "alt": "slider3",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/7c7de8ad-b6e7-4552-aa40-c490b28b63f4"
+                  "src": "https://decoims.com/corumbau/34182364-d690-49f9-8c26-42e2095b4a4b/7c7de8ad_7c7de8ad-b6e7-4552-aa40-c490b28b63f4.jpg"
                 },
                 {
                   "alt": "slider4",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e39373ab-788b-4275-ad6d-767844cf7837"
+                  "src": "https://decoims.com/corumbau/5847a3e7-8ec8-4570-99e4-9f2af203b9e2/e39373ab_e39373ab-788b-4275-ad6d-767844cf7837.jpg"
                 },
                 {
                   "alt": "slider5",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a3a5e094-92aa-4794-83b1-6f8a4a2f93e1"
+                  "src": "https://decoims.com/corumbau/521c91b4-ee39-40b6-a991-7fc90ddd6440/a3a5e094_a3a5e094-92aa-4794-83b1-6f8a4a2f93e1.jpg"
                 }
               ]
             }
@@ -185,7 +185,7 @@
             "__resolveType": "site/sections/Hero.tsx",
             "title": "Bangalô Super Luxo",
             "size": "medio",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dae7ea27-48d2-4b2e-ad1b-95b23408ca9d"
+            "image": "https://decoims.com/corumbau/2ca78f44-5b7a-4473-82ab-f667b0cb6f91/dae7ea27_dae7ea27-48d2-4b2e-ad1b-95b23408ca9d.jpg"
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -207,24 +207,24 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/755591a1-8213-47e8-8d53-cbc5fb54580d",
+                  "src": "https://decoims.com/corumbau/d4701436-f394-47ce-bd05-3de8d05b1007/755591a1_755591a1-8213-47e8-8d53-cbc5fb54580d.jpg",
                   "alt": "slider1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/fdbabf47-2e45-476f-bcc7-812bd1813d59",
+                  "src": "https://decoims.com/corumbau/fac3d627-04ce-4720-9dca-f9d1e926b408/fdbabf47_fdbabf47-2e45-476f-bcc7-812bd1813d59.jpg",
                   "alt": "slider2"
                 },
                 {
                   "alt": "slider3",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/7c7de8ad-b6e7-4552-aa40-c490b28b63f4"
+                  "src": "https://decoims.com/corumbau/34182364-d690-49f9-8c26-42e2095b4a4b/7c7de8ad_7c7de8ad-b6e7-4552-aa40-c490b28b63f4.jpg"
                 },
                 {
                   "alt": "slider4",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/e39373ab-788b-4275-ad6d-767844cf7837"
+                  "src": "https://decoims.com/corumbau/5847a3e7-8ec8-4570-99e4-9f2af203b9e2/e39373ab_e39373ab-788b-4275-ad6d-767844cf7837.jpg"
                 },
                 {
                   "alt": "slider5",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/a3a5e094-92aa-4794-83b1-6f8a4a2f93e1"
+                  "src": "https://decoims.com/corumbau/521c91b4-ee39-40b6-a991-7fc90ddd6440/a3a5e094_a3a5e094-92aa-4794-83b1-6f8a4a2f93e1.jpg"
                 }
               ]
             }

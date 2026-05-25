@@ -14,7 +14,7 @@
             "title": "Los sabores de Bahia con un toque internacional",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cc7244d1-a1f4-4db1-b9dd-397690b5ba33",
+            "image": "https://decoims.com/corumbau/af677730-12a2-4d3e-ac70-41c089bd3601/cc7244d1_cc7244d1-a1f4-4db1-b9dd-397690b5ba33.jpg",
             "size": "medio"
           },
           {
@@ -34,47 +34,47 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/43240760-f5bb-4e49-9027-75c2023c33a4",
+                  "src": "https://decoims.com/corumbau/43d7e118-02d1-428f-b1c0-e0a507de7f6e/43240760_43240760-f5bb-4e49-9027-75c2023c33a4.jpg",
                   "alt": "slide1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b3c67cb5-2e38-479a-98b3-6e0822b281a5",
+                  "src": "https://decoims.com/corumbau/ade3eb66-c816-4216-9223-42d9d49f8ed3/b3c67cb5_b3c67cb5-2e38-479a-98b3-6e0822b281a5.jpg",
                   "alt": "slide2"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9119ef4-772e-44d7-86d6-311b0d433733",
+                  "src": "https://decoims.com/corumbau/0c296ad3-5e83-4727-bb5a-5c459c6b2e13/d9119ef4_d9119ef4-772e-44d7-86d6-311b0d433733.jpg",
                   "alt": "slide3"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f7e943a7-b706-4d30-a7fa-522e28a01bc6",
+                  "src": "https://decoims.com/corumbau/b59e98e2-30ac-443e-8663-3417538e37cc/f7e943a7_f7e943a7-b706-4d30-a7fa-522e28a01bc6.jpg",
                   "alt": "slide4"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/eec4481c-b3f8-479f-8c8c-18ea0ad187b0",
+                  "src": "https://decoims.com/corumbau/c0c35f5c-fae1-4f26-af09-1ffd2ad6967f/eec4481c_eec4481c-b3f8-479f-8c8c-18ea0ad187b0.jpg",
                   "alt": "slide5"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4a761bea-3586-4e12-bec8-333e55868798",
+                  "src": "https://decoims.com/corumbau/c9f1b10f-2e38-41bd-9696-43394fa70d04/4a761bea_4a761bea-3586-4e12-bec8-333e55868798.jpg",
                   "alt": "slide6"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/920ac7bf-d760-44ac-b956-b147c372898c",
+                  "src": "https://decoims.com/corumbau/1244d80b-b19c-4ef4-b63d-6dca1525ebba/920ac7bf_920ac7bf-d760-44ac-b956-b147c372898c.jpg",
                   "alt": "slide7"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/297029f3-ed91-4f75-80fe-7d312cba8929",
+                  "src": "https://decoims.com/corumbau/31a94cad-cabe-4940-9b7d-7799dbb9a38e/297029f3_297029f3-ed91-4f75-80fe-7d312cba8929.jpg",
                   "alt": "slide8"
                 },
                 {
                   "alt": "slide9",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/974d0f30-4a1a-4374-8a7d-477454b0641e"
+                  "src": "https://decoims.com/corumbau/a73c8e52-a0ff-4c13-98f1-9a6dfcf120fc/974d0f30_974d0f30-4a1a-4374-8a7d-477454b0641e.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/46f77d9c-7f85-4b70-a845-9c7ba87b3e0e",
+                  "src": "https://decoims.com/corumbau/bad5c717-83ed-4672-b9ca-6414426be1a1/46f77d9c_46f77d9c-7f85-4b70-a845-9c7ba87b3e0e.jpg",
                   "alt": "slide10"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/80cd5aa6-1092-4c88-9eef-24269209b208",
+                  "src": "https://decoims.com/corumbau/f5bf307f-3410-414f-95bf-f0042db812fc/80cd5aa6_80cd5aa6-1092-4c88-9eef-24269209b208.jpg",
                   "alt": "slide11"
                 }
               ]
@@ -84,7 +84,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d63654f5-e492-42e7-8cb9-9e4a03db88ed",
+              "image": "https://decoims.com/corumbau/fea14cc3-30fc-4445-9558-7af592ea57f1/d63654f5_d63654f5-e492-42e7-8cb9-9e4a03db88ed.jpg",
               "placement": "left",
               "paragraphs": [
                 {
@@ -108,7 +108,7 @@
                   "text": "Otro punto destacado es nuestra carta de vinos, con aproximadamente 35 tipos de varias regiones del mundo. Todos se conservan en una bodega climatizada. Nuestra selección incluye vinos tintos, blancos y rosados que han sido cuidadosamente elegidos para complementar el aclamado menú de la Fazenda."
                 }
               ],
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dfb57051-aea5-4a33-bab0-37ab1898f859",
+              "image": "https://decoims.com/corumbau/b5647490-7a45-41fc-90d9-a8cc8c1cfecd/dfb57051_dfb57051-aea5-4a33-bab0-37ab1898f859.jpg",
               "placement": "right"
             }
           },
@@ -145,7 +145,7 @@
             "title": "The flavors of Bahia with an international touch",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cc7244d1-a1f4-4db1-b9dd-397690b5ba33",
+            "image": "https://decoims.com/corumbau/af677730-12a2-4d3e-ac70-41c089bd3601/cc7244d1_cc7244d1-a1f4-4db1-b9dd-397690b5ba33.jpg",
             "size": "medio"
           },
           {
@@ -165,47 +165,47 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/43240760-f5bb-4e49-9027-75c2023c33a4",
+                  "src": "https://decoims.com/corumbau/43d7e118-02d1-428f-b1c0-e0a507de7f6e/43240760_43240760-f5bb-4e49-9027-75c2023c33a4.jpg",
                   "alt": "slide1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b3c67cb5-2e38-479a-98b3-6e0822b281a5",
+                  "src": "https://decoims.com/corumbau/ade3eb66-c816-4216-9223-42d9d49f8ed3/b3c67cb5_b3c67cb5-2e38-479a-98b3-6e0822b281a5.jpg",
                   "alt": "slide2"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9119ef4-772e-44d7-86d6-311b0d433733",
+                  "src": "https://decoims.com/corumbau/0c296ad3-5e83-4727-bb5a-5c459c6b2e13/d9119ef4_d9119ef4-772e-44d7-86d6-311b0d433733.jpg",
                   "alt": "slide3"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f7e943a7-b706-4d30-a7fa-522e28a01bc6",
+                  "src": "https://decoims.com/corumbau/b59e98e2-30ac-443e-8663-3417538e37cc/f7e943a7_f7e943a7-b706-4d30-a7fa-522e28a01bc6.jpg",
                   "alt": "slide4"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/eec4481c-b3f8-479f-8c8c-18ea0ad187b0",
+                  "src": "https://decoims.com/corumbau/c0c35f5c-fae1-4f26-af09-1ffd2ad6967f/eec4481c_eec4481c-b3f8-479f-8c8c-18ea0ad187b0.jpg",
                   "alt": "slide5"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4a761bea-3586-4e12-bec8-333e55868798",
+                  "src": "https://decoims.com/corumbau/c9f1b10f-2e38-41bd-9696-43394fa70d04/4a761bea_4a761bea-3586-4e12-bec8-333e55868798.jpg",
                   "alt": "slide6"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/920ac7bf-d760-44ac-b956-b147c372898c",
+                  "src": "https://decoims.com/corumbau/1244d80b-b19c-4ef4-b63d-6dca1525ebba/920ac7bf_920ac7bf-d760-44ac-b956-b147c372898c.jpg",
                   "alt": "slide7"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/297029f3-ed91-4f75-80fe-7d312cba8929",
+                  "src": "https://decoims.com/corumbau/31a94cad-cabe-4940-9b7d-7799dbb9a38e/297029f3_297029f3-ed91-4f75-80fe-7d312cba8929.jpg",
                   "alt": "slide8"
                 },
                 {
                   "alt": "slide9",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/974d0f30-4a1a-4374-8a7d-477454b0641e"
+                  "src": "https://decoims.com/corumbau/a73c8e52-a0ff-4c13-98f1-9a6dfcf120fc/974d0f30_974d0f30-4a1a-4374-8a7d-477454b0641e.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/46f77d9c-7f85-4b70-a845-9c7ba87b3e0e",
+                  "src": "https://decoims.com/corumbau/bad5c717-83ed-4672-b9ca-6414426be1a1/46f77d9c_46f77d9c-7f85-4b70-a845-9c7ba87b3e0e.jpg",
                   "alt": "slide10"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/80cd5aa6-1092-4c88-9eef-24269209b208",
+                  "src": "https://decoims.com/corumbau/f5bf307f-3410-414f-95bf-f0042db812fc/80cd5aa6_80cd5aa6-1092-4c88-9eef-24269209b208.jpg",
                   "alt": "slide11"
                 }
               ]
@@ -215,7 +215,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d63654f5-e492-42e7-8cb9-9e4a03db88ed",
+              "image": "https://decoims.com/corumbau/fea14cc3-30fc-4445-9558-7af592ea57f1/d63654f5_d63654f5-e492-42e7-8cb9-9e4a03db88ed.jpg",
               "placement": "left",
               "paragraphs": [
                 {
@@ -239,7 +239,7 @@
                   "text": "Another highlight is our wine list with approximately 35 types from several regions around the world. All are kept in a climate-controlled wine cellar. Our selection includes red, white and rosé wines that have been carefully selected to complement the Fazenda’s celebrated menu."
                 }
               ],
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dfb57051-aea5-4a33-bab0-37ab1898f859",
+              "image": "https://decoims.com/corumbau/b5647490-7a45-41fc-90d9-a8cc8c1cfecd/dfb57051_dfb57051-aea5-4a33-bab0-37ab1898f859.jpg",
               "placement": "right"
             }
           },
@@ -276,7 +276,7 @@
             "title": "Os sabores da Bahia com toque internacional",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/cc7244d1-a1f4-4db1-b9dd-397690b5ba33",
+            "image": "https://decoims.com/corumbau/af677730-12a2-4d3e-ac70-41c089bd3601/cc7244d1_cc7244d1-a1f4-4db1-b9dd-397690b5ba33.jpg",
             "size": "medio"
           },
           {
@@ -296,47 +296,47 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/43240760-f5bb-4e49-9027-75c2023c33a4",
+                  "src": "https://decoims.com/corumbau/43d7e118-02d1-428f-b1c0-e0a507de7f6e/43240760_43240760-f5bb-4e49-9027-75c2023c33a4.jpg",
                   "alt": "slide1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/b3c67cb5-2e38-479a-98b3-6e0822b281a5",
+                  "src": "https://decoims.com/corumbau/ade3eb66-c816-4216-9223-42d9d49f8ed3/b3c67cb5_b3c67cb5-2e38-479a-98b3-6e0822b281a5.jpg",
                   "alt": "slide2"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9119ef4-772e-44d7-86d6-311b0d433733",
+                  "src": "https://decoims.com/corumbau/0c296ad3-5e83-4727-bb5a-5c459c6b2e13/d9119ef4_d9119ef4-772e-44d7-86d6-311b0d433733.jpg",
                   "alt": "slide3"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/f7e943a7-b706-4d30-a7fa-522e28a01bc6",
+                  "src": "https://decoims.com/corumbau/b59e98e2-30ac-443e-8663-3417538e37cc/f7e943a7_f7e943a7-b706-4d30-a7fa-522e28a01bc6.jpg",
                   "alt": "slide4"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/eec4481c-b3f8-479f-8c8c-18ea0ad187b0",
+                  "src": "https://decoims.com/corumbau/c0c35f5c-fae1-4f26-af09-1ffd2ad6967f/eec4481c_eec4481c-b3f8-479f-8c8c-18ea0ad187b0.jpg",
                   "alt": "slide5"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/4a761bea-3586-4e12-bec8-333e55868798",
+                  "src": "https://decoims.com/corumbau/c9f1b10f-2e38-41bd-9696-43394fa70d04/4a761bea_4a761bea-3586-4e12-bec8-333e55868798.jpg",
                   "alt": "slide6"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/920ac7bf-d760-44ac-b956-b147c372898c",
+                  "src": "https://decoims.com/corumbau/1244d80b-b19c-4ef4-b63d-6dca1525ebba/920ac7bf_920ac7bf-d760-44ac-b956-b147c372898c.jpg",
                   "alt": "slide7"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/297029f3-ed91-4f75-80fe-7d312cba8929",
+                  "src": "https://decoims.com/corumbau/31a94cad-cabe-4940-9b7d-7799dbb9a38e/297029f3_297029f3-ed91-4f75-80fe-7d312cba8929.jpg",
                   "alt": "slide8"
                 },
                 {
                   "alt": "slide9",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/974d0f30-4a1a-4374-8a7d-477454b0641e"
+                  "src": "https://decoims.com/corumbau/a73c8e52-a0ff-4c13-98f1-9a6dfcf120fc/974d0f30_974d0f30-4a1a-4374-8a7d-477454b0641e.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/46f77d9c-7f85-4b70-a845-9c7ba87b3e0e",
+                  "src": "https://decoims.com/corumbau/bad5c717-83ed-4672-b9ca-6414426be1a1/46f77d9c_46f77d9c-7f85-4b70-a845-9c7ba87b3e0e.jpg",
                   "alt": "slide10"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/80cd5aa6-1092-4c88-9eef-24269209b208",
+                  "src": "https://decoims.com/corumbau/f5bf307f-3410-414f-95bf-f0042db812fc/80cd5aa6_80cd5aa6-1092-4c88-9eef-24269209b208.jpg",
                   "alt": "slide11"
                 }
               ]
@@ -346,7 +346,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d63654f5-e492-42e7-8cb9-9e4a03db88ed",
+              "image": "https://decoims.com/corumbau/fea14cc3-30fc-4445-9558-7af592ea57f1/d63654f5_d63654f5-e492-42e7-8cb9-9e4a03db88ed.jpg",
               "placement": "left",
               "paragraphs": [
                 {
@@ -370,7 +370,7 @@
                   "text": "Destaque para a carta de vinhos com rótulos de várias regiões do mundo que ficam acomodados em uma adega climatizada. Há opções de tintos, brancos e rosés cuidadosamente selecionados para harmonizar com a diferenciada culinária da Fazenda."
                 }
               ],
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/dfb57051-aea5-4a33-bab0-37ab1898f859",
+              "image": "https://decoims.com/corumbau/b5647490-7a45-41fc-90d9-a8cc8c1cfecd/dfb57051_dfb57051-aea5-4a33-bab0-37ab1898f859.jpg",
               "placement": "right"
             }
           },

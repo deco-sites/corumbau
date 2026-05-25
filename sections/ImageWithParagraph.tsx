@@ -28,7 +28,7 @@ const PLACEMENT = {
 };
 
 const DEFAULT_IMAGE =
-  "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f";
+  "https://decoims.com/corumbau/d04b4a70-21fa-412d-a90c-f2f4cbbbfeee/772e246e_772e246e-1959-46ac-a309-3f25ab20af6f.png";
 
 export default function ImageWithParagraph({
   paragraphs = [{
