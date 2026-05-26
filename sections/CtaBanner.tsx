@@ -30,7 +30,7 @@ export interface Props {
 const DEFAULT_PROPS: Props = {
     title: "Bem-vindo ao nosso site!",
     image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+        "https://decoims.com/corumbau/d04b4a70-21fa-412d-a90c-f2f4cbbbfeee/772e246e_772e246e-1959-46ac-a309-3f25ab20af6f.png",
     ctaText:
         "Descubra mais sobre nossos produtos e serviços. Aproveite as ofertas especiais e novidades exclusivas.",
     buttonText: "Saiba mais",

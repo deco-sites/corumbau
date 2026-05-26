@@ -39,7 +39,7 @@ const DEFAULT_PROPS: Props = {
     images: [
         {
             image:
-                "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+                "https://decoims.com/corumbau/d04b4a70-21fa-412d-a90c-f2f4cbbbfeee/772e246e_772e246e-1959-46ac-a309-3f25ab20af6f.png",
             label:
                 "<p><strong>Imagem 1:</strong> Esta é a primeira imagem da galeria. <em>Inclui um texto estilizado</em> e um <a href='https://example.com'>link</a> para mais informações.</p>",
             href: "/pagina-da-imagem-1",
@@ -47,7 +47,7 @@ const DEFAULT_PROPS: Props = {
         },
         {
             image:
-                "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+                "https://decoims.com/corumbau/d04b4a70-21fa-412d-a90c-f2f4cbbbfeee/772e246e_772e246e-1959-46ac-a309-3f25ab20af6f.png",
             label:
                 "<p><strong>Imagem 2:</strong> Esta é a segunda imagem da galeria. <em>Inclui um texto estilizado</em> e um <a href='https://example.com'>link</a> para mais informações.</p>",
             href: "/pagina-da-imagem-2",
@@ -55,7 +55,7 @@ const DEFAULT_PROPS: Props = {
         },
         {
             image:
-                "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+                "https://decoims.com/corumbau/d04b4a70-21fa-412d-a90c-f2f4cbbbfeee/772e246e_772e246e-1959-46ac-a309-3f25ab20af6f.png",
             label:
                 "<p><strong>Imagem 3:</strong> Esta é a terceira imagem da galeria. <em>Inclui um texto estilizado</em> e um <a href='https://example.com'>link</a> para mais informações.</p>",
             href: "/pagina-da-imagem-3",

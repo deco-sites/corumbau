@@ -13,7 +13,7 @@
             "title": "Una hermosa finca frente a la playa",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6",
+            "image": "https://decoims.com/corumbau/2971fc77-7c0b-4776-9e69-e8683f2b66d4/d9fd4a79_d9fd4a79-bb12-41da-b824-9a377b4822c6.jpg",
             "size": "medio"
           },
           {
@@ -30,51 +30,51 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26",
+                  "src": "https://decoims.com/corumbau/8e65165a-35e4-4545-b33d-bf23434af438/5a3fcae5_5a3fcae5-ee09-4f27-9189-bdd6b0a7de26.jpg",
                   "alt": "slider1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72",
+                  "src": "https://decoims.com/corumbau/7fd77d46-6d1e-4f93-876d-5795df7dd219/50624a69_50624a69-e8e2-4929-8936-643424ef1d72.jpg",
                   "alt": "slider2"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c",
+                  "src": "https://decoims.com/corumbau/de02d9cf-af05-47c9-be64-7e1691c564b8/1f88cc89_1f88cc89-659f-4a8a-bdea-be25549e834c.jpg",
                   "alt": "slider3"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045",
+                  "src": "https://decoims.com/corumbau/fc001ca3-205f-4117-bbdc-ef2e3a1fcc78/0b34763c_0b34763c-0eff-4465-a6a5-3b1e1a800045.jpg",
                   "alt": "slider4"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb",
+                  "src": "https://decoims.com/corumbau/ec0c4136-be4d-44a9-88b0-e0d7a702bf57/27a1f363_27a1f363-40ae-4571-8516-508b6ae18dcb.jpg",
                   "alt": "slider5"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a",
+                  "src": "https://decoims.com/corumbau/62d92ab1-d601-460c-91af-389a39e380e9/c33b6202_c33b6202-dd0a-4898-bb16-fbedae4ecd2a.jpg",
                   "alt": "slider6"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390",
+                  "src": "https://decoims.com/corumbau/43d12980-0f1a-4ffd-b85f-aa547b6ebb68/5a2ea640_5a2ea640-88de-48b5-b8da-cd385a320390.jpg",
                   "alt": "slider7"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11",
+                  "src": "https://decoims.com/corumbau/8c012193-c7e9-4219-98f9-78292ba2e510/917680ce_917680ce-e18c-4e72-8af8-ebf559330b11.jpg",
                   "alt": "slider8"
                 },
                 {
                   "alt": "slider9",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"
+                  "src": "https://decoims.com/corumbau/7a2258f2-0002-427c-a812-6df9eeab79af/3f868dd0_3f868dd0-4f0c-4043-98fd-b18b2cc38bdf.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73",
+                  "src": "https://decoims.com/corumbau/4be504ae-4081-47a8-8cc8-62bee29b93e1/ec4cc92a_ec4cc92a-d8d2-4a94-893f-87d87e93fc73.jpg",
                   "alt": "slider10"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3",
+                  "src": "https://decoims.com/corumbau/f1e599cd-72e2-4eb1-8e45-0b71701d3513/5dc4c5f7_5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3.jpg",
                   "alt": "slider11"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8",
+                  "src": "https://decoims.com/corumbau/c0d8df98-bf0f-4fe5-a2aa-86ae9a5d7f9c/214c719b_214c719b-6952-4172-9c99-d1230a8978a8.jpg",
                   "alt": "slider12"
                 }
               ]
@@ -85,7 +85,7 @@
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
               "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
+              "image": "https://decoims.com/corumbau/a64118cc-8d36-4e97-a309-419f2da650b8/515bedbc_515bedbc-3d40-4963-a979-faa1e3a28e86.jpg",
               "placement": "left",
               "paragraph": [
                 null
@@ -133,7 +133,7 @@
             "title": "A beautiful beach-front farm",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6",
+            "image": "https://decoims.com/corumbau/2971fc77-7c0b-4776-9e69-e8683f2b66d4/d9fd4a79_d9fd4a79-bb12-41da-b824-9a377b4822c6.jpg",
             "size": "medio"
           },
           {
@@ -150,51 +150,51 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a3fcae5-ee09-4f27-9189-bdd6b0a7de26",
+                  "src": "https://decoims.com/corumbau/8e65165a-35e4-4545-b33d-bf23434af438/5a3fcae5_5a3fcae5-ee09-4f27-9189-bdd6b0a7de26.jpg",
                   "alt": "slider1"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/50624a69-e8e2-4929-8936-643424ef1d72",
+                  "src": "https://decoims.com/corumbau/7fd77d46-6d1e-4f93-876d-5795df7dd219/50624a69_50624a69-e8e2-4929-8936-643424ef1d72.jpg",
                   "alt": "slider2"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/1f88cc89-659f-4a8a-bdea-be25549e834c",
+                  "src": "https://decoims.com/corumbau/de02d9cf-af05-47c9-be64-7e1691c564b8/1f88cc89_1f88cc89-659f-4a8a-bdea-be25549e834c.jpg",
                   "alt": "slider3"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/0b34763c-0eff-4465-a6a5-3b1e1a800045",
+                  "src": "https://decoims.com/corumbau/fc001ca3-205f-4117-bbdc-ef2e3a1fcc78/0b34763c_0b34763c-0eff-4465-a6a5-3b1e1a800045.jpg",
                   "alt": "slider4"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/27a1f363-40ae-4571-8516-508b6ae18dcb",
+                  "src": "https://decoims.com/corumbau/ec0c4136-be4d-44a9-88b0-e0d7a702bf57/27a1f363_27a1f363-40ae-4571-8516-508b6ae18dcb.jpg",
                   "alt": "slider5"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/c33b6202-dd0a-4898-bb16-fbedae4ecd2a",
+                  "src": "https://decoims.com/corumbau/62d92ab1-d601-460c-91af-389a39e380e9/c33b6202_c33b6202-dd0a-4898-bb16-fbedae4ecd2a.jpg",
                   "alt": "slider6"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5a2ea640-88de-48b5-b8da-cd385a320390",
+                  "src": "https://decoims.com/corumbau/43d12980-0f1a-4ffd-b85f-aa547b6ebb68/5a2ea640_5a2ea640-88de-48b5-b8da-cd385a320390.jpg",
                   "alt": "slider7"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/917680ce-e18c-4e72-8af8-ebf559330b11",
+                  "src": "https://decoims.com/corumbau/8c012193-c7e9-4219-98f9-78292ba2e510/917680ce_917680ce-e18c-4e72-8af8-ebf559330b11.jpg",
                   "alt": "slider8"
                 },
                 {
                   "alt": "slider9",
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/3f868dd0-4f0c-4043-98fd-b18b2cc38bdf"
+                  "src": "https://decoims.com/corumbau/7a2258f2-0002-427c-a812-6df9eeab79af/3f868dd0_3f868dd0-4f0c-4043-98fd-b18b2cc38bdf.jpg"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ec4cc92a-d8d2-4a94-893f-87d87e93fc73",
+                  "src": "https://decoims.com/corumbau/4be504ae-4081-47a8-8cc8-62bee29b93e1/ec4cc92a_ec4cc92a-d8d2-4a94-893f-87d87e93fc73.jpg",
                   "alt": "slider10"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3",
+                  "src": "https://decoims.com/corumbau/f1e599cd-72e2-4eb1-8e45-0b71701d3513/5dc4c5f7_5dc4c5f7-a902-47b4-ad5f-d01f08d4eab3.jpg",
                   "alt": "slider11"
                 },
                 {
-                  "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/214c719b-6952-4172-9c99-d1230a8978a8",
+                  "src": "https://decoims.com/corumbau/c0d8df98-bf0f-4fe5-a2aa-86ae9a5d7f9c/214c719b_214c719b-6952-4172-9c99-d1230a8978a8.jpg",
                   "alt": "slider12"
                 }
               ]
@@ -205,7 +205,7 @@
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
               "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
-              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/515bedbc-3d40-4963-a979-faa1e3a28e86",
+              "image": "https://decoims.com/corumbau/a64118cc-8d36-4e97-a309-419f2da650b8/515bedbc_515bedbc-3d40-4963-a979-faa1e3a28e86.jpg",
               "placement": "left",
               "paragraph": [
                 null
@@ -253,7 +253,7 @@
             "title": "Uma bela Fazenda à beira-mar",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/d9fd4a79-bb12-41da-b824-9a377b4822c6",
+            "image": "https://decoims.com/corumbau/2971fc77-7c0b-4776-9e69-e8683f2b66d4/d9fd4a79_d9fd4a79-bb12-41da-b824-9a377b4822c6.jpg",
             "size": "medio"
           },
           {

@@ -14,7 +14,7 @@
             "title": "Lejos de todo",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/533d0d0d-4ba7-45f3-8fca-25194383b59d/073-Albori-Fazenda-Sao-Francisco-Drone.jpg",
+            "image": "https://decoims.com/corumbau/60da8b48-e6f8-463a-98ac-253b5f724f6e/533d0d0d_533d0d0d-4ba7-45f3-8fca-25194383b59d.jpg",
             "size": "medio"
           },
           {
@@ -41,19 +41,19 @@
               "itens": [
                 {
                   "description": "<p>Para llegar a nuestro hotel en coche, siga las instrucciones a continuación:</p><ol><li><p>Salga de la ciudad por el acceso principal a la Rodovia 101.</p></li><li><p>Continúe por la Rodovia 101 durante aproximadamente 45 km hasta llegar a la salida 25, donde verá señales que indican la ciudad de Vale Verde.</p></li><li><p>Tome la salida 25 y siga las señales hacia Vale Verde.</p></li><li><p>Después de 10 km en la carretera de Vale Verde, gire a la derecha en la Estrada do Sol.</p></li><li><p>Continúe durante otros 8 km hasta llegar a la entrada principal del Hotel Paraíso Verde.</p></li></ol><p>El estacionamiento gratuito está disponible para todos los huéspedes.</p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
+                  "icon": "https://decoims.com/corumbau/fa0a3aa3-b012-470d-99bb-5c262475ae3b/23f1ef19_23f1ef19-530c-46e5-8bf2-09f33e048cb5.png",
                   "alt": "car",
                   "title": "Cómo Llegar al Hotel en Coche"
                 },
                 {
                   "description": "<p>Si está planeando llegar a nuestro hotel en helicóptero, siga las coordenadas e instrucciones a continuación:</p><ol><li><p><strong>Coordenadas GPS:</strong> 22°54'03.2\"S 43°12'54.6\"W</p></li><li><p>El helipuerto del hotel está ubicado junto a la zona de recreo, a corta distancia del edificio principal.</p></li><li><p>Asegúrese de programar su aterrizaje con al menos 24 horas de antelación, contactando a nuestra recepción para garantizar que el helipuerto esté disponible.</p></li></ol><p>Nuestro equipo estará listo para recibirle y acompañarle hasta el hotel.</p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
+                  "icon": "https://decoims.com/corumbau/8ed95e49-3523-44b1-b705-862771e09c31/10977586_10977586-7a12-4c5f-8440-04ce79af0a71.png",
                   "alt": "helicoptero",
                   "title": "Cómo Llegar al Hotel en Helicóptero"
                 },
                 {
                   "description": "<p>Para aquellos que prefieren la experiencia única de llegar en barco, siga las instrucciones a continuación:</p><ol><li><p>Navegue por la Baía Azul hasta el canal principal.</p></li><li><p>Manténgase a la derecha después de la tercera boya de señalización.</p></li><li><p>Continúe por el canal durante 5 km hasta avistar la entrada de la marina del Hotel Paraíso Verde, ubicada a la izquierda.</p></li><li><p>La marina está equipada con espacios para embarcaciones de hasta 30 pies. Un miembro de nuestro equipo estará disponible para ayudar con el atraque.</p></li></ol><p>Por favor, infórmenos con anticipación sobre su llegada para garantizar espacio en la marina.</p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
+                  "icon": "https://decoims.com/corumbau/6d66d28b-5cb8-4706-b585-0f52b36178c8/ffea11c6_ffea11c6-fab3-4326-8779-6324fa08608d.png",
                   "alt": "barco",
                   "title": "Cómo Llegar al Hotel en Barco"
                 }
@@ -120,7 +120,7 @@
             "title": "Far away from everything",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/533d0d0d-4ba7-45f3-8fca-25194383b59d/073-Albori-Fazenda-Sao-Francisco-Drone.jpg",
+            "image": "https://decoims.com/corumbau/60da8b48-e6f8-463a-98ac-253b5f724f6e/533d0d0d_533d0d0d-4ba7-45f3-8fca-25194383b59d.jpg",
             "size": "medio"
           },
           {
@@ -147,19 +147,19 @@
               "itens": [
                 {
                   "description": "<p>To reach our hotel by car, please follow the instructions below. We also have a partner that can provide this service. Contact us for details.</p><ol><li><p>From Porto Seguro, take the BA-367 highway towards Eunápolis.</p></li><li><p>In Eunápolis, continue on the BR-101 southbound towards Itamaraju.</p></li><li><p>From Itamaraju, take the BA-489 highway towards Guarani. Be sure to refuel in Itamaraju, as there are no gas stations in Corumbau.</p></li><li><p>The final stretch, approximately 1 hour and 15 minutes (53 km) from Guarani to Corumbau, is on a dirt road that is usually well-maintained. Please contact us for updated on road conditions.</p></li></ol><p>The total trip time from Porto Seguro is approximately 4 hours.</p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
+                  "icon": "https://decoims.com/corumbau/fa0a3aa3-b012-470d-99bb-5c262475ae3b/23f1ef19_23f1ef19-530c-46e5-8bf2-09f33e048cb5.png",
                   "alt": "car",
                   "title": "How to arrive by car"
                 },
                 {
                   "description": "<p><span style=\"font-size: 12pt\">If you are planning to arrive at our hotel by helicopter please contact us for partner details.</span></p><p><span style=\"font-size: 12pt\">The flight lasts approximately 20 minutes and costs around R$ 5,200.00 per leg for up to 3 passengers.<br>Landing takes place within the Fazenda premises at coordinates </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.google.com/maps/@-16.909907,-39.1295944,115m/data=!3m1!1e3?entry=ttu&amp;g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D#:~:text=%2D16.909863%2C%20%2D39.129478\"><span style=\"font-size: 12pt\">-16.909863, -39.129485</span></a><span style=\"font-size: 12pt\">.</span></p><p><span style=\"font-size: 12pt\">Each passenger can bring one carry-on bag; additional luggage will be transported by car for an extra cost.</span></p><p><span style=\"font-size: 12pt\">Our team will be ready to welcome you and escort you to the hotel.</span></p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
+                  "icon": "https://decoims.com/corumbau/8ed95e49-3523-44b1-b705-862771e09c31/10977586_10977586-7a12-4c5f-8440-04ce79af0a71.png",
                   "alt": "helicoptero",
                   "title": "How to arrive by Helicopter"
                 },
                 {
                   "description": "<p><span style=\"font-size: 12pt\">For those who prefer the unique experience of arriving by boat, we have two trusted partners we always recommend, contact us for details.</span></p><p><span style=\"font-size: 12pt\">Departing from Porto Seguro Airport, you will need to head to the Porto Seguro pier, where you will board the boat (the partners will provide further details). The trip lasts approximately 1 hour and 30 minutes and costs around R$ 4,500.00 (per leg). The boats have a capacity of up to 8 passengers. There are different boat sizes, and the prices may vary. Please consult the partners directly.</span></p><p><span style=\"font-size: 12pt\">We suggest that boat transfers be scheduled for the morning. Weather conditions may affect the trip.</span></p><p><span style=\"font-size: 12pt\">Upon arriving in Corumbau, our team will be there to meet you and assist with the disembarkation, which will take place on the beach.</span></p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
+                  "icon": "https://decoims.com/corumbau/6d66d28b-5cb8-4706-b585-0f52b36178c8/ffea11c6_ffea11c6-fab3-4326-8779-6324fa08608d.png",
                   "alt": "barco",
                   "title": "How to arrive by boat"
                 }
@@ -226,7 +226,7 @@
             "title": "Longe de tudo",
             "cta": [],
             "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/corumbau/533d0d0d-4ba7-45f3-8fca-25194383b59d/073-Albori-Fazenda-Sao-Francisco-Drone.jpg",
+            "image": "https://decoims.com/corumbau/60da8b48-e6f8-463a-98ac-253b5f724f6e/533d0d0d_533d0d0d-4ba7-45f3-8fca-25194383b59d.jpg",
             "size": "medio"
           },
           {
@@ -253,19 +253,19 @@
               "itens": [
                 {
                   "description": "<p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">Para chegar ao nosso hotel de carro, poderá contratar um parceiro ou alugar um carro e seguir as instruções abaixo:</span></p><ol><li><p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">Saindo de Porto Seguro siga na BA 367 em direção a Eunápolis.</span></p></li><li><p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">Em Eunápolis siga pela BR 101, sul, em direção a Itamaraju.</span></p></li><li><p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">Em Itamaraju seguir pela BA 489 em direção a Guarani. Abasteçam em Itamaraju, em Corumbau não há postos de gasolina.</span></p></li><li><p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">Este último trecho de estrada, tem 53km de Guarani até Corumbau leva cerca de 1h15. A estrada é de terra e normalmente tem estado bem cuidada. Por favor entrar em contato para atualizar condições de estrada.</span></p><p></p></li></ol><p><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">No total serão cerca de 4 horas de viagem de Porto seguro até à Fazenda São Francisco. Caso queira contratar um parceiro ou precise de mais informações </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><span style=\"color: rgb(170, 208, 16); font-size: 12pt\">clique aqui</span></a><span style=\"color: rgb(165, 163, 160); font-size: 12pt\">.</span></p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/23f1ef19-530c-46e5-8bf2-09f33e048cb5",
+                  "icon": "https://decoims.com/corumbau/fa0a3aa3-b012-470d-99bb-5c262475ae3b/23f1ef19_23f1ef19-530c-46e5-8bf2-09f33e048cb5.png",
                   "alt": "car",
                   "title": "Como Chegar ao Hotel por Carro"
                 },
                 {
                   "description": "<p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">Também é possivel chegar de helicoptero até a Fazenda São Francisco a partir do Aeroporto de Porto Seguro.</span></p><p></p><p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">A duração da viagem é de 20 minuto para até 03 pessoas.É possível levar uma bagagem de mão por passageiro. As bagagens extras seguirão de carro e haverá custo extra.</span></p><p></p><p><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">O pouso é feito dentro da Fazenda </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.google.com/maps/place/Porto+Seguro,+BA,+45810-000/@-16.9098009,-39.1295869,70m/data=!3m1!1e3!4m6!3m5!1s0x73696a94abc86ff:0x677df9529c95e80f!8m2!3d-16.4443537!4d-39.0653656!16zL20vMDJiZmY5?entry=ttu&amp;g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D#:~:text=%2D16.909863%2C%20%2D39.129485\"><strong><span style=\"color: #a5c30c; font-size: 12pt\">-16.909863, -39.129485</span></strong></a><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">. Nosso time estará pronto para recebê-lo e acompanhá-lo até o hotel.</span><br><br><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">Para mais informações </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><span style=\"color: rgb(170, 208, 16); font-size: 12pt\">clique aqui</span></a><span style=\"color: rgb(130, 128, 123); font-size: 12pt\">.</span></p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/10977586-7a12-4c5f-8440-04ce79af0a71",
+                  "icon": "https://decoims.com/corumbau/8ed95e49-3523-44b1-b705-862771e09c31/10977586_10977586-7a12-4c5f-8440-04ce79af0a71.png",
                   "alt": "helicoptero",
                   "title": "Como Chegar ao Hotel de Helicóptero"
                 },
                 {
                   "description": "<p><span style=\"font-size: 12pt\">Para aqueles que preferem a experiência única de chegar de barco, existe a opção de traslado partindo do píer de Porto Seguro.</span></p><p></p><p><span style=\"font-size: 12pt\">A viagem tem duração aproximada de 1h30 e pode acomodar até 8 pessoas, dependendo do tipo de lancha escolhida. Recomendamos que o traslado seja realizado pela manhã, considerando as condições climáticas.</span></p><p></p><p><span style=\"font-size: 12pt\">Ao chegar em Corumbau, nossa equipe estará pronta para recebê-los e auxiliá-los no desembarque, que ocorrerá diretamente na praia.</span></p><p></p><p><span style=\"font-size: 12pt\">Para mais informações </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wa.me/551130784411\"><span style=\"color: #aad010; font-size: 12pt\">clique aqui</span></a><span style=\"font-size: 12pt\">.</span></p>",
-                  "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12097/ffea11c6-fab3-4326-8779-6324fa08608d",
+                  "icon": "https://decoims.com/corumbau/6d66d28b-5cb8-4706-b585-0f52b36178c8/ffea11c6_ffea11c6-fab3-4326-8779-6324fa08608d.png",
                   "alt": "barco",
                   "title": "Como Chegar ao Hotel de Barco"
                 }
