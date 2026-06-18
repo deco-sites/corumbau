@@ -270,51 +270,51 @@
               "__resolveType": "site/sections/Carousel.tsx",
               "slides": [
                 {
-                  "src": "https://data.decoassets.com/corumbau/a77bfe25-30f6-4d7b-a742-498088141784/Light-hotel-1.jpg",
+                  "src": "https://decoims.com/corumbau/1ed5adb3-d88f-4b92-8953-e0bb9ce315ef/Light-hotel-1.jpg",
                   "alt": "slider1"
                 },
                 {
-                  "src": "https://data.decoassets.com/corumbau/a9485dcd-c56b-463b-b12c-c6879ac3934c/Light-hotel-foto-2-corte.jpg",
+                  "src": "https://decoims.com/corumbau/1dcaebd1-60d9-4709-b338-2d41dd3bd5ea/Light-hotel-foto-2-corte.jpg",
                   "alt": "slider2"
                 },
                 {
-                  "src": "https://data.decoassets.com/corumbau/0bbc6b41-14aa-4335-83cd-e3fbb87bb257/Light-Site-hotel-3-corte.jpg",
+                  "src": "https://decoims.com/corumbau/495bcccc-a237-407f-b2c8-396220f2ab92/Light-Site-hotel-3-corte.jpg",
                   "alt": "slider3"
                 },
                 {
-                  "src": "https://data.decoassets.com/corumbau/f82a9c90-b96b-4f39-83d3-998ed672adc6/light-Site-hotel-4-corte.jpg",
+                  "src": "https://decoims.com/corumbau/ed1ed9b3-e730-40b7-9ae4-a08e3a4f195a/light-Site-hotel-4-corte.jpg",
                   "alt": "slider4"
                 },
                 {
-                  "src": "https://data.decoassets.com/corumbau/2159e994-7a8b-4524-9b7f-8b3b45135a5d/light-Site-hotel-5-corte.jpg",
+                  "src": "https://decoims.com/corumbau/e9fc54e4-5d96-4b3d-b360-212dde04ded3/light-Site-hotel-5-corte.jpg",
                   "alt": "slider5"
                 },
                 {
-                  "src": "https://data.decoassets.com/corumbau/e2ca11c7-69e1-4149-b6b5-0358bd5ae091/light-Site-hotel-6-corte.jpg",
+                  "src": "https://decoims.com/corumbau/4f46613c-2a98-4033-a848-4d6073ecd617/light-Site-hotel-6-corte.jpg",
                   "alt": "slider6"
                 },
                 {
-                  "src": "https://data.decoassets.com/corumbau/3fd0eac3-be0c-42fc-af6d-49b2856a78fc/light-Site-hotel-8-corte.jpg",
+                  "src": "https://decoims.com/corumbau/a36482db-e32a-4695-97b6-215db467f677/light-Site-hotel-8-corte.jpg",
                   "alt": "slider7"
                 },
                 {
-                  "src": "https://data.decoassets.com/corumbau/a3930085-3f19-4734-94c5-ec1735c742f2/light-Site-hotel-7-corte.JPG",
+                  "src": "https://decoims.com/corumbau/555d6206-f7a6-4aa4-a5c4-b6b5abefa4ef/light-Site-hotel-7-corte.JPG",
                   "alt": "slider8"
                 },
                 {
                   "alt": "slider9",
-                  "src": "https://data.decoassets.com/corumbau/0a96dc95-58af-4ac3-89ed-dedd4b75c24d/light-Site-hotel-9-corte.jpg"
+                  "src": "https://decoims.com/corumbau/3d002f93-7072-4181-b240-779c0ea30a82/light-Site-hotel-9-corte.jpg"
                 },
                 {
-                  "src": "https://data.decoassets.com/corumbau/918997bb-7f42-42b5-bf60-49bdbd872454/light-Site-hotel-10-corte.jpg",
+                  "src": "https://decoims.com/corumbau/b9c8e2a6-923c-4776-8901-8c112edae671/light-Site-hotel-10-corte.jpg",
                   "alt": "slider10"
                 },
                 {
-                  "src": "https://data.decoassets.com/corumbau/005d7916-4bc4-43c0-bd94-68dd2ea2a0c6/light-Site-hotel-11-corte.jpg",
+                  "src": "https://decoims.com/corumbau/cc1629b7-eee5-4b60-8a77-052163fa2dcc/light-Site-hotel-11-corte.jpg",
                   "alt": "slider11"
                 },
                 {
-                  "src": "https://data.decoassets.com/corumbau/4ebe8dce-74a3-46b4-acab-7e577f4e936d/light-Site-hotel-12-corte.jpg",
+                  "src": "https://decoims.com/corumbau/7c928b26-093d-449e-96fa-05fee746ba71/light-Site-hotel-12-corte.jpg",
                   "alt": "slider12"
                 }
               ]
@@ -325,7 +325,7 @@
             "section": {
               "__resolveType": "site/sections/ImageWithParagraph.tsx",
               "description": "A Fazenda São Francisco do Corumbau conta com 167 hectares de área e reúne as comodidades de um hotel de luxo com o charme e o despojamento de uma casa de praia.\n\nO projeto do arquiteto Roberto Migotto combina recursos da infraestrutura moderna com a amplitude do espaço e a exuberância da natureza local.",
-              "image": "https://data.decoassets.com/corumbau/2a204a20-9d06-45a3-8b48-43ae3940145c/Site-Hotel-(Espreguicadeira-e-Carla)-light.JPG",
+              "image": "https://decoims.com/corumbau/2580f150-ce4c-4c39-aaf2-b0190112a091/Site-Hotel-(Espreguicadeira-e-Carla)-light.JPG",
               "placement": "left",
               "paragraph": [
                 null
